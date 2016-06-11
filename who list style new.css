@@ -1,0 +1,324 @@
+/* Heading and general looks */ 
+
+body {
+	background-color: white;
+	font-family: "Maven Pro", serif;
+	text-shadow: 2px 2px solid black;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	margin: 5px;
+	font-size: calc(8px + 1vw);
+	/*font-size: 20px;*/
+	cursor: pointer;
+	display: inline-block;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: calc(5px + 2vw);
+	/*font-size: 35px;*/
+	margin-bottom: 20px;
+	margin-top: 50px;
+	display: inline-block;
+	padding: 5px;
+}
+
+h3 {
+	font-size: calc(15px + 1vw);
+	font-weight: bold;
+	/*font-size: 28px;*/
+	margin-top: 25px;
+	display: inline-block;
+}
+
+#header {
+	text-align: center;
+	clear: both;
+}
+
+h1 {
+	font-size: 3vw;
+	margin-bottom: 1px;
+	/*font-size: 40px;*/
+	margin-top: 0px;
+}
+	
+h4 {
+	padding: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	/*font-size: 20px;*/
+	font-size: calc(3px + 1vw);
+}
+
+#classicWhobox {
+	background-color: midnightblue;
+}
+
+#newWhobox {
+	background-color: navy;
+}
+
+#torchwoodbox {
+	background-color: darkgreen;
+}
+
+#SJAbox {
+	background-color: purple;
+}
+
+#minisodebox {
+	background-color: darkorange;
+}
+
+#alienFilebox {
+	background-color: lime;
+}
+
+#otherbox {
+	background-color: #DDB500;
+}
+
+#mebox {
+	background-color: red;
+}
+
+#iebox {
+	background-color: black;
+}
+
+#buttons {
+	height: 5px;
+}
+
+.box {
+	border-radius: 5px;
+	display: inline;
+	/*font-size: 15px;*/
+	font-size: calc(8px + .5vw);
+	margin: 8px;
+	cursor: pointer;
+	padding: 2px;
+	text-align: center;
+}
+
+label, input, .box {
+	cursor: pointer;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#everything {
+	text-align: center;
+	clear: both;
+}
+
+/* Episode types */
+
+.CW {
+	color: midnightblue;
+}
+
+a.CW:visited {
+	color: midnightblue;
+}
+
+#allCW {
+	width: 100%;
+}
+
+.missing {
+	color: red;
+}
+
+.NW {
+	color: navy;
+}
+
+a.NW:visited {
+	color: navy;
+}
+
+.allNW {
+	width: 100%;
+}
+
+.SJA {
+	color: purple;
+}
+
+a.SJA:visited {
+	color: purple;
+}
+
+.allSJA {
+	width: 100%;
+}
+
+.TW {
+	color: darkgreen;
+}
+
+a.TW:visited {
+	color: darkgreen;
+}
+
+.allTW {
+	width: 100%;
+}
+
+.AF {
+	color: lime;
+}
+
+a.AF:visited {
+	color: lime;
+}
+
+.allAF {
+	width: 100%;
+}
+
+.other {
+	color: #DDB500;
+}
+
+a.other:visited {
+	color: #DDB500;
+}
+
+.M {
+	color: darkorange;
+}
+
+a.M:visited {
+	color: darkorange;
+}
+
+.orangeSpoilers {
+	background-color: darkorange;
+}
+
+.orangeSpoilers:hover {
+	background-color: white;
+}
+
+/* Special boxes, etc. */
+
+#keyToTime {
+	border: 3px dashed purple;
+}
+
+#trial {
+	border: 3px dashed #FE365E;
+}
+
+#MD {
+	border: 3px dashed grey;
+}
+
+#COE {
+	border: 3px dashed mediumaquamarine;
+}
+
+.dottedBox {
+	width: 700px;
+	display: block;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.dottedBox+h2 {
+	margin-top: 30px;
+}
+
+.dottedBox h2 {
+	margin-top: 30px;
+}
+
+/* Season selectors */
+
+#left {
+	position: fixed;
+	width: 180px;
+	text-align: left;
+}
+
+#left a {
+	text-align: center;
+	vertical-align: center;
+	float: top;
+	padding: 2px;
+	display: inline-block;
+	/*width: 20px;
+	height: 20px;*/
+	width: calc(8px + 1vw);
+	height: calc(8px + 1vw);
+	color: white;
+	border-radius: 5px;
+	border: 2px solid black;
+	margin: 2px;
+	font-size: calc(6px + 1vw);
+}
+
+.CWselect {
+	background-color: midnightblue;
+}
+
+.NWselect {
+	background-color: navy;
+}
+
+.TWselect {
+	background-color: darkgreen;
+}
+
+.SJAselect {
+	background-color: purple;
+}	
+
+.AFselect {
+	background-color: lime;
+}
+
+#btt {
+	text-decoration: none;
+	background-color: darkgrey;
+	margin: auto;
+	text-align: center;
+	vertical-align: center;
+	float: top;
+	margin-top: 1px;
+	border: 2px solid gray !important;
+	border-radius: 8px !important;
+	background-color: darkgray;
+	padding: 2px;
+	height: 18px !important;
+	width: 98px !important;
+	font-size: 16px !important;
+	color: black !important;
+}	
+
+#btt:visited {
+	color: black;
+}
+
+.jumper {
+	display: block;
+}

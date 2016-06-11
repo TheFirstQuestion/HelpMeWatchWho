@@ -8,6 +8,14 @@
 	if($rows === false) {
     	$error = db_error();
 	} 
+	
+	$rows2 = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $ep2id");
+
+	if($rows2 === false) {
+    	$error = db_error();
+	} 
+	
+	$season2 = $rows2[0][Season];
 
 	$title = $rows[0][Title];
 	$desc = $rows[0][Description];
@@ -30,7 +38,7 @@
 <a href="./index.html">BACK</a>
 
 <div id="left">
-	<h1><?php echo $season; ?>: <?php echo $title; ?></h1>
+	<h1><?php echo $season; ?><?php if ($type == 1) { echo "/" . $season2; } ?>: <?php echo $title; ?></h1>
 	
 	<?php
 	if ($story != '') {

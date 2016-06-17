@@ -35,7 +35,7 @@
 </head>
 <body onLoad="sortEpisodes();">
 
-<a href="./index.html">BACK</a>
+<a href="index.html">BACK</a>
 
 <div id="left">
 	<h1><?php echo $season; ?><?php if ($type == 1) { echo "/" . $season2; } ?>: <?php echo $title; ?></h1>

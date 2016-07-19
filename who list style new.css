@@ -27,17 +27,22 @@ a:hover {
 h2 {
 	font-size: calc(5px + 2vw);
 	/*font-size: 35px;*/
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 50px;
 	display: inline-block;
 	padding: 5px;
+}
+
+h2 + br + h3 {
+	margin-top: 10px;
 }
 
 h3 {
 	font-size: calc(15px + 1vw);
 	font-weight: bold;
 	/*font-size: 28px;*/
-	margin-top: 25px;
+	margin-top: 50px;
+	margin-bottom: 15px;
 	display: inline-block;
 }
 
@@ -256,8 +261,9 @@ a.M:visited {
 
 #left {
 	position: fixed;
-	width: 180px;
+	width: 300px;
 	text-align: left;
+	/*border: 3px dashed green;*/
 }
 
 #left a {
@@ -309,9 +315,9 @@ a.M:visited {
 	border-radius: 8px !important;
 	background-color: darkgray;
 	padding: 2px;
-	height: 18px !important;
-	width: 98px !important;
-	font-size: 16px !important;
+	/*height: 18px !important;*/
+	width: calc(8px + 7vw) !important;
+	/*font-size: 16px !important;*/
 	color: black !important;
 }	
 

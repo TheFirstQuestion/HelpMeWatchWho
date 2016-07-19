@@ -1,4 +1,4 @@
-function doStuff() {
+function startup() {
 	// Set to save scroll location onclick
 	var elements = document.getElementsByTagName('a');
 	for(var i = 0, len = elements.length; i < len; i++) {
@@ -6,64 +6,46 @@ function doStuff() {
 	}
 
 	// Other
-	var other = getCookie("other");
-	if (other == null || other == "" || isNaN(other)) {
-		setCookie("other", 1, 365);
-	}
+	checkCookie("other");
 	setOther(false);
 
 	// Minisodes
-	var M = getCookie("M");
-	if (M == null || M == "" || isNaN(M)) {
-		setCookie("M", 1, 365);
-	}
+	checkCookie("M");
 	setM(false);
 	
 	// Alien Files
-	var AF = getCookie("AF");
-	if (AF == null || AF == "" || isNaN(AF)) {
-		setCookie("AF", 1, 365);
-	}
+	checkCookie("AF");
 	setAF(false);
 	
 	// Missing episodes
-	var missing = getCookie("missing");
-	if (missing == null || missing == "" || isNaN(missing)) {
-		setCookie("missing", 0, 365);
-	}
+	checkCookie("missing");
 	setMissing(false);
 
 	// Sarah Jane Adventures
-	var SJA = getCookie("SJA");
-	if (SJA == null || SJA == "" || isNaN(SJA)) {
-		setCookie("SJA", 0, 365);
-	}
+	checkCookie("SJA");
 	setSJA(false);
 	
 	// Torchwood
-	var TW = getCookie("TW");
-	if (TW == null || TW == "" || isNaN(TW)) {
-		setCookie("TW", 0, 365);
-	}
+	checkCookie("TW");
 	setTW(false);
 	
 	// New Who
-	var NW = getCookie("NW");
-	if (NW == null || NW == "" || isNaN(NW)) {
-		setCookie("NW", 1, 365);
-	}
+	checkCookie("NW");
 	setNW(false);
 	
 	// Classic Who
-	var CW = getCookie("CW");
-	if (CW == null || CW == "" || isNaN(CW)) {
-		setCookie("CW", 0, 365);
-	}
+	checkCookie("CW");
 	setCW(false);
 };
 
+function checkCookie(s) {
+	var x = getCookie(s);
+	if (x == null || x == "" || isNaN(x)) {
+		setCookie(s, 1, 365);
+	}
+}
 
-// *** A ***********************************************************************
+// *** A -- Main Episode types ***********************************************************************
 
 function setNW(bool) {
 	var NW =  parseInt(getCookie("NW"), 10);
@@ -79,10 +61,14 @@ function setNW(bool) {
 	var b = !isOn("other");
 	
 	var x = document.getElementsByClassName("NW");
+	var s = document.getElementsByClassName("NWselect");
 	if (state) {
     	for (var i = 0; i < x.length; i++) {
     			x[i].style.display = "none";
     			x[i].nextSibling.style.display = "none";
+		};
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "none";
 		};
 		document.getElementById("newWhoBox").checked = false;
 	} else {
@@ -96,6 +82,9 @@ function setNW(bool) {
 		if(b) {
 			setTwoOn("NW", "other");
 		}
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "inline-block";
+		};
 		document.getElementById("newWhoBox").checked = true;
 	};
 }
@@ -114,12 +103,16 @@ function setTW(bool) {
 	var b = !isOn("other");
 	
 	var x = document.getElementsByClassName("TW");
+	var s = document.getElementsByClassName("TWselect");
 	if (state) {
     	for (var i = 0; i < x.length; i++) {
     		x[i].style.display = "none";
     		x[i].nextSibling.style.display = "none";
     		document.getElementById("MD").style.display = "none";
     		document.getElementById("COE").style.display = "none";	
+		};
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "none";
 		};
 		document.getElementById("torchwoodBox").checked = false;
 	} else {
@@ -135,6 +128,9 @@ function setTW(bool) {
 		if(b) {
 			setTwoOn("TW", "other");
 		}
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "inline-block";
+		};
 		document.getElementById("torchwoodBox").checked = true;
 	};
 }
@@ -153,10 +149,14 @@ function setSJA(bool) {
 	var b = !isOn("other");
 	
 	var x = document.getElementsByClassName("SJA");
+	var s = document.getElementsByClassName("SJAselect");
 	if (state) {
     	for (var i = 0; i < x.length; i++) {
     		x[i].style.display = "none";
     		x[i].nextSibling.style.display = "none";
+		};
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "none";
 		};
 		document.getElementById("SJABox").checked = false;
 	} else {
@@ -170,6 +170,9 @@ function setSJA(bool) {
 		if(b) {
 			setTwoOn("SJA", "other");
 		}
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "inline-block";
+		};
 		document.getElementById("SJABox").checked = true;
 	};
 }
@@ -189,12 +192,16 @@ function setCW(bool) {
 	var d = !isOn("missing");
 	
 	var x = document.getElementsByClassName("CW");
+	var s = document.getElementsByClassName("CWselect");
 	if (state) {
 		document.getElementById("trial").style.display = "none";
     	document.getElementById("keyToTime").style.display = "none";
     	for (var i = 0; i < x.length; i++) {
     		x[i].style.display = "none";
     		x[i].nextSibling.style.display = "none";
+		};
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "none";
 		};
 		document.getElementById("classicWhoBox").checked = false;
 	} else {
@@ -213,11 +220,14 @@ function setCW(bool) {
 		if (d) {
 			setTwoOn("CW", "missing");
 		}
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "inline-block";
+		};
 		document.getElementById("classicWhoBox").checked = true;
 	};
 }
 
-// *** B *******************************************************************************
+// *** B -- secondary episode types *******************************************************************************
 function setM(bool) {
 	var M =  parseInt(getCookie("M"), 10);
 	
@@ -358,63 +368,33 @@ function setMissing(bool) {
 	};
 }
 
-// **** SortEpisodes -- used on episode pages   *******************************************
+// **** SortEpisodes -- used on right sidebar of episode pages   *******************************************
 function sortEpisodes() {
-	var M = document.getElementsByClassName("M");
-	if (!isOn("M")) {
-		for (var i = 0; i < M.length; i++) {
-			M[i].style.display = "inline-block";
-			M[i].nextSibling.style.display = "inline-block";
-		}
-	} else {
-		for (var i = 0; i < M.length; i++) {
-			M[i].style.display = "none";
-			M[i].nextSibling.style.display = "none";
-		}
-	}
+	shouldItBeOn("M");
 		
-	var AF = document.getElementsByClassName("AF");
-	if (!isOn("AF")) {
-		for (var i = 0; i < AF.length; i++) {
-			AF[i].style.display = "inline-block";
-			AF[i].nextSibling.style.display = "inline-block";
-		}
-	} else {
-		for (var i = 0; i < AF.length; i++) {
-			AF[i].style.display = "none";
-			AF[i].nextSibling.style.display = "none";
-		}
-	}
+	shouldItBeOn("AF");
 		
-	var other = document.getElementsByClassName("other");
-	if (!isOn("other")) {
-		for (var i = 0; i < other.length; i++) {
-			other[i].style.display = "inline-block";
-			other[i].nextSibling.style.display = "inline-block";
-		}
-	} else {
-		for (var i = 0; i < other.length; i++) {
-			other[i].style.display = "none";
-			other[i].nextSibling.style.display = "none";
-		}
-	}
+	shouldItBeOn("other");
 		
-	var missing = document.getElementsByClassName("missing");
-	if (!isOn("missing")) {
-		for (var i = 0; i < missing.length; i++) {
-			missing[i].style.display = "inline-block";
-			missing[i].nextSibling.style.display = "inline-block";
+	shouldItBeOn("missing");
+}
+
+function shouldItBeOn(s) {
+	var x = document.getElementsByClassName(s);
+	if (!isOn(s)) {
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display = "inline-block";
+			x[i].nextSibling.style.display = "inline-block";
 		}
 	} else {
-		for (var i = 0; i < missing.length; i++) {
-			missing[i].style.display = "none";
-			missing[i].nextSibling.style.display = "none";
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+			x[i].nextSibling.style.display = "none";
 		}
 	}
 }
 
 // *** Helper Methods **************************************************************
-
 function isOn(x) {
 	var a = parseInt(getCookie(x), 10);
 	return a % 2 == 0;
@@ -473,7 +453,6 @@ function getCookie(c_name) {
 }
 
 //  *** Scroll Methods ******************************************************************
-
 function checkScroll() {
     var x = 0, y = 0;
     if( typeof( window.pageYOffset ) == 'number' ) {

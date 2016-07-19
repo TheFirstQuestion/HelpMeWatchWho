@@ -51,30 +51,41 @@
 	<img <?php echo "src='Images/" . $episodeID . ".jpg'"; ?>/>
 	
 	<h2>Where To Watch<?php if ($type == 1) { echo " Part One"; } ?></h2>
-	<ul>
 	<?php
 		$wtw = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $episodeID");
 		if($wtw === false) {
     		$error = db_error();
 		}
-		foreach($wtw as $x) {
-			echo "<li><a href='" . $x[Link] . "'>" . $x[Source] . "</a></li>";
-		}
-	?>
-	</ul>
-	
-	<?php
-		if ($type == 1) {
-			echo "<h2>Where To Watch Part Two</h2><ul>";
-			$wtwb = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $ep2id");
-			if($wtwb === false) {
-    			$error = db_error();
-    			// Handle error - inform administrator, log to file, show error page, etc.
-			}
-			foreach($wtwb as $x) {
+		
+		if(empty($wtw)) {
+    		echo "<p>We haven't found this episode online.</p>";
+		} else {
+			echo "<ul>";
+			foreach($wtw as $x) {
 				echo "<li><a href='" . $x[Link] . "'>" . $x[Source] . "</a></li>";
 			}
 			echo "</ul>";
+		}
+	?>
+	
+	<?php
+		if ($type == 1) {
+			echo "<h2>Where To Watch Part Two</h2>";
+			$wtwb = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $ep2id");
+			if($wtwb === false) {
+    			$error = db_error();
+			}
+			
+			if(empty($wtwb)) {
+    			echo "<p>We haven't found this episode online.</p>";
+			} else {
+				echo "<ul>";
+				foreach($wtwb as $x) {
+					echo "<li><a href='" . $x[Link] . "'>" . $x[Source] . "</a></li>";
+				}
+				echo "</ul>";
+			}
+			
 		}
 	?>
 	

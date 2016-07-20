@@ -5,13 +5,11 @@
 
 <head>
 	<title>The Complete Doctor Who List</title>
-	<link type="text/css" rel="stylesheet" href="who list style new.css">
+	<link type="text/css" rel="stylesheet" href="list style.css">
 	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600|Maven+Pro" rel="stylesheet" type="text/css">
 	<script language="JavaScript"; src="boxes sort.js"></script>
 </head>
 <body onLoad="startup(); actuallyScroll();">
-
-
 
 <div id="left">
 

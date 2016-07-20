@@ -259,7 +259,7 @@ a.M:visited {
 
 #left {
 	position: fixed;
-	width: 300px;
+	width: 15%;
 	text-align: left;
 	/*border: 3px dashed green;*/
 }

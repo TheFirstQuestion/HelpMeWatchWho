@@ -33,9 +33,10 @@
 	<script language="JavaScript"; src="boxes sort.js"></script>
 	<title><?php echo $season; ?>: <?php echo strip_tags($title); ?></title>
 </head>
-<body onLoad="sortEpisodes();">
 
-<a href="index.html">BACK</a>
+<?php include("header.php"); ?>
+
+<body onLoad="sortEpisodes();">
 
 <div id="left">
 	<h1><?php echo $season; ?><?php if ($type == 1) { echo "/" . $season2; } ?>: <?php echo $title; ?></h1>

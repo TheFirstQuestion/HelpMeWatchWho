@@ -58,7 +58,7 @@ function db_quote($value) {
 
 function right() {
 	include_once("simple_html_dom.php");
-	$target_url = "index.html";
+	$target_url = "index.php";
 	$html = new simple_html_dom();
 	$html->load_file($target_url);
 	foreach($html->find('div[id]') as $element) {

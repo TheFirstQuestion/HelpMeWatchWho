@@ -3,8 +3,6 @@
 body {
 	background-color: white;
 	font-family: "Maven Pro", serif;
-	text-shadow: 2px 2px solid black;
-	text-align: center;
 }
 
 a {
@@ -316,8 +314,8 @@ a.M:visited {
 	background-color: darkgray;
 	padding: 2px;
 	/*height: 18px !important;*/
-	width: calc(8px + 7vw) !important;
-	/*font-size: 16px !important;*/
+	width: calc(3px + 7vw) !important;
+	font-size: calc(3px + 1vw) !important;
 	color: black !important;
 }	
 

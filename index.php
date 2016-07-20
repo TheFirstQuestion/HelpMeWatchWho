@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-
+<?php include("header.php"); ?>
 
 <head>
 	<title>The Complete Doctor Who List</title>
@@ -11,9 +11,11 @@
 </head>
 <body onLoad="startup(); actuallyScroll();">
 
+
+
 <div id="left">
 
-<a href="#top" id="btt">Back&nbsp;to&nbsp;top</a>
+<a href="#" id="btt">Back&nbsp;to&nbsp;top</a>
 <br><br>
 <a href="#CW1" class="CWselect">1</a>
 <a href="#CW2" class="CWselect">2</a>
@@ -2219,7 +2221,7 @@
 
 <a class="NW AF" href="episodes.php?episodeID=291&seasonID=29">3.10.1 A Ghost Story for Christmas</a><br>
 </div>
-</div>
+
 
 
 <div id ="28">
@@ -2458,7 +2460,7 @@
 
 <a class="NW other" href="episodes.php?episodeID=191&seasonID=21">4.16.1 Dreamland</a><br>
 </div>
-</div>
+
 
 
 <a name="TW3" class="jumper"></a>
@@ -2602,7 +2604,7 @@
 
 <a class="NW M" href="episodes.php?episodeID=143&seasonID=14">5.X.3 Time</a><br>
 </div>
-</div>
+
 
 
 <div id ="13">

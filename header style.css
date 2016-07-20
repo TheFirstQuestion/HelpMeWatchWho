@@ -1,0 +1,47 @@
+body {
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#theWholeHeadingBlock {
+	margin: 0px;
+	position: relative;
+	background: rgba(0, 0, 255, 0.2); /* For browsers that do not support gradients */
+  	background: linear-gradient(to right, mediumblue, rgb(80, 90, 255), mediumblue);
+  	margin-bottom: 20px;
+}
+
+#logoBlockHeadingItem {
+	display: inline-block;
+	margin: 10px;
+}
+
+#phraseHeadingItem {
+	color: gainsboro;
+	margin-left: 20px;
+	font-size: calc(3px + .7vw);
+}
+
+#nameHeadingItem {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: calc(3px + 1.75vw);
+}
+
+#rightHeadingItem {
+	vertical-align: center;
+	position: absolute;
+	right: 10px;
+	top: 30%;
+}
+
+#rightHeadingItem a {
+	margin-left: 40px;
+	text-decoration: none;
+	color: linen;
+	font-size: calc(3px + .9vw);
+}
+
+#rightHeadingItem a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}

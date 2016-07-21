@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<?php include("header.php"); ?>
+<?php require("header.php"); ?>
 
 <head>
-	<title>The Complete Doctor Who List</title>
+	<title>HelpMeWatchWho | Episodes</title>
 	<link type="text/css" rel="stylesheet" href="list style.css">
 	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600|Maven+Pro" rel="stylesheet" type="text/css">
-	<script language="JavaScript"; src="boxes sort.js"></script>
+	<script src="boxes sort.js"></script>
 </head>
 <body onLoad="startup(); actuallyScroll();">
 

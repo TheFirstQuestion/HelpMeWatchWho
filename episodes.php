@@ -31,13 +31,13 @@
 	<link type="text/css" rel="stylesheet" href="episodes style.css">
 	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600|Maven+Pro" rel="stylesheet" type="text/css">
 	<script language="JavaScript"; src="boxes sort.js"></script>
-	<title><?php echo $season; ?>: <?php echo strip_tags($title); ?></title>
+	<title>HelpMeWatchWho | <?php echo $season; ?>: <?php echo strip_tags($title); ?></title>
 </head>
 
 <?php include("header.php"); ?>
 
 <body onLoad="sortEpisodes();">
-
+<div id="everything">
 <div id="left">
 	<h1><?php echo $season; ?><?php if ($type == 1) { echo "/" . $season2; } ?>: <?php echo $title; ?></h1>
 	
@@ -117,6 +117,6 @@
 		right();
 	?>
 </div>
-
+</div>
 </body>
 </html>

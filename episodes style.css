@@ -1,7 +1,6 @@
-body {
+#everything {
 	font-family: 'Maven Pro', sans-serif;
 	margin-left: 20px;
-	margin-right: 20px;
 }
 
 .spoilers {
@@ -81,13 +80,13 @@ img {
 	width: 33%;
 	display: block;
 	position: fixed;
-	top: 50px;
+	top: 100px;
 	right: 0px;
 	text-align: right;
 	height: 100%;
 	overflow: auto;
 	/*margin-top: -20px;*/
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 #right a {

@@ -8,16 +8,20 @@ body {
 	background: rgba(0, 0, 255, 0.2); /* For browsers that do not support gradients */
   	background: linear-gradient(to right, mediumblue, rgb(80, 90, 255), mediumblue);
   	margin-bottom: 20px;
+  	height: 90px;
 }
 
 #logoBlockHeadingItem {
 	display: inline-block;
 	margin: 10px;
+	vertical-align: bottom;
 }
 
 #phraseHeadingItem {
 	color: gainsboro;
-	margin-left: 20px;
+	position: absolute;
+	left: 20px;
+	top: 55px;
 	font-size: calc(3px + .7vw);
 }
 
@@ -25,13 +29,22 @@ body {
 	color: white;
 	text-shadow: 2px 2px black;
 	font-size: calc(3px + 1.75vw);
+	text-decoration: none;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	margin: 0px;
+}
+
+#nameHeadingItem:hover {
+	font-weight: normal;
 }
 
 #rightHeadingItem {
 	vertical-align: center;
 	position: absolute;
 	right: 10px;
-	top: 30%;
+	top: 32px;
 }
 
 #rightHeadingItem a {

@@ -7,7 +7,7 @@
 
 <div id="theWholeHeadingBlock">
 	<div id="logoBlockHeadingItem">
-		<span id="nameHeadingItem">HelpMeWatchWho</span>
+		<a href="index.php" id="nameHeadingItem">HelpMeWatchWho</a>
 		<br>
 		<span id="phraseHeadingItem">Your guide to the Whoniverse.</span>
 	</div>

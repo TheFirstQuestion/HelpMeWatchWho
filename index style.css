@@ -1,0 +1,57 @@
+#everything {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	border: 5px solid black;
+	width: 28%;
+	margin: 1%;
+	vertical-align: top;
+	padding: 10px;
+	min-height: 500px;
+}
+
+h2 {
+	text-align: center;
+	font-size: calc(12px + 1vw);
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+#right {
+	text-align: center;
+	font-size: calc(8px + .6vw);
+}
+
+#right a {
+	font-size: calc(11px + .8vw);
+}
+
+#left {
+	text-align: left;
+}
+
+iframe {
+	width: 303px;
+	height: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+span {
+	font-size: calc(8px + .6vw);
+}

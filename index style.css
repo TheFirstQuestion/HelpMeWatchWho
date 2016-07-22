@@ -39,10 +39,10 @@ iframe {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: mediumblue;
 }
 
-a:visited {
+#right a:visited {
 	text-decoration: none;
 	color: gray;
 }

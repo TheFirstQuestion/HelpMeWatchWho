@@ -23,16 +23,12 @@ a:hover {
 }
 
 h2 {
-	font-size: calc(10px + 1.7vw);
+	font-size: calc(13px + 1.7vw);
 	/*font-size: 35px;*/
 	margin-bottom: 10px;
 	margin-top: 50px;
 	display: inline-block;
 	padding: 5px;
-}
-
-h2 + br + h3 {
-	margin-top: 10px;
 }
 
 h3 {
@@ -133,10 +129,6 @@ label, input, .box {
 /* Episode types */
 
 .CW {
-	color: midnightblue;
-}
-
-a.CW:visited {
 	color: midnightblue;
 }
 

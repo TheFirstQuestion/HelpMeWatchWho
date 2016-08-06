@@ -50,71 +50,101 @@
 	<p><?php echo $desc; ?></p>
 
 	<img <?php echo "src='Images/" . $episodeID . ".jpg'"; ?>/>
-	
-	<h2>Where To Watch<?php if ($type == 1) { echo " Part One"; } ?></h2>
+
 	<?php
-		$wtw = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $episodeID");
-		if($wtw === false) {
-    		$error = db_error();
-		}
+		if ($type == 3) {
+			$a = db_select("SELECT * FROM `CW Episodes` WHERE `LinkID` = $episodeID");
+			foreach ($a as $x) {
+				echo "<h2>Where To Watch " . $x[Title] . "</h2>";
+				$epID = $x[EpisodeID];
+				$m = $x[Missing];
+				
+				if ($m) {
+					echo "<span id='missing'>(missing)</span>";
+				}
+				
+				echo "<br>";
+				
+				$wtw = db_select("SELECT * FROM `CW WhereToWatch` WHERE `LinkID` = $epID");
+				if ($wtw === false) {
+					$error = db_error();
+				}
 		
-		if(empty($wtw)) {
-    		echo "<p>We haven't found this episode online yet.</p>";
+				if (empty($wtw)) {
+					echo "<p>We haven't found this episode online yet.</p>";
+				} else {
+					echo "<ul>";
+					foreach($wtw as $x) {
+						echo "<li><a href='" . $x[Link] . "'>" . $x[Source] . "</a></li>";
+					}
+					echo "</ul>";
+				}
+			}
 		} else {
-			echo "<ul>";
-			foreach($wtw as $x) {
-				echo "<li><a href='" . $x[Link] . "'>" . $x[Source] . "</a></li>";
+			echo "<h2>Where To Watch";
+			if ($type == 1) {
+				 echo " Part One"; 
 			}
-			echo "</ul>";
-		}
-	?>
-	
-	<?php
-		if ($type == 1) {
-			echo "<h2>Where To Watch Part Two</h2>";
-			$wtwb = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $ep2id");
-			if($wtwb === false) {
-    			$error = db_error();
-			}
+			echo "</h2>";
 			
-			if(empty($wtwb)) {
-    			echo "<p>We haven't found this episode online yet.</p>";
+			$wtw = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $episodeID");
+			if ($wtw === false) {
+				$error = db_error();
+			}
+		
+			if (empty($wtw)) {
+				echo "<p>We haven't found this episode online yet.</p>";
 			} else {
 				echo "<ul>";
-				foreach($wtwb as $x) {
+				foreach($wtw as $x) {
 					echo "<li><a href='" . $x[Link] . "'>" . $x[Source] . "</a></li>";
 				}
 				echo "</ul>";
 			}
 			
+			if ($type == 1) {
+				echo "<h2>Where To Watch Part Two</h2>";
+				$wtwb = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $ep2id");
+				if($wtwb === false) {
+					$error = db_error();
+				}
+			
+				if (empty($wtwb)) {
+					echo "<p>We haven't found this episode online yet.</p>";
+				} else {
+					echo "<ul>";
+					foreach($wtwb as $x) {
+						echo "<li><a href='" . $x[Link] . "'>" . $x[Source] . "</a></li>";
+					}
+					echo "</ul>";
+				}
+			
+			}
+			
+			if ($type == 2) {
+				echo "<h2>Full Story</h2><ul><li><a href='http://www.dailymotion.com/video/xpepwe_torchwood-miracle-day-web-of-lies-complete-story-dvd-subita_shortfilms'>DailyMotion</a></li></ul></div>";
+			}
 		}
-	?>
-	
-	<?php
-		if ($type == 2) {
-			echo "<h2>Full Story</h2><ul><li><a href='http://www.dailymotion.com/video/xpepwe_torchwood-miracle-day-web-of-lies-complete-story-dvd-subita_shortfilms'>DailyMotion</a></li></ul></div>";
-		}
-	?>
-
-	<?php
+		
+		
 		$bts = db_select("SELECT * FROM `BehindTheScenes` WHERE `LinkID` = $episodeID");
-		if ($bts != null) {
-			echo "<h2>Behind the Scenes Videos</h2><ul>";
-			if($bts === false) {
-    			$error = db_error();
+			if ($bts != null) {
+				echo "<h2>Behind the Scenes Videos</h2><ul>";
+				if($bts === false) {
+					$error = db_error();
+				}
+				foreach($bts as $x) {
+					echo "<li><a href='" . $x[Link] . "'>" . $x[Title] . "</a></li>";
+				}
+				echo "</ul>";
 			}
-			foreach($bts as $x) {
-				echo "<li><a href='" . $x[Link] . "'>" . $x[Title] . "</a></li>";
-			}
-			echo "</ul>";
-		}
 	?>
 	
 	</div>
 
 <div id ="right">
 	<?php
-		if (serialID != NULL) {
+		if(isset($_GET['serialID'])) {
 			classicRight();
 		} else {
 			right();

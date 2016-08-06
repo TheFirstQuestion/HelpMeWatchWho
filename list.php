@@ -136,7 +136,7 @@
 <div id="32">
 <h2 class="CW">Season One</h2><br>
 
-<h3 class="CW">1.1 An Unearthly Child (001)</h3><br>
+<a class="CW" href="episodes.php?episodeID=340&serialID=32"><h3>1.1 An Unearthly Child (001)</h3></a><br>
 
 <a class="CW" href="episodes.php?episodeID=340&serialID=32">1.1.1 An Unearthly Child</a><br>
 
@@ -147,108 +147,111 @@
 <a class="CW" href="episodes.php?episodeID=340&serialID=32">1.1.4 The Firemaker</a><br>
 
 
-<h3 class="CW">1.2 The Daleks (002)</h3><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32"><h3>1.2 The Daleks (002)</h3></a><br>
 
-<a class="CW">1.2.1 The Dead Planet</a><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32">1.2.1 The Dead Planet</a><br>
 
-<a class="CW">1.2.2 The Survivors</a><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32">1.2.2 The Survivors</a><br>
 
-<a class="CW">1.2.3 The Escape</a><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32">1.2.3 The Escape</a><br>
 
-<a class="CW">1.2.4 The Ambush</a><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32">1.2.4 The Ambush</a><br>
 
-<a class="CW">1.2.5 The Expedition</a><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32">1.2.5 The Expedition</a><br>
 
-<a class="CW">1.2.6 The Ordeal</a><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32">1.2.6 The Ordeal</a><br>
 
-<a class="CW">1.2.7 The Rescue</a><br>
-
-
-<h3 class="CW">1.3 The Edge of Destruction (003)</h3><br>
-
-<a class="CW">1.3.1 The Edge of Destruction</a><br>
-
-<a class="CW">1.3.2 The Brink of Disaster</a><br>
+<a class="CW" href="episodes.php?episodeID=341&serialID=32">1.2.7 The Rescue</a><br>
 
 
-<h3 class="CW missing">1.4 Marco Polo (004)</h3><br>
+<a class="CW" href="episodes.php?episodeID=342&serialID=32"><h3>1.3 The Edge of Destruction (003)</h3></a><br>
 
-<a class="CW missing">1.4.1 The Roof of the World</a><br>
+<a class="CW" href="episodes.php?episodeID=342&serialID=32">1.3.1 The Edge of Destruction</a><br>
 
-<a class="CW missing">1.4.2 The Singing Sands</a><br>
-
-<a class="CW missing">1.4.3 Five Hundred Eyes</a><br>
-
-<a class="CW missing">1.4.4 The Wall of Lies</a><br>
-
-<a class="CW missing">1.4.5 Rider From Shang-Tu</a><br>
-
-<a class="CW missing">1.4.6 Mighty Kublai Khan</a><br>
-
-<a class="CW missing">1.4.7 Assassin at Peking</a><br>
+<a class="CW" href="episodes.php?episodeID=342&serialID=32">1.3.2 The Brink of Disaster</a><br>
 
 
-<h3 class="CW">1.5 The Keys of Marinus (005)</h3><br>
+<a class="CW" href="episodes.php?episodeID=343&serialID=32"><h3>1.4 Marco Polo (004)</h3></a><br>
 
-<a class="CW">1.5.1 The Sea of Death</a><br>
+<a class="CW missing" href="episodes.php?episodeID=343&serialID=32">1.4.1 The Roof of the World</a><br>
 
-<a class="CW">1.5.2 The Velvet Web</a><br>
+<a class="CW missing" href="episodes.php?episodeID=343&serialID=32">1.4.2 The Singing Sands</a><br>
 
-<a class="CW">1.5.3 The Screaming Jungle</a><br>
+<a class="CW missing" href="episodes.php?episodeID=343&serialID=32">1.4.3 Five Hundred Eyes</a><br>
 
-<a class="CW">1.5.4 The Snows of Terror</a><br>
+<a class="CW missing" href="episodes.php?episodeID=343&serialID=32">1.4.4 The Wall of Lies</a><br>
 
-<a class="CW">1.5.5 Sentence of Death</a><br>
+<a class="CW missing" href="episodes.php?episodeID=343&serialID=32">1.4.5 Rider From Shang-Tu</a><br>
 
-<a class="CW">1.5.6 The Keys of Marinus</a><br>
+<a class="CW missing" href="episodes.php?episodeID=343&serialID=32">1.4.6 Mighty Kublai Khan</a><br>
 
-
-<h3 class="CW">1.6 The Aztecs (006)</h3><br>
-
-<a class="CW">1.6.1 The Temple of Evil</a><br>
-
-<a class="CW">1.6.2 The Warriors of Death</a><br>
-
-<a class="CW">1.6.3 The Bride of Sacrifice</a><br>
-
-<a class="CW">1.6.4 The Day of Darkness</a><br>
+<a class="CW missing" href="episodes.php?episodeID=343&serialID=32">1.4.7 Assassin at Peking</a><br>
 
 
-<h3 class="CW">1.7 The Sensorites (007)</h3><br>
+<a class="CW" href="episodes.php?episodeID=344&serialID=32"><h3>1.5 The Keys of Marinus (005)</h3></a><br>
 
-<a class="CW">1.7.1 Strangers in Space</a><br>
+<a class="CW" href="episodes.php?episodeID=344&serialID=32">1.5.1 The Sea of Death</a><br>
 
-<a class="CW">1.7.2 The Unwilling Warriors</a><br>
+<a class="CW" href="episodes.php?episodeID=344&serialID=32">1.5.2 The Velvet Web</a><br>
 
-<a class="CW">1.7.3 Hidden Danger</a><br>
+<a class="CW" href="episodes.php?episodeID=344&serialID=32">1.5.3 The Screaming Jungle</a><br>
 
-<a class="CW">1.7.4 A Race Against Death</a><br>
+<a class="CW" href="episodes.php?episodeID=344&serialID=32">1.5.4 The Snows of Terror</a><br>
 
-<a class="CW">1.7.5 Kidnap</a><br>
+<a class="CW" href="episodes.php?episodeID=344&serialID=32">1.5.5 Sentence of Death</a><br>
 
-<a class="CW">1.7.6 A Desperate Venture</a><br>
+<a class="CW" href="episodes.php?episodeID=344&serialID=32">1.5.6 The Keys of Marinus</a><br>
 
 
-<h3 class="CW">1.8 The Reign of Terror (008)</h3><br>
+<a class="CW" href="episodes.php?episodeID=345&serialID=32"><h3>1.6 The Aztecs (006)</h3></a><br>
 
-<a class="CW">1.8.1 A Land of Fear</a><br>
+<a class="CW" href="episodes.php?episodeID=345&serialID=32">1.6.1 The Temple of Evil</a><br>
 
-<a class="CW">1.8.2 Guests of Madame Guillotine</a><br>
+<a class="CW" href="episodes.php?episodeID=345&serialID=32">1.6.2 The Warriors of Death</a><br>
 
-<a class="CW">1.8.3 A Change of Identity</a><br>
+<a class="CW" href="episodes.php?episodeID=345&serialID=32">1.6.3 The Bride of Sacrifice</a><br>
 
-<a class="CW missing">1.8.4 The Tyrant of France</a><br>
+<a class="CW" href="episodes.php?episodeID=345&serialID=32">1.6.4 The Day of Darkness</a><br>
 
-<a class="CW missing">1.8.5 A Bargain of Necessity</a><br>
 
-<a class="CW">1.8.6 Prisoners of Conciergerie</a><br>
+<a class="CW" href="episodes.php?episodeID=346&serialID=32"><h3>1.7 The Sensorites (007)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=346&serialID=32">1.7.1 Strangers in Space</a><br>
+
+<a class="CW" href="episodes.php?episodeID=346&serialID=32">1.7.2 The Unwilling Warriors</a><br>
+
+<a class="CW" href="episodes.php?episodeID=346&serialID=32">1.7.3 Hidden Danger</a><br>
+
+<a class="CW" href="episodes.php?episodeID=346&serialID=32">1.7.4 A Race Against Death</a><br>
+
+<a class="CW" href="episodes.php?episodeID=346&serialID=32">1.7.5 Kidnap</a><br>
+
+<a class="CW" href="episodes.php?episodeID=346&serialID=32">1.7.6 A Desperate Venture</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=347&serialID=32"><h3>1.8 The Reign of Terror (008)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=347&serialID=32">1.8.1 A Land of Fear</a><br>
+
+<a class="CW" href="episodes.php?episodeID=347&serialID=32">1.8.2 Guests of Madame Guillotine</a><br>
+
+<a class="CW" href="episodes.php?episodeID=347&serialID=32">1.8.3 A Change of Identity</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=347&serialID=32">1.8.4 The Tyrant of France</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=347&serialID=32">1.8.5 A Bargain of Necessity</a><br>
+
+<a class="CW" href="episodes.php?episodeID=347&serialID=32">1.8.6 Prisoners of Conciergerie</a><br>
 </div>
 
 
+
+
 <a name="CW2" class="jumper"></a>
+<div id="33">
 <h2 class="CW">Season Two</h2><br>
 
-<h3 class="CW">2.1 Planet of Giants (009)</h3><br>
+<a class="CW"><h3>2.1 Planet of Giants (009)</h3></a><br>
 
 <a class="CW">2.1.1 Planet of Giants</a><br>
 
@@ -351,6 +354,9 @@
 <a class="CW">2.9.3 A Battle of Wits</a><br>
 
 <a class="CW">2.9.4 Checkmate</a><br>
+</div>
+
+
 
 
 <a name="CW3" class="jumper"></a>

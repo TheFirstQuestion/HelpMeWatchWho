@@ -133,17 +133,18 @@
 
 <a name="CW1" class="jumper"></a>
 <div id="allCW">
+<div id="32">
 <h2 class="CW">Season One</h2><br>
 
 <h3 class="CW">1.1 An Unearthly Child (001)</h3><br>
 
-<a class="CW">1.1.1 An Unearthly Child</a><br>
+<a class="CW" href="episodes.php?episodeID=340&serialID=32">1.1.1 An Unearthly Child</a><br>
 
-<a class="CW">1.1.2 The Cave of Skulls</a><br>
+<a class="CW" href="episodes.php?episodeID=340&serialID=32">1.1.2 The Cave of Skulls</a><br>
 
-<a class="CW">1.1.3 The Forest of Fear</a><br>
+<a class="CW" href="episodes.php?episodeID=340&serialID=32">1.1.3 The Forest of Fear</a><br>
 
-<a class="CW">1.1.4 The Firemaker</a><br>
+<a class="CW" href="episodes.php?episodeID=340&serialID=32">1.1.4 The Firemaker</a><br>
 
 
 <h3 class="CW">1.2 The Daleks (002)</h3><br>
@@ -241,7 +242,7 @@
 <a class="CW missing">1.8.5 A Bargain of Necessity</a><br>
 
 <a class="CW">1.8.6 Prisoners of Conciergerie</a><br>
-
+</div>
 
 
 <a name="CW2" class="jumper"></a>

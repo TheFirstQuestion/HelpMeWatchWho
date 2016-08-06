@@ -74,6 +74,9 @@ img {
 	margin-right: 33%; 
 }
 
+
+
+/* Right side styles **************************************************/
 #right {
 	margin-left: 10px;
 	float: right;
@@ -108,7 +111,7 @@ img {
 
 #right h2 {
 	/*font-size: 30px;*/
-	font-size: calc(3px + 2vw);
+	font-size: calc(12px + 1vw);
 	margin-bottom: 20px;
 	display: inline-block;
 }
@@ -120,12 +123,22 @@ img {
 	display: inline-block;
 }
 
+
 #right .CW {
 	color: midnightblue;
 }
 
 #right a.CW:visited {
 	color: grey;
+}
+
+#right .CW {
+	text-decoration: none;
+	margin: 5px;
+	/*font-size: 20px;*/
+	font-size: calc(6px + 1vw);
+	cursor: pointer;
+	display: inline-block;
 }
 
 #right #allCW {

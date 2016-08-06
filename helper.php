@@ -72,4 +72,26 @@ function doStuff($x) {
         echo $x;
     }
 } 
+
+function classicRight() {
+	include_once("simple_html_dom.php");
+	$target_url = "list.php";
+	$html = new simple_html_dom();
+	$html->load_file($target_url);
+	foreach($html->find('div[id]') as $element) {
+		doThings($element);
+	};
+}
+
+function doThings($x) {
+	$serialID = $_GET['serialID'];
+	if ($x->id==$serialID) {
+		echo $x->find('h2')[0];
+        foreach($x->find('h3') as $element) {
+			echo $element;
+		};
+    }
+} 
+
+
 ?>

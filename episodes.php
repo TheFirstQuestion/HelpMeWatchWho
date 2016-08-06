@@ -5,13 +5,13 @@
 	$ep2id = $episodeID + 1;
 	$rows = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $episodeID");
 
-	if($rows === false) {
+	if ($rows === false) {
     	$error = db_error();
 	} 
 	
 	$rows2 = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $ep2id");
 
-	if($rows2 === false) {
+	if ($rows2 === false) {
     	$error = db_error();
 	} 
 	
@@ -22,7 +22,7 @@
 	$season = $rows[0][Season];
 	$story = $rows[0][Story];
 	$type = $rows[0][Type];
-		// TW/NW/SJAminisodes/minisodes/TAG = 0, SJA = 1, WoL = 2
+		// TW/NW/SJAminisodes/minisodes/TAG = 0, SJA = 1, WoL = 2, CW = 3
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +31,7 @@
 	<link type="text/css" rel="stylesheet" href="episodes style.css">
 	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600|Maven+Pro" rel="stylesheet" type="text/css">
 	<script language="JavaScript"; src="boxes sort.js"></script>
-	<title>HelpMeWatchWho | <?php echo $season; ?>: <?php echo strip_tags($title); ?></title>
+	<title>HelpMeWatchWho | <?php echo strip_tags($title); ?></title>
 </head>
 
 <?php include("header.php"); ?>
@@ -59,7 +59,7 @@
 		}
 		
 		if(empty($wtw)) {
-    		echo "<p>We haven't found this episode online.</p>";
+    		echo "<p>We haven't found this episode online yet.</p>";
 		} else {
 			echo "<ul>";
 			foreach($wtw as $x) {
@@ -78,7 +78,7 @@
 			}
 			
 			if(empty($wtwb)) {
-    			echo "<p>We haven't found this episode online.</p>";
+    			echo "<p>We haven't found this episode online yet.</p>";
 			} else {
 				echo "<ul>";
 				foreach($wtwb as $x) {
@@ -114,7 +114,11 @@
 
 <div id ="right">
 	<?php
-		right();
+		if (serialID != NULL) {
+			classicRight();
+		} else {
+			right();
+		}
 	?>
 </div>
 </div>

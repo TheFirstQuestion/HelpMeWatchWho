@@ -8,7 +8,7 @@
 <div id="left" class="box">
 	<h2>Not sure where to start?</h2>
 	<span>New to Who? Check out the <a href="#">Introduction to Doctor Who</a>.</span><br><br>
-	<span>Think you're seen it all? Check out the <a href="#">Guide to Minisodes</a>.</span><br><br>
+	<span>Think you've seen it all? Check out the <a href="#">Guide to Minisodes</a>.</span><br><br>
 	<span>Finished with the new series, and begging for more? Check out the <a href="#">Spin-offs</a> page.</span><br><br>
 	<span>You know the show. But do you know how it's made? Check out the <a href="#">Doctor Who Confidential</a> page. Or try Torchwood's counterpart, <a href="#">Torchwood Declassified</a>.</span><br><br>
 	<span>Ready to delve into the history of Who? Check out the <a href="#">Introduction to Classic Who</a>.</span><br><br>

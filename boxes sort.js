@@ -198,7 +198,7 @@ function setCW(bool) {
     	document.getElementById("keyToTime").style.display = "none";
     	for (var i = 0; i < x.length; i++) {
     		x[i].style.display = "none";
-    		//x[i].nextSibling.style.display = "none";
+    		x[i].nextSibling.style.display = "none";
 		};
 		for (var i = 0; i < s.length; i++) {
     			s[i].style.display = "none";

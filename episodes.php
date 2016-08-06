@@ -48,9 +48,12 @@
 	?>
 	
 	<p><?php echo $desc; ?></p>
-
+	
 	<img <?php echo "src='Images/" . $episodeID . ".jpg'"; ?>/>
-
+	
+	<br>
+	
+	
 	<?php
 		if ($type == 3) {
 			$a = db_select("SELECT * FROM `CW Episodes` WHERE `LinkID` = $episodeID");

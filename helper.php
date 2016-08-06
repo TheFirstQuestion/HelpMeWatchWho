@@ -87,8 +87,10 @@ function doThings($x) {
 	$serialID = $_GET['serialID'];
 	if ($x->id==$serialID) {
 		echo $x->find('h2')[0];
-        foreach($x->find('h3') as $element) {
-			echo $element;
+		echo "<br>";
+        foreach($x->find('a h3') as $element) {
+			echo $element->parent();
+			echo "<br>";
 		};
     }
 } 

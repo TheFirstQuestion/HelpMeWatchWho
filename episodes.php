@@ -51,7 +51,30 @@
 
 	<img <?php echo "src='Images/" . $episodeID . ".jpg'"; ?>/>
 	
-	<h2>Where To Watch<?php if ($type == 1) { echo " Part One"; } ?></h2>
+	
+
+	<?php
+		if ($type == 3) {
+			$a = db_select("SELECT * FROM `CW Episodes` WHERE `LinkID` = $episodeID");
+			foreach ($a as $x) {
+				echo $x[Title] . "<br>";
+			}
+		} else {
+			echo "<h2>Where To Watch";
+			if ($type == 1) {
+				 echo " Part One"; 
+			}
+			echo "</h2>";
+		}
+		
+	?>
+	
+	
+	
+	
+	
+	
+	
 	<?php
 		$wtw = db_select("SELECT * FROM `WhereToWatch` WHERE `LinkID` = $episodeID");
 		if($wtw === false) {
@@ -114,7 +137,7 @@
 
 <div id ="right">
 	<?php
-		if (serialID != NULL) {
+		if(isset($_GET['serialID'])) {
 			classicRight();
 		} else {
 			right();

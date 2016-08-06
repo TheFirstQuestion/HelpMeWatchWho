@@ -12,7 +12,7 @@
 	background-color: white;
 }
 
-a {
+li a {
 	text-decoration: none;
 	color: black;
 	font-size: 19px;
@@ -81,7 +81,7 @@ img {
 	margin-left: 10px;
 	float: right;
 	width: 33%;
-	display: block;
+	display: inline-block;
 	position: fixed;
 	top: 100px;
 	right: 0px;
@@ -99,50 +99,44 @@ img {
 	font-size: calc(6px + 1vw);
 	cursor: pointer;
 	display: inline-block;
+	color: midnightblue;
 }
 
-#right a:visited {
+#right .CW {
 	text-decoration: none;
+	font-weight: normal;
+	margin: 10px;
+	/*font-size: 20px;*/
+	font-size: calc(6px + 1vw);
+	margin-right: 0px;
+	display: inline-block;
+	margin-bottom: 0px;
 }
 
-#right a:hover {
-	font-weight: bold;
+#right .CW:visited {
+	color: grey !important;
 }
 
 #right h2 {
 	/*font-size: 30px;*/
-	font-size: calc(12px + 1vw);
-	margin-bottom: 20px;
-	display: inline-block;
-}
-
-#right h3 {
-	font-weight: bold;
-	/*font-size: 28px;*/
-	font-size: calc(3px + 2vw);
-	display: inline-block;
-}
-
-
-#right .CW {
+	font-size: calc(12px + 1.4vw) !important;
+	margin: 20px;
+	font-weight: bold !important;
 	color: midnightblue;
+	margin-right: 0px;
 }
 
-#right a.CW:visited {
-	color: grey;
-}
-
-#right .CW {
+#right a:visited {
 	text-decoration: none;
-	margin: 5px;
-	/*font-size: 20px;*/
-	font-size: calc(6px + 1vw);
-	cursor: pointer;
-	display: inline-block;
+	color: grey !important;
 }
 
-#right #allCW {
-	width: 100%;
+#right h3:hover {
+	font-weight: bold !important;
+}
+
+#right a:hover {
+	font-weight: bold !important;
 }
 
 #right .missing {

@@ -361,242 +361,249 @@
 
 
 <a name="CW3" class="jumper"></a>
+<div id="34">
 <h2 class="CW">Season Three</h2><br>
 
-<h3 class="CW">3.1 Galaxy 4 (018)</h3><br>
+<a class="CW" href="episodes.php?episodeID=357&serialID=34"><h3>3.1 Galaxy 4 (018)</h3></a><br>
 
-<a class="CW missing">3.1.1 Four Hundred Dawns</a><br>
+<a class="CW missing" href="episodes.php?episodeID=357&serialID=34">3.1.1 Four Hundred Dawns</a><br>
 
-<a class="CW missing">3.1.2 Trap of Steel</a><br>
+<a class="CW missing" href="episodes.php?episodeID=357&serialID=34">3.1.2 Trap of Steel</a><br>
 
-<a class="CW">3.1.3 Air Lock</a><br>
+<a class="CW" href="episodes.php?episodeID=357&serialID=34">3.1.3 Air Lock</a><br>
 
-<a class="CW missing">3.1.4 The Exploding Planet</a><br>
-
-
-<h3 class="CW missing">3.2 Mission to the Unknown (019)</h3><br>
-
-<a class="CW missing">3.2.1 Mission to the Unknown</a><br>
+<a class="CW missing" href="episodes.php?episodeID=357&serialID=34">3.1.4 The Exploding Planet</a><br>
 
 
-<h3 class="CW missing">3.3 The Myth Makers (020)</h3><br>
+<a class="CW" href="episodes.php?episodeID=358&serialID=34"><h3>3.2 Mission to the Unknown (019)</h3></a><br>
 
-<a class="CW missing">3.3.1 Temple of Secrets</a><br>
-
-<a class="CW missing">3.3.2 Small Prophet, Quick Return</a><br>
-
-<a class="CW missing">3.3.3 Death of a Spy</a><br>
-
-<a class="CW missing">3.3.4 Horse of Destruction</a><br>
+<a class="CW missing" href="episodes.php?episodeID=358&serialID=34">3.2.1 Mission to the Unknown</a><br>
 
 
-<h3 class="CW">3.4 The Daleks Master Plan (021)</h3><br>
+<a class="CW" href="episodes.php?episodeID=359&serialID=34"><h3>3.3 The Myth Makers (020)</h3></a><br>
 
-<a class="CW missing">3.4.1 The Nightmare Begins</a><br>
+<a class="CW missing" href="episodes.php?episodeID=359&serialID=34">3.3.1 Temple of Secrets</a><br>
 
-<a class="CW">3.4.2 Day of Armageddon</a><br>
+<a class="CW missing" href="episodes.php?episodeID=359&serialID=34">3.3.2 Small Prophet, Quick Return</a><br>
 
-<a class="CW missing">3.4.3 Devil's Planet</a><br>
+<a class="CW missing" href="episodes.php?episodeID=359&serialID=34">3.3.3 Death of a Spy</a><br>
 
-<a class="CW missing">3.4.4 The Traitors</a><br>
-
-<a class="CW">3.4.5 Counter Plot</a><br>
-
-<a class="CW missing">3.4.6 Coronas of the Sun</a><br>
-
-<a class="CW missing">3.4.7 The Feast of Steven</a><br>
-
-<a class="CW missing">3.4.8 Volcano</a><br>
-
-<a class="CW missing">3.4.9 Golden Death</a><br>
-
-<a class="CW">3.4.10 Escape Switch</a><br>
-
-<a class="CW missing">3.4.11 The Abandoned Planet</a><br>
-
-<a class="CW missing">3.4.12 Destruction of Time</a><br>
+<a class="CW missing" href="episodes.php?episodeID=359&serialID=34">3.3.4 Horse of Destruction</a><br>
 
 
-<h3 class="CW missing">3.5 The Massacre of St. Bartholomew's Eve (022)</h3><br>
+<a class="CW" href="episodes.php?episodeID=360&serialID=34"><h3>3.4 The Daleks' Master Plan (021)</h3></a><br>
 
-<a class="CW missing">3.5.1 War of God</a><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.1 The Nightmare Begins</a><br>
 
-<a class="CW missing">3.5.2 The Sea Beggar</a><br>
+<a class="CW" href="episodes.php?episodeID=360&serialID=34">3.4.2 Day of Armageddon</a><br>
 
-<a class="CW missing">3.5.3 Priest of Death</a><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.3 Devil's Planet</a><br>
 
-<a class="CW missing">3.5.4 Bell of Doom</a><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.4 The Traitors</a><br>
 
+<a class="CW" href="episodes.php?episodeID=360&serialID=34">3.4.5 Counter Plot</a><br>
 
-<h3 class="CW">3.6 The Ark (023)</h3><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.6 Coronas of the Sun</a><br>
 
-<a class="CW">3.6.1 The Steel Sky</a><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.7 The Feast of Steven</a><br>
 
-<a class="CW">3.6.2 The Plague</a><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.8 Volcano</a><br>
 
-<a class="CW">3.6.3 The Return</a><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.9 Golden Death</a><br>
 
-<a class="CW">3.6.4 The Bomb</a><br>
+<a class="CW" href="episodes.php?episodeID=360&serialID=34">3.4.10 Escape Switch</a><br>
 
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.11 The Abandoned Planet</a><br>
 
-<h3 class="CW">3.7 The Celestial Toymaker (024)</h3><br>
-
-<a class="CW missing">3.7.1 The Celestial Toyroom</a><br>
-
-<a class="CW missing">3.7.2 The Hall of Dolls</a><br>
-
-<a class="CW missing">3.7.3 The Dancing Floor</a><br>
-
-<a class="CW">3.7.4 The Final Test</a><br>
+<a class="CW missing" href="episodes.php?episodeID=360&serialID=34">3.4.12 Destruction of Time</a><br>
 
 
-<h3 class="CW">3.8 The Gunfighters (025)</h3><br>
+<a class="CW" href="episodes.php?episodeID=361&serialID=34"><h3>3.5 The Massacre of St. Bartholomew's Eve (022)</h3></a><br>
 
-<a class="CW">3.8.1 A Holiday for the Doctor</a><br>
+<a class="CW missing" href="episodes.php?episodeID=361&serialID=34">3.5.1 War of God</a><br>
 
-<a class="CW">3.8.2 Don't Shoot the Pianist</a><br>
+<a class="CW missing" href="episodes.php?episodeID=361&serialID=34">3.5.2 The Sea Beggar</a><br>
 
-<a class="CW">3.8.3 Johnny Ringo</a><br>
+<a class="CW missing" href="episodes.php?episodeID=361&serialID=34">3.5.3 Priest of Death</a><br>
 
-<a class="CW">3.8.4 The OK Corral</a><br>
-
-
-<h3 class="CW missing">3.9 The Savages (026)</h3><br>
-
-<a class="CW missing">3.9.1 The Savages Part One</a><br>
-
-<a class="CW missing">3.9.2 The Savages Part Two</a><br>
-
-<a class="CW missing">3.9.3 The Savages Part Three</a><br>
-
-<a class="CW missing">3.9.4 The Savages Part Four</a><br>
+<a class="CW missing" href="episodes.php?episodeID=361&serialID=34">3.5.4 Bell of Doom</a><br>
 
 
-<h3 class="CW">3.10 The War Machines (027)</h3><br>
+<a class="CW" href="episodes.php?episodeID=362&serialID=34"><h3>3.6 The Ark (023)</h3></a><br>
 
-<a class="CW">3.10.1 The War Machines Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=362&serialID=34">3.6.1 The Steel Sky</a><br>
 
-<a class="CW">3.10.2 The War Machines Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=362&serialID=34">3.6.2 The Plague</a><br>
 
-<a class="CW">3.10.3 The War Machines Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=362&serialID=34">3.6.3 The Return</a><br>
 
-<a class="CW">3.10.4 The War Machines Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=362&serialID=34">3.6.4 The Bomb</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=363&serialID=34"><h3>3.7 The Celestial Toymaker (024)</h3></a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=363&serialID=34">3.7.1 The Celestial Toyroom</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=363&serialID=34">3.7.2 The Hall of Dolls</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=363&serialID=34">3.7.3 The Dancing Floor</a><br>
+
+<a class="CW" href="episodes.php?episodeID=363&serialID=34">3.7.4 The Final Test</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=364&serialID=34"><h3>3.8 The Gunfighters (025)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=364&serialID=34">3.8.1 A Holiday for the Doctor</a><br>
+
+<a class="CW" href="episodes.php?episodeID=364&serialID=34">3.8.2 Don't Shoot the Pianist</a><br>
+
+<a class="CW" href="episodes.php?episodeID=364&serialID=34">3.8.3 Johnny Ringo</a><br>
+
+<a class="CW" href="episodes.php?episodeID=364&serialID=34">3.8.4 The OK Corral</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=365&serialID=34"><h3>3.9 The Savages (026)</h3></a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=365&serialID=34">3.9.1 The Savages Part One</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=365&serialID=34">3.9.2 The Savages Part Two</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=365&serialID=34">3.9.3 The Savages Part Three</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=365&serialID=34">3.9.4 The Savages Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=366&serialID=34"><h3>3.10 The War Machines (027)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=366&serialID=34">3.10.1 The War Machines Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=366&serialID=34">3.10.2 The War Machines Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=366&serialID=34">3.10.3 The War Machines Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=366&serialID=34">3.10.4 The War Machines Part Four</a><br>
+</div>
+
+
 
 
 <a name="CW4" class="jumper"></a>
+<div id="35">
 <h2 class="CW">Season Four</h2><br>
 
-<h3 class="CW missing">4.1 The Smugglers (028)</h3><br>
+<a class="CW" href="episodes.php?episodeID=367&serialID=35"><h3>4.1 The Smugglers (028)</h3></a><br>
 
-<a class="CW missing">4.1.1 The Smugglers Part One</a><br>
+<a class="CW missing" href="episodes.php?episodeID=367&serialID=35">4.1.1 The Smugglers Part One</a><br>
 
-<a class="CW missing">4.1.2 The Smugglers Part Two</a><br>
+<a class="CW missing" href="episodes.php?episodeID=367&serialID=35">4.1.2 The Smugglers Part Two</a><br>
 
-<a class="CW missing">4.1.3 The Smugglers Part Three</a><br>
+<a class="CW missing" href="episodes.php?episodeID=367&serialID=35">4.1.3 The Smugglers Part Three</a><br>
 
-<a class="CW missing">4.1.4 The Smugglers Part Four</a><br>
-
-
-<h3 class="CW">4.2 The Tenth Planet (029)</h3><br>
-
-<a class="CW">4.2.1 The Tenth Planet Part One</a><br>
-
-<a class="CW">4.2.2 The Tenth Planet Part Two</a><br>
-
-<a class="CW">4.2.3 The Tenth Planet Part Three</a><br>
-
-<a class="CW missing">4.2.4 The Tenth Planet Part Four</a><br>
+<a class="CW missing" href="episodes.php?episodeID=367&serialID=35">4.1.4 The Smugglers Part Four</a><br>
 
 
-<h3 class="CW missing">4.3 The Power of the Daleks (030)</h3><br>
+<a class="CW" href="episodes.php?episodeID=368&serialID=35"><h3>4.2 The Tenth Planet (029)</h3></a><br>
 
-<a class="CW missing">4.3.1 The Power of the Daleks Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=368&serialID=35">4.2.1 The Tenth Planet Part One</a><br>
 
-<a class="CW missing">4.3.2 The Power of the Daleks Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=368&serialID=35">4.2.2 The Tenth Planet Part Two</a><br>
 
-<a class="CW missing">4.3.3 The Power of the Daleks Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=368&serialID=35">4.2.3 The Tenth Planet Part Three</a><br>
 
-<a class="CW missing">4.3.4 The Power of the Daleks Part Four</a><br>
-
-<a class="CW missing">4.3.5 The Power of the Daleks Part Five</a><br>
-
-<a class="CW missing">4.3.6 The Power of the Daleks Part Six</a><br>
+<a class="CW missing" href="episodes.php?episodeID=368&serialID=35">4.2.4 The Tenth Planet Part Four</a><br>
 
 
-<h3 class="CW missing">4.4 The Highlanders (031)</h3><br>
+<a class="CW" href="episodes.php?episodeID=369&serialID=35"><h3>4.3 The Power of the Daleks (030)</h3></a><br>
 
-<a class="CW missing">4.4.1 The Highlanders Part One</a><br>
+<a class="CW missing" href="episodes.php?episodeID=369&serialID=35">4.3.1 The Power of the Daleks Part One</a><br>
 
-<a class="CW missing">4.4.2 The Highlanders Part Two</a><br>
+<a class="CW missing" href="episodes.php?episodeID=369&serialID=35">4.3.2 The Power of the Daleks Part Two</a><br>
 
-<a class="CW missing">4.4.3 The Highlanders Part Three</a><br>
+<a class="CW missing" href="episodes.php?episodeID=369&serialID=35">4.3.3 The Power of the Daleks Part Three</a><br>
 
-<a class="CW missing">4.4.4 The Highlanders Part Four</a><br>
+<a class="CW missing" href="episodes.php?episodeID=369&serialID=35">4.3.4 The Power of the Daleks Part Four</a><br>
 
+<a class="CW missing" href="episodes.php?episodeID=369&serialID=35">4.3.5 The Power of the Daleks Part Five</a><br>
 
-<h3 class="CW">4.5 The Underwater Menace (032)</h3><br>
-
-<a class="CW missing">4.5.1 The Underwater Menace Part One</a><br>
-
-<a class="CW">4.5.2 The Underwater Menace Part Two</a><br>
-
-<a class="CW">4.5.3 The Underwater Menace Part Three</a><br>
-
-<a class="CW missing">4.5.4 The Underwater Menace Part Four</a><br><br>
+<a class="CW missing" href="episodes.php?episodeID=369&serialID=35">4.3.6 The Power of the Daleks Part Six</a><br>
 
 
-<h3 class="CW">4.6 The Moonbase (033)</h3><br>
+<a class="CW" href="episodes.php?episodeID=370&serialID=35"><h3>4.4 The Highlanders (031)</h3></a><br>
 
-<a class="CW missing">4.6.1 The Moonbase Part One</a><br>
+<a class="CW missing" href="episodes.php?episodeID=370&serialID=35">4.4.1 The Highlanders Part One</a><br>
 
-<a class="CW">4.6.2 The Moonbase Part Two</a><br>
+<a class="CW missing" href="episodes.php?episodeID=370&serialID=35">4.4.2 The Highlanders Part Two</a><br>
 
-<a class="CW missing">4.6.3 The Moonbase Part Three</a><br>
+<a class="CW missing" href="episodes.php?episodeID=370&serialID=35">4.4.3 The Highlanders Part Three</a><br>
 
-<a class="CW">4.6.4 The Moonbase Part Four</a><br>
-
-
-<h3 class="CW missing">4.7 The Macra Terror (034)</h3><br>
-
-<a class="CW missing">4.7.1 The Macra Terror Part One</a><br>
-
-<a class="CW missing">4.7.2 The Macra Terror Part Two</a><br>
-
-<a class="CW missing">4.7.3 The Macra Terror Part Three</a><br>
-
-<a class="CW missing">4.7.4 The Macra Terror Part Four</a><br>
+<a class="CW missing" href="episodes.php?episodeID=370&serialID=35">4.4.4 The Highlanders Part Four</a><br>
 
 
-<h3 class="CW">4.8 The Faceless Ones (035)</h3><br>
+<a class="CW" href="episodes.php?episodeID=371&serialID=35"><h3>4.5 The Underwater Menace (032)</h3></a><br>
 
-<a class="CW">4.8.1 The Faceless Ones Part One</a><br>
+<a class="CW missing" href="episodes.php?episodeID=371&serialID=35">4.5.1 The Underwater Menace Part One</a><br>
 
-<a class="CW missing">4.8.2 The Faceless Ones Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=371&serialID=35">4.5.2 The Underwater Menace Part Two</a><br>
 
-<a class="CW">4.8.3 The Faceless Ones Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=371&serialID=35">4.5.3 The Underwater Menace Part Three</a><br>
 
-<a class="CW missing">4.8.4 The Faceless Ones Part Four</a><br>
-
-<a class="CW missing">4.8.5 The Faceless Ones Part Five</a><br>
-
-<a class="CW missing">4.8.6 The Faceless Ones Part Six</a><br>
+<a class="CW missing" href="episodes.php?episodeID=371&serialID=35">4.5.4 The Underwater Menace Part Four</a><br><br>
 
 
-<h3 class="CW">4.9 The Evil of the Daleks (036)</h3><br>
+<a class="CW" href="episodes.php?episodeID=372&serialID=35"><h3>4.6 The Moonbase (033)</h3></a><br>
 
-<a class="CW missing">4.9.1 The Evil of the Daleks Part One</a><br>
+<a class="CW missing" href="episodes.php?episodeID=372&serialID=35">4.6.1 The Moonbase Part One</a><br>
 
-<a class="CW">4.9.2 The Evil of the Daleks Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=372&serialID=35">4.6.2 The Moonbase Part Two</a><br>
 
-<a class="CW missing">4.9.3 The Evil of the Daleks Part Three</a><br>
+<a class="CW missing" href="episodes.php?episodeID=372&serialID=35">4.6.3 The Moonbase Part Three</a><br>
 
-<a class="CW missing">4.9.4 The Evil of the Daleks Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=372&serialID=35">4.6.4 The Moonbase Part Four</a><br>
 
-<a class="CW missing">4.9.5 The Evil of the Daleks Part Five</a><br>
 
-<a class="CW missing">4.9.6 The Evil of the Daleks Part Six</a><br>
+<a class="CW" href="episodes.php?episodeID=373&serialID=35"><h3>4.7 The Macra Terror (034)</h3></a><br>
 
-<a class="CW missing">4.9.7 The Evil of the Daleks Part Seven</a><br>
+<a class="CW missing" href="episodes.php?episodeID=373&serialID=35">4.7.1 The Macra Terror Part One</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=373&serialID=35">4.7.2 The Macra Terror Part Two</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=373&serialID=35">4.7.3 The Macra Terror Part Three</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=373&serialID=35">4.7.4 The Macra Terror Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=374&serialID=35"><h3>4.8 The Faceless Ones (035)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=374&serialID=35">4.8.1 The Faceless Ones Part One</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=374&serialID=35">4.8.2 The Faceless Ones Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=374&serialID=35">4.8.3 The Faceless Ones Part Three</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=374&serialID=35">4.8.4 The Faceless Ones Part Four</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=374&serialID=35">4.8.5 The Faceless Ones Part Five</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=374&serialID=35">4.8.6 The Faceless Ones Part Six</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=375&serialID=35"><h3>4.9 The Evil of the Daleks (036)</h3></a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=375&serialID=35">4.9.1 The Evil of the Daleks Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=375&serialID=35">4.9.2 The Evil of the Daleks Part Two</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=375&serialID=35">4.9.3 The Evil of the Daleks Part Three</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=375&serialID=35">4.9.4 The Evil of the Daleks Part Four</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=375&serialID=35">4.9.5 The Evil of the Daleks Part Five</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=375&serialID=35">4.9.6 The Evil of the Daleks Part Six</a><br>
+
+<a class="CW missing" href="episodes.php?episodeID=375&serialID=35">4.9.7 The Evil of the Daleks Part Seven</a><br>
+</div>
+
 
 
 <a name="CW5" class="jumper"></a>

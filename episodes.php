@@ -58,7 +58,14 @@
 		if ($type == 3) {
 			$a = db_select("SELECT * FROM `CW Episodes` WHERE `LinkID` = $episodeID");
 			foreach ($a as $x) {
-				echo "<h2>Where To Watch " . $x[Title] . "</h2>";
+				$t = $x[Title];
+				
+				if (strpos($t, 'Part ') !== false) {
+					echo "<h2>Where To Watch " . $t . "</h2>";
+				} else {
+					echo "<h2>Where To Watch <i>" . $t . "</i></h2>";
+				}
+				
 				$epID = $x[EpisodeID];
 				$m = $x[Missing];
 				
@@ -132,7 +139,7 @@
 		
 		$bts = db_select("SELECT * FROM `BehindTheScenes` WHERE `LinkID` = $episodeID");
 			if ($bts != null) {
-				echo "<h2>Behind the Scenes Videos</h2><ul>";
+				echo "<br><h2>Behind the Scenes Videos</h2><ul>";
 				if($bts === false) {
 					$error = db_error();
 				}

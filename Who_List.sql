@@ -184,6 +184,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Introduction to Time Heist', 'https://www.youtube.com/watch?v=HvVpnGz6CDU', 21),
 ('Deleted Scene', 'https://www.youtube.com/watch?v=HyS8oD64L-s', 36),
 ('How to Jump a Horse Through a Mirror', 'https://www.youtube.com/watch?v=I23kzao3EnQ', 302),
+('The Budget', 'https://www.youtube.com/watch?v=IBwsYk19H-o', 348),
 ('<i>The Snowmen</i> - Behind the Scenes', 'https://www.youtube.com/watch?v=icOHl4qCikk', 69),
 ('Behind the Scenes of <i>Nightmare in Silver</i>', 'https://www.youtube.com/watch?v=ISdE98RS5jw', 54),
 ('<i>A Town Called Mercy</i> - Behind the Scenes', 'https://www.youtube.com/watch?v=ITMdBYYSzuQ', 66),
@@ -242,6 +243,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Double Down', 'https://www.youtube.com/watch?v=XHnVN5AYMyc', 121),
 ('Recreating the Great War', 'https://www.youtube.com/watch?v=Y5UWlg78k8Q', 289),
 ('The Doctor Gets Cross', 'https://www.youtube.com/watch?v=YFK4yZhqgnk', 123),
+('Making <i>Planet of Giants</i>', 'https://www.youtube.com/watch?v=Yr1HIdBTgoI', 348),
 ('High In Irony', 'https://www.youtube.com/watch?v=Yr5L9LbFwus', 116),
 ('Filming in Shakespeare''s Globe', 'https://www.youtube.com/watch?v=yuOFcG4ibtQ', 280),
 ('Exclusive Inside Look at Episode 8', 'https://www.youtube.com/watch?v=YWNw1iHhdWE', 24),
@@ -259,7 +261,7 @@ CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `EpisodeID` int(11) NOT NULL,
   `LinkID` int(11) NOT NULL,
   `Missing` tinyint(1) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -303,7 +305,46 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('A Change of Identity', 39, 347, 0),
 ('The Tyrant of France', 40, 347, 1),
 ('A Bargain of Necessity', 41, 347, 1),
-('Prisoners of Conciergerie', 42, 347, 0);
+('Prisoners of Conciergerie', 42, 347, 0),
+('Planet of Giants', 43, 348, 0),
+('Dangerous Journey', 44, 348, 0),
+('Crisis', 45, 348, 0),
+('World''s End', 46, 349, 0),
+('The Daleks', 47, 349, 0),
+('Day of Reckoning', 48, 349, 0),
+('The End of Tomorrow', 49, 349, 0),
+('The Waking Ally', 50, 349, 0),
+('Flashpoint', 51, 349, 0),
+('The Powerful Enemy', 52, 350, 0),
+('Desperate Measures', 53, 350, 0),
+('The Slave Traders', 54, 351, 0),
+('All Roads Lead to Rome', 55, 351, 0),
+('Conspiracy', 56, 351, 0),
+('Inferno', 57, 351, 0),
+('The Web Planet', 58, 352, 0),
+('The Zarbi', 59, 352, 0),
+('Escape to Danger', 60, 352, 0),
+('Crater of Needles', 61, 352, 0),
+('Invasion', 62, 352, 0),
+('The Centre', 63, 352, 0),
+('The Lion', 64, 353, 0),
+('The Knight of Jaffa', 65, 353, 1),
+('The Wheel of Fortune', 66, 353, 0),
+('The Warlords', 67, 353, 1),
+('The Space Museum', 68, 354, 0),
+('The Dimensions of Time', 69, 354, 0),
+('The Search', 70, 354, 0),
+('The Final Phase', 71, 354, 0),
+('The Executioners', 72, 355, 0),
+('The Time of Death', 73, 355, 0),
+('Flight Through Eternity', 74, 355, 0),
+('Journey into Terror', 75, 355, 0),
+('The Death of Doctor Who', 76, 355, 0),
+('The Planet of Decision', 77, 355, 0),
+('The Watcher', 78, 356, 0),
+('The Meddling Monk', 79, 356, 0),
+('A Battle of Wits', 80, 356, 0),
+('Checkmate', 81, 356, 0);
 
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
@@ -668,7 +709,17 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (344, 3, 'The Keys of Marinus', '1.5', '005', 'The TARDIS arrives on the planet Marinus on an island of glass surrounded by a sea of acid. The travelers are forced by the elderly Arbitan to retrieve four of the five operating keys to a machine called the Conscience of Marinus, of which he is the keeper. These have been hidden in different locations around the planet to prevent them falling into the hands of the evil Yartek and his Voord warriors, who plan to seize the machine and use its originally benevolent mind-influencing power for their own sinister purposes.'),
 (345, 3, 'The Aztecs', '1.6', '006', 'The arrival of the TARDIS in 15th century Mexico leads the crew to the doomed Aztec people, a mixture of high culture and brutal savagery. Matters are further complicated when Barbara is mistaken for a god and the Doctor becomes engaged to be married.'),
 (346, 3, 'The Sensorites', '1.7', '007', 'The Doctor, Ian, Barbara and Susan arrive in the TARDIS on board a spaceship. The humans on board are being attacked by the ominous Sensorites. Or are they?'),
-(347, 3, 'The Reign of Terror', '1.8', '008', 'The TARDIS materializes not far from Paris in 1794 -- one of the bloodiest years following the French Revolution of 1789. The travelers become involved with a group rescuing prisoners from the guillotine and get caught up in the machinations of an English undercover spy.');
+(347, 3, 'The Reign of Terror', '1.8', '008', 'The TARDIS materializes not far from Paris in 1794 -- one of the bloodiest years following the French Revolution of 1789. The travelers become involved with a group rescuing prisoners from the guillotine and get caught up in the machinations of an English undercover spy.'),
+(348, 3, 'Planet of Giants', '2.1', '009', 'The doors of the TARDIS open of their own accord just before it materializes. Upon emerging, the travelers find the ship has been reduced in size and they are now only about an inch tall.\r\n\r\nAs tiny people, they stumble across a plot by a ruthless businessman and his misguided scientist colleague to launch a new insecticide -- a product so destructive that it would kill not only those insects harmful to agriculture, but also those vital to it.'),
+(349, 3, 'The Dalek Invasion of Earth', '2.2', '010', 'The TARDIS returns to London,but in the 22nd century. With bodies in the river, and quiet in the docklands, the city is a very different place. The Daleks have invaded and it''s up to the Doctor to thwart them once again.'),
+(350, 3, 'The Rescue', '2.3', '011', 'The Doctor, Ian and Barbara arrive on the planet Dido. They find a crashed spaceship, the only two survivors of which are terrorized by the monster Koquillion. But who is Koquillion?');
+INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Description`) VALUES
+(351, 3, 'The Romans', '2.4', '012', 'Landing in Rome, A.D. 64 the travelers take a rare holiday. While Ian and Barbara are happy to relax, the Doctor and Vicki set off to pursue adventure.\r\nHowever, adventure soon finds Ian and Barbara too as they are kidnapped by slave traders, and the Doctor''s imitation of Maximus Pettulian sees him taken to the court of Emperor Nero where he inadvertently plays a part in deciding the course of history...'),
+(352, 3, 'The Web Planet', '2.5', '013', 'On the planet Vortis, the Doctor, Ian, Barbara and Vicki are swept up in the struggles of the butterfly-like Menoptera, the original denizens of Vortis who were forced to flee the planet in order to escape the encroaching web of the Animus and its mind-controlled minions.'),
+(353, 3, 'The Crusade', '2.6', '014', 'The TARDIS arrives in 12th century Palestine where a holy war is in progress between the forces of King Richard the Lionheart and the Saracen ruler Saladin. Barbara is abducted in a Saracen ambush, and the Doctor, Ian and Vicki make their way to King Richard''s palace in the city of Jaffa.'),
+(354, 3, 'The Space Museum', '2.7', '015', 'The TARDIS jumps a time track and the travelers arrive on the planet Xeros. There they discover their own future selves displayed as exhibits in a museum established as a monument to the galactic conquests of the warlike Morok invaders who now rule the planet. When time shifts back to normal, they realize that they must do everything they can to avert this potential future.'),
+(355, 3, 'The Chase', '2.8', '016', 'The travelers learn that Daleks, equipped with their own time machine, are on their trail with orders to exterminate them. They flee in the TARDIS.'),
+(356, 3, 'The Time Meddler', '2.9', '017', 'The Doctor, Vicki, and new companion Steven Taylor arrive in Saxon Northumbria on the eve of the Viking and Norman invasions. It is 1066, a pivotal moment in British history. The hand of a mysterious Monk is at work in the nearby monastery, intending that history takes a different course.');
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,
@@ -1957,7 +2008,7 @@ ALTER TABLE `WhereToWatch`
 
 
 ALTER TABLE `CW Episodes`
-  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=43;
+  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=82;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

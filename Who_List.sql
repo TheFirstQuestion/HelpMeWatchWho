@@ -140,6 +140,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('The Making of The Day of the Doctor', 'https://www.youtube.com/watch?v=15YZjf2fvGw', 32),
 ('The Return of Sarah Jane', 'https://www.youtube.com/watch?v=2OATFrv2_D0', 300),
 ('The Doctor''s Guitar', 'https://www.youtube.com/watch?v=31b5MewfofY', 1),
+('The Lost Serial', 'https://www.youtube.com/watch?v=3bj82Dil3k4', 379),
 ('Exclusive Sneak Peek From BBC America''s Original <i>Doctor Who</i> Specials', 'https://www.youtube.com/watch?v=3i0mm1Q7WG4', 113),
 ('We''re in Hitler''s Office', 'https://www.youtube.com/watch?v=3OR_FDElqV8', 86),
 ('Neil Gaiman on his <i>Doctor Who</i> Episode', 'https://www.youtube.com/watch?v=4h4-7N9jtN8', 118),
@@ -156,6 +157,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Peter Kay & Marc Warren', 'https://www.youtube.com/watch?v=9vUQ2Z6cHRA', 314),
 ('Iconic Monsters', 'https://www.youtube.com/watch?v=a19HDdjSuqQ', 304),
 ('Colony Sarff', 'https://www.youtube.com/watch?v=a1XZjTEZ0Pc', 1),
+('Tutankhamun and the Cybermen', 'https://www.youtube.com/watch?v=BEo98ZYinJc', 376),
 ('Behind the Scenes of <i>Cold War</i>', 'https://www.youtube.com/watch?v=cweHoRqlAo4', 50),
 ('Introduction to The Caretaker', 'https://www.youtube.com/watch?v=d7DoKzGef9k', 22),
 ('First Read Through', 'https://www.youtube.com/watch?v=DEFNu5m0n2k', 302),
@@ -200,10 +202,12 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Becoming a Ghost', 'https://www.youtube.com/watch?v=leYlooFu5D0', 5),
 ('<i>Doctor Who: An Unearthly Child</i> Event Part 1/2', 'https://www.youtube.com/watch?v=LKfB9wz7nbA', 340),
 ('The Fireball', 'https://www.youtube.com/watch?v=LMqBrnWrF34', 5),
+('BFI <i>Tomb of the Cybermen</i> Event', 'https://www.youtube.com/watch?v=LQe7s7VXgjw', 376),
 ('Behind the Scenes of <i>The Rings Of Akhaten</i>', 'https://www.youtube.com/watch?v=l_07CP6yrxA', 49),
 ('<i>Asylum of the Daleks</i> - Behind the Scenes', 'https://www.youtube.com/watch?v=mmxKlUYjKuA', 64),
 ('The Fisher King', 'https://www.youtube.com/watch?v=mvgsC9mjm-o', 6),
 ('Visual Effects Secrets', 'https://www.youtube.com/watch?v=mZ0BHtWSWMg', 280),
+('The Cybermen', 'https://www.youtube.com/watch?v=nOrql7vzYWA', 376),
 ('Recreating 19th Century Wales', 'https://www.youtube.com/watch?v=nVyKMYHSXOo', 323),
 ('Matt Smith on the Christmas Special', 'https://www.youtube.com/watch?v=O2yEm_QLtPw', 83),
 ('<i>Dinosaurs on a Spaceship</i> - Behind the Scenes', 'https://www.youtube.com/watch?v=O9Jf4_K7CbE', 65),
@@ -264,7 +268,7 @@ CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `EpisodeID` int(11) NOT NULL,
   `LinkID` int(11) NOT NULL,
   `Missing` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=170 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=210 DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -435,7 +439,47 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('Part Four', 166, 375, 1),
 ('Part Five', 167, 375, 1),
 ('Part Six', 168, 375, 1),
-('Part Seven', 169, 375, 1);
+('Part Seven', 169, 375, 1),
+('Part One', 170, 376, 0),
+('Part Two', 171, 376, 0),
+('Part Three', 172, 376, 0),
+('Part Four', 173, 376, 0),
+('Part One', 174, 377, 1),
+('Part Two', 175, 377, 0),
+('Part Three', 176, 377, 1),
+('Part Four', 177, 377, 1),
+('Part Five', 178, 377, 1),
+('Part Six', 179, 377, 1),
+('Part One', 180, 378, 0),
+('Part Two', 181, 378, 1),
+('Part Three', 182, 378, 1),
+('Part Four', 183, 378, 0),
+('Part Five', 184, 378, 0),
+('Part Six', 185, 378, 0),
+('Part One', 186, 379, 0),
+('Part Two', 187, 379, 0),
+('Part Three', 188, 379, 0),
+('Part Four', 189, 379, 0),
+('Part Five', 190, 379, 0),
+('Part Six', 191, 379, 0),
+('Part One', 192, 380, 0),
+('Part Two', 193, 380, 0),
+('Part Three', 194, 380, 1),
+('Part Four', 195, 380, 0),
+('Part Five', 196, 380, 0),
+('Part Six', 197, 380, 0),
+('Part One', 198, 381, 1),
+('Part Two', 199, 381, 1),
+('Part Three', 200, 381, 1),
+('Part Four', 201, 381, 1),
+('Part Five', 202, 381, 1),
+('Part Six', 203, 381, 1),
+('Part One', 204, 382, 1),
+('Part Two', 205, 382, 1),
+('Part Three', 206, 382, 0),
+('Part Four', 207, 382, 1),
+('Part Five', 208, 382, 1),
+('Part Six', 209, 382, 0);
 
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
@@ -829,7 +873,14 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (372, 3, 'The Moonbase', '4.6', '033', 'The TARDIS arrives in 2070 on the Moon, where a weather control station is in the grip of a plague epidemic -- in reality the result of an alien poison planted by the Cybermen. Jamie is knocked unconscious and lapses into a delirium, leaving the Doctor, Ben, and Polly to fight off a massive Cyberman attack.'),
 (373, 3, 'The Macra Terror', '4.7', '034', 'When the Doctor, Polly, Ben, and Jamie visit a human colony that appears to be one big holiday camp, they think they have come across a truly happy place. Yet a shadowy presence soon makes them realize that the surface contentment is carefully controlled.\r\nThe colony''s inhabitants have been brainwashed by giant, crab-like creatures -- the Macra. Insidious propaganda, broadcast by the Controller, forces the humans to mine a gas that is essential for the Macra to survive, but fatal to them.'),
 (374, 3, 'The Faceless Ones', '4.8', '035', 'The TARDIS arrives on Earth in July, 1966, on a runway at Gatwick Airport. Polly witnesses a murder in a nearby hangar and is then kidnapped by the perpetrator, and Ben mysteriously vanishes. The Doctor and Jamie are left to convince the skeptical airport Commandant there has been foul play.'),
-(375, 3, 'The Evil of the Daleks', '4.9', '036', 'The Daleks draft the Doctor into distilling the Human Factor. Once implanted, it will make the Dalek race invincible. Jamie''s faith in the Doctor is stretched to the limit as the Doctor appears to be collaborating with the Daleks. The Doctor has a few tricks up his sleeve, but then again, so might the Daleks.');
+(375, 3, 'The Evil of the Daleks', '4.9', '036', 'The Daleks draft the Doctor into distilling the Human Factor. Once implanted, it will make the Dalek race invincible. Jamie''s faith in the Doctor is stretched to the limit as the Doctor appears to be collaborating with the Daleks. The Doctor has a few tricks up his sleeve, but then again, so might the Daleks.'),
+(376, 3, 'The Tomb of the Cybermen', '5.1', '037', 'The TARDIS arrives on the planet Telos, where an Earth archaeological expedition is trying to uncover the lost tombs of the Cybermen. With a lot of help from the Doctor, the archaeologists enter the tombs.'),
+(377, 3, 'The Abominable Snowman', '5.2', '038', 'Mysterious forces are at work in 1930s Tibet. The once gentle Yeti have turned savage and besieged a Buddhist monastery. The Doctor, Jamie and Victoria arrive expecting a friendly welcome from the abbot, but soon become ensnared in the plans of the mysterious being known as the Great Intelligence.'),
+(378, 3, 'The Ice Warriors', '5.3', '039', 'The TARDIS arrives on Earth in a new ice age. The travelers make their way into a base where scientists are using an ionizer device to combat the advance of a glacier.\r\n\r\nA giant humanoid creature, called an Ice Warrior by one of the scientists, has been found frozen in the nearby glacier.'),
+(379, 3, 'The Enemy of the World', '5.4', '040', 'On Earth in 2018, the Doctor and his companions are enmeshed in a deadly web of intrigue thanks to his uncanny resemblance to the scientist/politician Salamander. He is hailed as the "shopkeeper of the world" for his efforts to relieve global famine, but why do his rivals keep disappearing? How can he predict so many natural disasters? The Doctor must expose Salamander''s schemes before he takes over the world.'),
+(380, 3, 'The Web of Fear', '5.5', '041', 'The TARDIS narrowly avoids becoming engulfed in a cobwebby substance in space. It arrives in the London Underground railway system, the tunnels of which are being overrun by the web and by the Great Intelligence''s robot Yeti.\r\n\r\nThe time travelers learn this crisis was precipitated when Professor Travers, whom they first met in the Himalayas some thirty years earlier, accidentally caused one of the Yeti to be reactivated, opening the way for the Intelligence to invade again.\r\n\r\nThe travelers work alongside army forces as they battle the alien menace, hampered by the fact that one of their number has fallen under the Intelligence''s influence -- there is a traitor in their midst.'),
+(381, 3, 'Fury from the Deep', '5.6', '042', 'The TARDIS lands on the surface of the sea, just off the east coast of England. The time travelers use a rubber dinghy to get ashore, where they are shot with tranquilizer darts and taken prisoner by security guards, having arrived in the restricted area of a gas refinery.\r\n\r\nAt the refinery base, the Doctor learns that there have been a number of unexplained problems with the pressure in the feed pipes from the offshore drilling rigs. One of the rigs has sucked up a parasitic form of seaweed,  capable of releasing poisonous gas or a strange kind of foam that allows it to take control of the minds of those it touches.'),
+(382, 3, 'The Wheel in Space', '5.7', '043', 'The TARDIS materializes on board a spaceship where the Doctor and Jamie are attacked by a servo robot. Jamie contacts a nearby space station known as the Wheel and they are rescued. However, Cybermats also enter the station. This paves the way for an invasion of the station by Cybermen.');
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,
@@ -2118,7 +2169,7 @@ ALTER TABLE `WhereToWatch`
 
 
 ALTER TABLE `CW Episodes`
-  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=170;
+  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=210;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

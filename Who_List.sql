@@ -268,7 +268,7 @@ CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `EpisodeID` int(11) NOT NULL,
   `LinkID` int(11) NOT NULL,
   `Missing` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=210 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=255 DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -479,7 +479,52 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('Part Three', 206, 382, 0),
 ('Part Four', 207, 382, 1),
 ('Part Five', 208, 382, 1),
-('Part Six', 209, 382, 0);
+('Part Six', 209, 382, 0),
+('Part One', 210, 383, 0),
+('Part Two', 211, 383, 0),
+('Part Three', 212, 383, 0),
+('Part Four', 213, 383, 0),
+('Part Five', 214, 383, 0),
+('Part One', 215, 384, 0),
+('Part Two', 216, 384, 0),
+('Part Three', 217, 384, 0),
+('Part Four', 218, 384, 0),
+('Part Five', 219, 384, 0),
+('Part Six', 220, 384, 0),
+('Part One', 221, 385, 1),
+('Part Two', 222, 385, 0),
+('Part Three', 223, 385, 0),
+('Part Four', 224, 385, 1),
+('Part Five', 225, 385, 0),
+('Part Six', 226, 385, 0),
+('Part Seven', 227, 385, 0),
+('Part Eight', 228, 385, 0),
+('Part One', 229, 386, 0),
+('Part Two', 230, 386, 0),
+('Part Three', 231, 386, 0),
+('Part Four', 232, 386, 0),
+('Part One', 233, 387, 0),
+('Part Two', 234, 387, 0),
+('Part Three', 235, 387, 0),
+('Part Four', 236, 387, 0),
+('Part Five', 237, 387, 0),
+('Part Six', 238, 387, 0),
+('Part One', 239, 388, 1),
+('Part Two', 240, 388, 0),
+('Part Three', 241, 388, 1),
+('Part Four', 242, 388, 1),
+('Part Five', 243, 388, 1),
+('Part Six', 244, 388, 1),
+('Part One', 245, 389, 0),
+('Part Two', 246, 389, 0),
+('Part Three', 247, 389, 0),
+('Part Four', 248, 389, 0),
+('Part Five', 249, 389, 0),
+('Part Six', 250, 389, 0),
+('Part Seven', 251, 389, 0),
+('Part Eight', 252, 389, 0),
+('Part Nine', 253, 389, 0),
+('Part Ten', 254, 389, 0);
 
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
@@ -880,7 +925,14 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (379, 3, 'The Enemy of the World', '5.4', '040', 'On Earth in 2018, the Doctor and his companions are enmeshed in a deadly web of intrigue thanks to his uncanny resemblance to the scientist/politician Salamander. He is hailed as the "shopkeeper of the world" for his efforts to relieve global famine, but why do his rivals keep disappearing? How can he predict so many natural disasters? The Doctor must expose Salamander''s schemes before he takes over the world.'),
 (380, 3, 'The Web of Fear', '5.5', '041', 'The TARDIS narrowly avoids becoming engulfed in a cobwebby substance in space. It arrives in the London Underground railway system, the tunnels of which are being overrun by the web and by the Great Intelligence''s robot Yeti.\r\n\r\nThe time travelers learn this crisis was precipitated when Professor Travers, whom they first met in the Himalayas some thirty years earlier, accidentally caused one of the Yeti to be reactivated, opening the way for the Intelligence to invade again.\r\n\r\nThe travelers work alongside army forces as they battle the alien menace, hampered by the fact that one of their number has fallen under the Intelligence''s influence -- there is a traitor in their midst.'),
 (381, 3, 'Fury from the Deep', '5.6', '042', 'The TARDIS lands on the surface of the sea, just off the east coast of England. The time travelers use a rubber dinghy to get ashore, where they are shot with tranquilizer darts and taken prisoner by security guards, having arrived in the restricted area of a gas refinery.\r\n\r\nAt the refinery base, the Doctor learns that there have been a number of unexplained problems with the pressure in the feed pipes from the offshore drilling rigs. One of the rigs has sucked up a parasitic form of seaweed,  capable of releasing poisonous gas or a strange kind of foam that allows it to take control of the minds of those it touches.'),
-(382, 3, 'The Wheel in Space', '5.7', '043', 'The TARDIS materializes on board a spaceship where the Doctor and Jamie are attacked by a servo robot. Jamie contacts a nearby space station known as the Wheel and they are rescued. However, Cybermats also enter the station. This paves the way for an invasion of the station by Cybermen.');
+(382, 3, 'The Wheel in Space', '5.7', '043', 'The TARDIS materializes on board a spaceship where the Doctor and Jamie are attacked by a servo robot. Jamie contacts a nearby space station known as the Wheel and they are rescued. However, Cybermats also enter the station. This paves the way for an invasion of the station by Cybermen.'),
+(383, 3, 'The Dominators', '6.1', '044', 'When two belligerent Dominators and their robotic servant Quarks land on the peaceful planet Dulkis planning to drop a radioactive seed into the planet''s core to refuel their spaceship, the Doctor, Jamie, and Zoe must attempt to inspire the pacifist Dulcians to resist.'),
+(384, 3, 'The Mind Robber', '6.2', '045', 'The travelers find themselves in an endless void where they are menaced by white robots. Having regained the safety of the TARDIS, they believe they have escaped -- until the ship explodes. They find themselves in a land of fiction, where they are hunted by life-size clockwork soldiers and encounter characters like Rapunzel, the Karkus, and Swift''s Lemuel Gulliver.'),
+(385, 3, 'The Invasion', '6.3', '046', 'The Doctor, Jamie and Zoe return to Earth and become embroiled in the schemes of Tobias Vaughn. They meet up with an old friend, Colonel (now Brigadier) Lethbridge-Stewart, and some old enemies, the Cybermen.'),
+(386, 3, 'The Krotons', '6.4', '047', 'The TARDIS arrives on the planet of the Gonds, who are ruled and taught in a form of self-perpetuating slavery by the alien Krotons -- crystalline beings whose ship, the Dynatrope, crash-landed there thousands of years earlier after being damaged in a space battle.'),
+(387, 3, 'The Seeds of Death', '6.5', '048', 'The TARDIS lands in a space museum on Earth in the late 21st century, where the Doctor, Jamie and Zoe learn that contact has been lost between Earth and the Moon. In this era, instant travel - T-Mat - has revolutionized the Earth. Its people have lost interest in space travel. The Doctor and his companions travel to the Moon in an old-style rocket and reach the Moonbase, control centre for T-Mat, only to find a squad of Ice Warriors have commandeered the base and plan to use the T-Mat network to their advantage.'),
+(388, 3, 'The Space Pirates', '6.6', '049', 'The TARDIS materializes in Earth''s future on a space beacon just before it is attacked by pirates. The travelers find themselves trapped in a sealed section of the beacon and witness a conflict between the pirates and the Interstellar Space Corps.'),
+(389, 3, 'The War Games', '6.7', '050', 'The Doctor, Jamie and Zoe arrive on an unnamed planet. At first believing themselves in the midst of World War I, they soon realize it to be one of many War Zones overseen by the War Lords, who have kidnapped large numbers of human soldiers in order to create an army to conquer the galaxy. Infiltrating the control base, the Doctor discovers that the War Chief is also a member of his own race. The creeping realization sets in that the Doctor cannot solve this problem alone, and that his days of wandering may be at an end...');
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,
@@ -2169,7 +2221,7 @@ ALTER TABLE `WhereToWatch`
 
 
 ALTER TABLE `CW Episodes`
-  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=210;
+  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=255;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

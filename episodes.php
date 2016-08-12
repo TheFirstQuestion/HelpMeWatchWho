@@ -29,7 +29,6 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="episodes style.css">
-	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600|Maven+Pro" rel="stylesheet" type="text/css">
 	<script language="JavaScript"; src="boxes sort.js"></script>
 	<title>HelpMeWatchWho | <?php echo strip_tags($title); ?></title>
 </head>
@@ -42,9 +41,9 @@
 	<h1><?php echo $season; ?><?php if ($type == 1) { echo "/" . $season2; } ?>: <?php echo $title; ?></h1>
 	
 	<?php
-	if ($story != '') {
-		echo "<h3>Story&nbsp;No.&nbsp; $story</h3>";
-	};
+		if ($story != '') {
+			echo "<h3>Story&nbsp;No.&nbsp; $story</h3>";
+		};
 	?>
 	
 	<p><?php echo $desc; ?></p>

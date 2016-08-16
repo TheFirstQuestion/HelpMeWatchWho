@@ -4,7 +4,7 @@
 <?php require("header.php"); ?>
 
 <head>
-	<title>HelpMeWatchWho | Episodes</title>
+	<title>Episodes | HelpMeWatchWho</title>
 	<link type="text/css" rel="stylesheet" href="list style.css">
 	<script src="boxes sort.js"></script>
 </head>
@@ -1470,297 +1470,309 @@
 
 <a name="CW16" class="jumper"></a>
 <div id="keyToTime" class="dottedBox">
-<h2 class="CW">Season Sixteen: The Key to Time</h2><br>
+<div id="47">
+<h2 class="CW">Season&nbsp;Sixteen: The&nbsp;Key&nbsp;to&nbsp;Time</h2><br>
 
-<h3 class="CW">16.1 The Ribos Operation (098)</h3><br>
+<a class="CW" href="episodes.php?episodeID=437&serialID=47"><h3>16.1 The Ribos Operation (098)</h3></a><br>
 
-<a class="CW">16.1.1 The Ribos Operation Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=437&serialID=47">16.1.1 The Ribos Operation Part One</a><br>
 
-<a class="CW">16.1.2 The Ribos Operation Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=437&serialID=47">16.1.2 The Ribos Operation Part Two</a><br>
 
-<a class="CW">16.1.3 The Ribos Operation Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=437&serialID=47">16.1.3 The Ribos Operation Part Three</a><br>
 
-<a class="CW">16.1.4 The Ribos Operation Part Four</a><br>
-
-
-<h3 class="CW">16.2 The Pirate Planet (099)</h3><br>
-
-<a class="CW">16.2.1 The Pirate Planet Part One</a><br>
-
-<a class="CW">16.2.2 The Pirate Planet Part Two</a><br>
-
-<a class="CW">16.2.3 The Pirate Planet Part Three</a><br>
-
-<a class="CW">16.2.4 The Pirate Planet Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=437&serialID=47">16.1.4 The Ribos Operation Part Four</a><br>
 
 
-<h3 class="CW">16.3 The Stones of Blood (100)</h3><br>
+<a class="CW" href="episodes.php?episodeID=438&serialID=47"><h3>16.2 The Pirate Planet (099)</h3></a><br>
 
-<a class="CW">16.3.1 The Stones of Blood Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=438&serialID=47">16.2.1 The Pirate Planet Part One</a><br>
 
-<a class="CW">16.3.2 The Stones of Blood Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=438&serialID=47">16.2.2 The Pirate Planet Part Two</a><br>
 
-<a class="CW">16.3.3 The Stones of Blood Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=438&serialID=47">16.2.3 The Pirate Planet Part Three</a><br>
 
-<a class="CW">16.3.4 The Stones of Blood Part Four</a><br>
-
-
-<h3 class="CW">16.4 The Androids of Tara (101)</h3><br>
-
-<a class="CW">16.4.1 The Androids of Tara Part One</a><br>
-
-<a class="CW">16.4.2 The Androids of Tara Part Two</a><br>
-
-<a class="CW">16.4.3 The Androids of Tara Part Three</a><br>
-
-<a class="CW">16.4.4 The Androids of Tara Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=438&serialID=47">16.2.4 The Pirate Planet Part Four</a><br>
 
 
-<h3 class="CW">16.5 The Power of Kroll (102)</h3><br>
+<a class="CW" href="episodes.php?episodeID=439&serialID=47"><h3>16.3 The Stones of Blood (100)</h3></a><br>
 
-<a class="CW">16.5.1 The Power of Kroll Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=439&serialID=47">16.3.1 The Stones of Blood Part One</a><br>
 
-<a class="CW">16.5.2 The Power of Kroll Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=439&serialID=47">16.3.2 The Stones of Blood Part Two</a><br>
 
-<a class="CW">16.5.3 The Power of Kroll Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=439&serialID=47">16.3.3 The Stones of Blood Part Three</a><br>
 
-<a class="CW">16.5.4 The Power of Kroll Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=439&serialID=47">16.3.4 The Stones of Blood Part Four</a><br>
 
 
-<h3 class="CW">16.6 The Armageddon Factor (103)</h3><br>
+<a class="CW" href="episodes.php?episodeID=440&serialID=47"><h3>16.4 The Androids of Tara (101)</h3></a><br>
 
-<a class="CW" href="">16.6.1 The Armageddon Factor Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=440&serialID=47">16.4.1 The Androids of Tara Part One</a><br>
 
-<a class="CW" href="">16.6.2 The Armageddon Factor Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=440&serialID=47">16.4.2 The Androids of Tara Part Two</a><br>
 
-<a class="CW" href="">16.6.3 The Armageddon Factor Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=440&serialID=47">16.4.3 The Androids of Tara Part Three</a><br>
 
-<a class="CW" href="">16.6.4 The Armageddon Factor Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=440&serialID=47">16.4.4 The Androids of Tara Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=441&serialID=47"><h3>16.5 The Power of Kroll (102)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=441&serialID=47">16.5.1 The Power of Kroll Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=441&serialID=47">16.5.2 The Power of Kroll Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=441&serialID=47">16.5.3 The Power of Kroll Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=441&serialID=47">16.5.4 The Power of Kroll Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=442&serialID=47"><h3>16.6 The Armageddon Factor (103)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=442&serialID=47">16.6.1 The Armageddon Factor Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=442&serialID=47">16.6.2 The Armageddon Factor Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=442&serialID=47">16.6.3 The Armageddon Factor Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=442&serialID=47">16.6.4 The Armageddon Factor Part Four</a><br>
+</div>
 </div>
 
 
+
 <a name="CW17" class="jumper"></a>
+<div id="48">
 <h2 class="CW">Season Seventeen</h2><br>
 
-<h3 class="CW">17.1 Destiny of the Daleks (104)</h3><br>
+<a class="CW" href="episodes.php?episodeID=443&serialID=48"><h3>17.1 Destiny of the Daleks (104)</h3></a><br>
 
-<a class="CW" href="">17.1.1 Destiny of the Daleks Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=443&serialID=48">17.1.1 Destiny of the Daleks Part One</a><br>
 
-<a class="CW" href="">17.1.2 Destiny of the Daleks Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=443&serialID=48">17.1.2 Destiny of the Daleks Part Two</a><br>
 
-<a class="CW" href="">17.1.3 Destiny of the Daleks Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=443&serialID=48">17.1.3 Destiny of the Daleks Part Three</a><br>
 
-<a class="CW" href="">17.1.4 Destiny of the Daleks Part Four</a><br>
-
-
-<h3 class="CW">17.2 City of Death (105)</h3><br>
-
-<a class="CW" href="">17.2.1 City of Death Part One</a><br>
-
-<a class="CW" href="">17.2.2 City of Death Part Two</a><br>
-
-<a class="CW" href="">17.2.3 City of Death Part Three</a><br>
-
-<a class="CW" href="">17.2.4 City of Death Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=443&serialID=48">17.1.4 Destiny of the Daleks Part Four</a><br>
 
 
-<h3 class="CW">17.3 The Creature from the Pit (106)</h3><br>
+<a class="CW" href="episodes.php?episodeID=444&serialID=48"><h3>17.2 City of Death (105)</h3></a><br>
 
-<a class="CW" href="">17.3.1 The Creature from the Pit Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=444&serialID=48">17.2.1 City of Death Part One</a><br>
 
-<a class="CW" href="">17.3.2 The Creature from the Pit Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=444&serialID=48">17.2.2 City of Death Part Two</a><br>
 
-<a class="CW" href="">17.3.3 The Creature from the Pit Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=444&serialID=48">17.2.3 City of Death Part Three</a><br>
 
-<a class="CW" href="">17.3.4 The Creature from the Pit Part Four</a><br>
-
-
-<h3 class="CW">17.4 Nightmare of Eden (107)</h3><br>
-
-<a class="CW" href="">17.4.1 Nightmare of Eden Part One</a><br>
-
-<a class="CW" href="">17.4.2 Nightmare of Eden Part Two</a><br>
-
-<a class="CW" href="">17.4.3 Nightmare of Eden Part Three</a><br>
-
-<a class="CW" href="">17.4.4 Nightmare of Eden Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=444&serialID=48">17.2.4 City of Death Part Four</a><br>
 
 
-<h3 class="CW">17.5 The Horns of Nimon (108)</h3><br>
+<a class="CW" href="episodes.php?episodeID=445&serialID=48"><h3>17.3 The Creature from the Pit (106)</h3></a><br>
 
-<a class="CW" href="">17.5.1 The Horns of Nimon Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=445&serialID=48">17.3.1 The Creature from the Pit Part One</a><br>
 
-<a class="CW" href="">17.5.2 The Horns of Nimon Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=445&serialID=48">17.3.2 The Creature from the Pit Part Two</a><br>
 
-<a class="CW" href="">17.5.3 The Horns of Nimon Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=445&serialID=48">17.3.3 The Creature from the Pit Part Three</a><br>
 
-<a class="CW" href="">17.5.4 The Horns of Nimon Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=445&serialID=48">17.3.4 The Creature from the Pit Part Four</a><br>
 
 
-<h3 class="CW other">17.6 Shada</h3><br>
+<a class="CW" href="episodes.php?episodeID=446&serialID=48"><h3>17.4 Nightmare of Eden (107)</h3></a><br>
 
-<a class="CW other" href="">17.6.1 Shada</a><br>
+<a class="CW" href="episodes.php?episodeID=446&serialID=48">17.4.1 Nightmare of Eden Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=446&serialID=48">17.4.2 Nightmare of Eden Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=446&serialID=48">17.4.3 Nightmare of Eden Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=446&serialID=48">17.4.4 Nightmare of Eden Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=447&serialID=48"><h3>17.5 The Horns of Nimon (108)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=447&serialID=48">17.5.1 The Horns of Nimon Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=447&serialID=48">17.5.2 The Horns of Nimon Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=447&serialID=48">17.5.3 The Horns of Nimon Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=447&serialID=48">17.5.4 The Horns of Nimon Part Four</a><br>
+
+
+<a class="CW other" href="episodes.php?episodeID=448&serialID=48"><h3>17.6 Shada</h3></a><br>
+
+<a class="CW other" href="episodes.php?episodeID=448&serialID=48">17.6.1 Shada</a><br>
+</div>
+
 
 
 <a name="CW18" class="jumper"></a>
+<div id="49">
 <h2 class="CW">Season Eighteen</h2><br>
 
-<h3 class="CW">18.1 The Liesure Hive (109)</h3><br>
+<a class="CW" href="episodes.php?episodeID=449&serialID=49"><h3>18.1 The Liesure Hive (109)</h3></a><br>
 
-<a class="CW" href="">18.1.1 The Liesure Hive Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=449&serialID=49">18.1.1 The Liesure Hive Part One</a><br>
 
-<a class="CW" href="">18.1.2 The Liesure Hive Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=449&serialID=49">18.1.2 The Liesure Hive Part Two</a><br>
 
-<a class="CW" href="">18.1.3 The Liesure Hive Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=449&serialID=49">18.1.3 The Liesure Hive Part Three</a><br>
 
-<a class="CW" href="">18.1.4 The Liesure Hive Part Four</a><br>
-
-
-<h3 class="CW">18.2 Meglos (110)</h3><br>
-
-<a class="CW" href="">18.2.1 Meglos Part One</a><br>
-
-<a class="CW" href="">18.2.2 Meglos Part Two</a><br>
-
-<a class="CW" href="">18.2.3 Meglos Part Three</a><br>
-
-<a class="CW" href="">18.2.4 Meglos Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=449&serialID=49">18.1.4 The Liesure Hive Part Four</a><br>
 
 
-<h3 class="CW">18.3 Full Circle (111)</h3><br>
+<a class="CW" href="episodes.php?episodeID=450&serialID=49"><h3>18.2 Meglos (110)</h3></a><br>
 
-<a class="CW" href="">18.3.1 Full Circle Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=450&serialID=49">18.2.1 Meglos Part One</a><br>
 
-<a class="CW" href="">18.3.2 Full Circle Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=450&serialID=49">18.2.2 Meglos Part Two</a><br>
 
-<a class="CW" href="">18.3.3 Full Circle Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=450&serialID=49">18.2.3 Meglos Part Three</a><br>
 
-<a class="CW" href="">18.3.4 Full Circle Part Four</a><br>
-
-
-<h3 class="CW">18.4 State of Decay (112)</h3><br>
-
-<a class="CW" href="">18.4.1 State of Decay Part One</a><br>
-
-<a class="CW" href="">18.4.2 State of Decay Part Two</a><br>
-
-<a class="CW" href="">18.4.3 State of Decay Part Three</a><br>
-
-<a class="CW" href="">18.4.4 State of Decay Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=450&serialID=49">18.2.4 Meglos Part Four</a><br>
 
 
-<h3 class="CW">18.5 The Warrior's Gate (113)</h3><br>
+<a class="CW" href="episodes.php?episodeID=451&serialID=49"><h3>18.3 Full Circle (111)</h3></a><br>
 
-<a class="CW" href="">18.5.1 The Warrior's Gate Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=451&serialID=49">18.3.1 Full Circle Part One</a><br>
 
-<a class="CW" href="">18.5.2 The Warrior's Gate Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=451&serialID=49">18.3.2 Full Circle Part Two</a><br>
 
-<a class="CW" href="">18.5.3 The Warrior's Gate Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=451&serialID=49">18.3.3 Full Circle Part Three</a><br>
 
-<a class="CW" href="">18.5.4 The Warrior's Gate Part Four</a><br>
-
-
-<h3 class="CW">18.6 The Keeper of Traken (114)</h3><br>
-
-<a class="CW" href="">18.6.1 The Keeper of Traken Part One</a><br>
-
-<a class="CW" href="">18.6.2 The Keeper of Traken Part Two</a><br>
-
-<a class="CW" href="">18.6.3 The Keeper of Traken Part Three</a><br>
-
-<a class="CW" href="">18.6.4 The Keeper of Traken Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=451&serialID=49">18.3.4 Full Circle Part Four</a><br>
 
 
-<h3 class="CW">18.7 Logopolis (115)</h3><br>
+<a class="CW" href="episodes.php?episodeID=452&serialID=49"><h3>18.4 State of Decay (112)</h3></a><br>
 
-<a class="CW" href="">18.7.1 Logopolis Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=452&serialID=49">18.4.1 State of Decay Part One</a><br>
 
-<a class="CW" href="">18.7.2 Logopolis Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=452&serialID=49">18.4.2 State of Decay Part Two</a><br>
 
-<a class="CW" href="">18.7.3 Logopolis Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=452&serialID=49">18.4.3 State of Decay Part Three</a><br>
 
-<a class="CW" href="">18.7.4 Logopolis Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=452&serialID=49">18.4.4 State of Decay Part Four</a><br>
 
 
-<h3 class="CW other">K9 and Company</h3><br>
+<a class="CW" href="episodes.php?episodeID=453&serialID=49"><h3>18.5 Warriors' Gate (113)</h3></a><br>
 
-<a class="CW other" href="">1.1 A Girl's Best Friend</a><br>
+<a class="CW" href="episodes.php?episodeID=453&serialID=49">18.5.1 Warriors' Gate Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=453&serialID=49">18.5.2 Warriors' Gate Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=453&serialID=49">18.5.3 Warriors' Gate Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=453&serialID=49">18.5.4 Warriors' Gate Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=454&serialID=49"><h3>18.6 The Keeper of Traken (114)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=454&serialID=49">18.6.1 The Keeper of Traken Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=454&serialID=49">18.6.2 The Keeper of Traken Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=454&serialID=49">18.6.3 The Keeper of Traken Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=454&serialID=49">18.6.4 The Keeper of Traken Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=455&serialID=49"><h3>18.7 Logopolis (115)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=455&serialID=49">18.7.1 Logopolis Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=455&serialID=49">18.7.2 Logopolis Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=455&serialID=49">18.7.3 Logopolis Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=455&serialID=49">18.7.4 Logopolis Part Four</a><br>
+
+
+<a class="CW other" href="episodes.php?episodeID=456&serialID=49"><h3>18.8 K9 and Company</h3></a><br>
+
+<a class="CW other" href="episodes.php?episodeID=456&serialID=49">18.8.1 A Girl's Best Friend</a><br>
+</div>
+
 
 
 <a name="CW19" class="jumper"></a>
+<div id="50">
 <h2 class="CW">Season Nineteen</h2><br>
 
-<h3 class="CW">19.1 Castrovalva (116)</h3><br>
+<a class="CW" href="episodes.php?episodeID=457&serialID=50"><h3>19.1 Castrovalva (116)</h3></a><br>
 
-<a class="CW" href="">19.1.1 Castrovalva Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=457&serialID=50">19.1.1 Castrovalva Part One</a><br>
 
-<a class="CW" href="">19.1.2 Castrovalva Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=457&serialID=50">19.1.2 Castrovalva Part Two</a><br>
 
-<a class="CW" href="">19.1.3 Castrovalva Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=457&serialID=50">19.1.3 Castrovalva Part Three</a><br>
 
-<a class="CW" href="">19.1.4 Castrovalva Part Four</a><br>
-
-
-<h3 class="CW" href="">19.2 Four to Doomsday (117)</h3><br>
-
-<a class="CW" href="">19.2.1 Four to Doomsday Part One</a><br>
-
-<a class="CW" href="">19.2.2 Four to Doomsday Part Two</a><br>
-
-<a class="CW" href="">19.2.3 Four to Doomsday Part Three</a><br>
-
-<a class="CW" href="">19.2.4 Four to Doomsday Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=457&serialID=50">19.1.4 Castrovalva Part Four</a><br>
 
 
-<h3 class="CW">19.3 Kinda (118)</h3><br>
+<a class="CW" href="episodes.php?episodeID=458&serialID=50"><h3>19.2 Four to Doomsday (117)</h3></a><br>
 
-<a class="CW" href="">19.3.1 Kinda Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=458&serialID=50">19.2.1 Four to Doomsday Part One</a><br>
 
-<a class="CW" href="">19.3.2 Kinda Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=458&serialID=50">19.2.2 Four to Doomsday Part Two</a><br>
 
-<a class="CW" href="">19.3.3 Kinda Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=458&serialID=50">19.2.3 Four to Doomsday Part Three</a><br>
 
-<a class="CW" href="">19.3.4 Kinda Part Four</a><br>
-
-
-<h3 class="CW">19.4 The Visitation (119)</h3><br>
-
-<a class="CW" href="">19.4.1 The Visitation Part One</a><br>
-
-<a class="CW" href="">19.4.2 The Visitation Part Two</a><br>
-
-<a class="CW" href="">19.4.3 The Visitation Part Three</a><br>
-
-<a class="CW" href="">19.4.4 The Visitation Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=458&serialID=50">19.2.4 Four to Doomsday Part Four</a><br>
 
 
-<h3 class="CW">19.5 The Black Orchid (120)</h3><br>
+<a class="CW" href="episodes.php?episodeID=459&serialID=50"><h3>19.3 Kinda (118)</h3></a><br>
 
-<a class="CW" href="">19.5.1 The Black Orchid Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=459&serialID=50">19.3.1 Kinda Part One</a><br>
 
-<a class="CW" href="">19.5.2 The Black Orchid Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=459&serialID=50">19.3.2 Kinda Part Two</a><br>
 
+<a class="CW" href="episodes.php?episodeID=459&serialID=50">19.3.3 Kinda Part Three</a><br>
 
-<h3 class="CW">19.6 Earthshock (121)</h3><br>
-
-<a class="CW" href="">19.6.1 Earthshock Part One</a><br>
-
-<a class="CW" href="">19.6.2 Earthshock Part Two</a><br>
-
-<a class="CW" href="">19.6.3 Earthshock Part Three</a><br>
-
-<a class="CW" href="">19.6.4 Earthshock Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=459&serialID=50">19.3.4 Kinda Part Four</a><br>
 
 
-<h3 class="CW">19.7 Time-Flight (122)</h3><br>
+<a class="CW" href="episodes.php?episodeID=460&serialID=50"><h3>19.4 The Visitation (119)</h3></a><br>
 
-<a class="CW" href="">19.7.1 Time-Flight Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=460&serialID=50">19.4.1 The Visitation Part One</a><br>
 
-<a class="CW" href="">19.7.2 Time-Flight Part Two</a><br>
+<a class="CW" href=episodes.php?episodeID=460&serialID=50"">19.4.2 The Visitation Part Two</a><br>
 
-<a class="CW" href="">19.7.3 Time-Flight Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=460&serialID=50">19.4.3 The Visitation Part Three</a><br>
 
-<a class="CW" href="">19.7.4 Time-Flight Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=460&serialID=50">19.4.4 The Visitation Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=461&serialID=50"><h3>19.5 The Black Orchid (120)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=461&serialID=50">19.5.1 The Black Orchid Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=461&serialID=50">19.5.2 The Black Orchid Part Two</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=462&serialID=50"><h3>19.6 Earthshock (121)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=462&serialID=50">19.6.1 Earthshock Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=462&serialID=50">19.6.2 Earthshock Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=462&serialID=50">19.6.3 Earthshock Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=462&serialID=50">19.6.4 Earthshock Part Four</a><br>
+
+
+<a class="CW" href="episodes.php?episodeID=463&serialID=50"><h3>19.7 Time-Flight (122)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=463&serialID=50">19.7.1 Time-Flight Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=463&serialID=50">19.7.2 Time-Flight Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=463&serialID=50">19.7.3 Time-Flight Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=463&serialID=50">19.7.4 Time-Flight Part Four</a><br>
+</div>
+
 
 
 <a name="CW20" class="jumper"></a>

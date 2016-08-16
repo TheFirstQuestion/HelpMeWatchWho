@@ -1,5 +1,5 @@
 <?php require("header.php"); ?>
-<title>HelpMeWatchWho | Home</title>
+<title>Home | HelpMeWatchWho</title>
 <link type="text/css" rel="stylesheet" href="index style.css">
 
 

@@ -30,7 +30,7 @@
 <head>
 	<link type="text/css" rel="stylesheet" href="episodes style.css">
 	<script language="JavaScript"; src="boxes sort.js"></script>
-	<title>HelpMeWatchWho | <?php echo strip_tags($title); ?></title>
+	<title><?php echo strip_tags($title); ?> | HelpMeWatchWho</title>
 </head>
 
 <?php include("header.php"); ?>

@@ -40,6 +40,7 @@
 <a href="#CW24" class="CWselect">24</a>
 <a href="#CW25" class="CWselect">25</a>
 <a href="#CW26" class="CWselect">26</a>
+<a href="#TVM" class="CWselect" id="TVMselect">M</a>
 
 <br class="CWselect"><br class="CWselect">
 
@@ -2116,55 +2117,64 @@
 
 
 <a name="CW26" class="jumper"></a>
+<div id="57">
 <h2 class="CW">Season Twenty Six</h2><br>
 
-<h3 class="CW">26.1 Battlefield (152)</h3><br>
+<a class="CW" href="episodes.php?episodeID=496&serialID=57"><h3>26.1 Battlefield (152)</h3></a><br>
 
-<a class="CW" href="">26.1.1 Battlefield Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=496&serialID=57">26.1.1 Battlefield Part One</a><br>
 
-<a class="CW" href="">26.1.2 Battlefield Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=496&serialID=57">26.1.2 Battlefield Part Two</a><br>
 
-<a class="CW" href="">26.1.3 Battlefield Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=496&serialID=57">26.1.3 Battlefield Part Three</a><br>
 
-<a class="CW" href="">26.1.4 Battlefield Part Four</a><br>
-
-
-<h3 class="CW">26.2 Ghost Light (153)</h3><br>
-
-<a class="CW" href="">26.2.1 Ghost Light Part One</a><br>
-
-<a class="CW" href="">26.2.2 Ghost Light Part Two</a><br>
-
-<a class="CW" href="">26.2.3 Ghost Light Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=496&serialID=57">26.1.4 Battlefield Part Four</a><br>
 
 
-<h3 class="CW">26.3 The Curse of Fenric (154)</h3><br>
+<a class="CW" href="episodes.php?episodeID=497&serialID=57"><h3>26.2 Ghost Light (153)</h3></a><br>
 
-<a class="CW" href="">26.3.1 The Curse of Fenric Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=497&serialID=57">26.2.1 Ghost Light Part One</a><br>
 
-<a class="CW" href="">26.3.2 The Curse of Fenric Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=497&serialID=57">26.2.2 Ghost Light Part Two</a><br>
 
-<a class="CW" href="">26.3.3 The Curse of Fenric Part Three</a><br>
-
-<a class="CW" href="">26.3.4 The Curse of Fenric Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=497&serialID=57">26.2.3 Ghost Light Part Three</a><br>
 
 
-<h3 class="CW">26.4 Survival (155)</h3><br>
+<a class="CW" href="episodes.php?episodeID=498&serialID=57"><h3>26.3 The Curse of Fenric (154)</h3></a><br>
 
-<a class="CW" href="">26.4.1 Survival Part One</a><br>
+<a class="CW" href="episodes.php?episodeID=498&serialID=57">26.3.1 The Curse of Fenric Part One</a><br>
 
-<a class="CW" href="">26.4.2 Survival Part Two</a><br>
+<a class="CW" href="episodes.php?episodeID=498&serialID=57">26.3.2 The Curse of Fenric Part Two</a><br>
 
-<a class="CW" href="">26.4.3 Survival Part Three</a><br>
+<a class="CW" href="episodes.php?episodeID=498&serialID=57">26.3.3 The Curse of Fenric Part Three</a><br>
 
-<a class="CW" href="">26.4.4 Survival Part Four</a><br>
+<a class="CW" href="episodes.php?episodeID=498&serialID=57">26.3.4 The Curse of Fenric Part Four</a><br>
 
 
+<a class="CW" href="episodes.php?episodeID=499&serialID=57"><h3>26.4 Survival (155)</h3></a><br>
+
+<a class="CW" href="episodes.php?episodeID=499&serialID=57">26.4.1 Survival Part One</a><br>
+
+<a class="CW" href="episodes.php?episodeID=499&serialID=57">26.4.2 Survival Part Two</a><br>
+
+<a class="CW" href="episodes.php?episodeID=499&serialID=57">26.4.3 Survival Part Three</a><br>
+
+<a class="CW" href="episodes.php?episodeID=499&serialID=57">26.4.4 Survival Part Four</a><br>
+</div>
+
+
+<a name="TVM" class="jumper"></a>
+<div id="58">
 <h2 class="CW">The TV Movie</h2><br>
 
-<a class="CW" href="">Doctor Who: The Movie (156)</a><br>
-
+<a class="CW" href="episodes.php?episodeID=500&seasonID=58">Doctor Who (156)</a><br>
 </div>
+
+
+</div> <!--ends all CW-->
+
+
+
 
 <div id ="31">
 <a name="NW1" class="jumper"></a>

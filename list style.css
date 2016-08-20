@@ -1,4 +1,4 @@
-/* Heading and general looks */ 
+/************************************ Heading and general looks *****************************************/ 
 
 body {
 	background-color: white;
@@ -126,7 +126,7 @@ label, input, .box {
 	clear: both;
 }
 
-/* Episode types */
+/**************************** Episode types ***********************************************************/
 
 .CW {
 	color: midnightblue;
@@ -212,7 +212,7 @@ a.M:visited {
 	background-color: white;
 }
 
-/* Special boxes, etc. */
+/***************************************** Special boxes, etc. *********************************************/
 
 #keyToTime {
 	border: 3px dashed purple;
@@ -247,7 +247,7 @@ a.M:visited {
 	margin-top: 30px;
 }
 
-/* Season selectors */
+/**************************************************** Season selectors **************************************/
 
 #left {
 	position: fixed;

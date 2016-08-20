@@ -236,6 +236,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('<i>Dinosaurs on a Spaceship</i> - Behind the Scenes', 'https://www.youtube.com/watch?v=O9Jf4_K7CbE', 65),
 ('Exclusive Inside Look at Time Heist', 'https://www.youtube.com/watch?v=OBQvwaGp1Pc', 21),
 ('Young Davros', 'https://www.youtube.com/watch?v=oCP9RitqAG0', 4),
+('<i>Doctor Who: The Movie</i> Event and Q&A', 'https://www.youtube.com/watch?v=oH31pPI3NEU', 500),
 ('The Final Curtain (Part 2)', 'https://www.youtube.com/watch?v=okSEv-lq2KU', 413),
 ('Charlie McDonnell interviews Neil Gaiman', 'https://www.youtube.com/watch?v=oO22dx4Z-MU', 118),
 ('Hanging out with Clara', 'https://www.youtube.com/watch?v=owdZBHZ7isg', 4),
@@ -309,7 +310,7 @@ CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `LinkID` int(11) NOT NULL,
   `Missing` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`EpisodeID`)
-) ENGINE=InnoDB AUTO_INCREMENT=681 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=696 DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -990,7 +991,22 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('Part One', 677, 495, 0),
 ('Part Two', 678, 495, 0),
 ('Part Three', 679, 495, 0),
-('Part Four', 680, 495, 0);
+('Part Four', 680, 495, 0),
+('Part One', 681, 496, 0),
+('Part Two', 682, 496, 0),
+('Part Three', 683, 496, 0),
+('Part Four', 684, 496, 0),
+('Part One', 685, 497, 0),
+('Part Two', 686, 497, 0),
+('Part Three', 687, 497, 0),
+('Part One', 688, 498, 0),
+('Part Two', 689, 498, 0),
+('Part Three', 690, 498, 0),
+('Part Four', 691, 498, 0),
+('Part One', 692, 499, 0),
+('Part Two', 693, 499, 0),
+('Part Three', 694, 499, 0),
+('Part Four', 695, 499, 0);
 
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
@@ -1507,7 +1523,12 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (492, 3, 'Remembrance of the Daleks', '25.1', '148', 'London, 1963: The Doctor returns to the place where it all began alongside Ace, where unfinished business awaits.\r\n\r\nNot for the first time, unusual events are unfolding at Coal Hill School. At Totters Lane junkyard, the Doctor discovers that his oldest foes -- the Daleks -- are on the trail of stolen Time Lord technology that he left on Earth long ago. The Daleks are planning to perfect their own time-travel capability, in order to unleash themselves across the whole of time and space.\r\n\r\nThe Doctor, with the help of the local military, must stop his oldest enemies from stealing Gallifreyan secrets, but the lines between allies and enemies are tested to the limit, and the Doctor and Ace must trust no one in order to survive.\r\n\r\nAs two opposing Dalek factions meet in an explosive confrontation, the fate of the whole cosmos hangs in the balance...'),
 (493, 3, 'The Happiness Patrol', '25.2', '149', 'The TARDIS arrives on the planet Terra Alpha, where the Doctor and Ace discover a society in which sadness is against the law -- a law enforced zealously by the brightly uniformed Happiness Patrol. The penalty for those found guilty of unhappiness is death in a stream of molten candy. '),
 (494, 3, 'Silver Nemesis', '25.3', '150', 'The arrival of a mysterious comet heralds impending danger from enemies both old and new. As Ace helps the Doctor defend Earth, she is confronted with a dangerous question...Doctor who?'),
-(495, 3, 'The Greatest Show in the Galaxy', '25.4', '151', 'The Doctor and Ace head for the Psychic Circus on the planet Segonax, where they meet a disparate group of performers and visitors.\r\n\r\nThe circus itself is dominated by the sinister chief clown and his deadly troupe of robot clowns, who organizes a talent contest in which all visitors take part. The audience consists of just a single strange family seated at the ringside. What is going on?');
+(495, 3, 'The Greatest Show in the Galaxy', '25.4', '151', 'The Doctor and Ace head for the Psychic Circus on the planet Segonax, where they meet a disparate group of performers and visitors.\r\n\r\nThe circus itself is dominated by the sinister chief clown and his deadly troupe of robot clowns, who organizes a talent contest in which all visitors take part. The audience consists of just a single strange family seated at the ringside. What is going on?'),
+(496, 3, 'Battlefield', '26.1', '152', 'The TARDIS materializes in the English countryside near the village of Carbury, where a nuclear missile convoy under the command of UNIT has run into difficulties. Lying on the bed of a nearby lake is a spaceship from another dimension containing the body of King Arthur, held in suspended animation, and his sword, Excalibur.'),
+(497, 3, 'Ghost Light', '26.2', '153', 'The Doctor brings Ace to Gabriel Chase, an old house that she once burnt down in her home town of Perivale. However, trying to get Ace to accept her guilt is not the real reason the Doctor came here -- a mysterious and highly mentally unstable being hides beneath them.'),
+(498, 3, 'The Curse of Fenric', '26.3', '154', 'The TARDIS materializes at a secret naval base off the coast of Northumberland during the Second World War. A scientist there has created the Ultima Machine, an early computer designed to break German codes. The base\'s commander plans to let a Russian commando unit steal the machine\'s core, which he has booby-trapped with deadly toxin.'),
+(499, 3, 'Survival', '26.4', '155', 'The Doctor brings Ace back to her home town, where her old friends are being kidnapped by a race of alien hunters shown the way to Earth by the Doctor\'s old enemy, the Master.'),
+(500, 0, 'Doctor Who', 'TVM', '156', 'The Doctor is charged with transporting the remains of fellow Time Lord the Master back to their home planet. Despite his precautions, his old enemy is not only alive (ish), but also out for revenge. Creating a timing malfunction in the TARDIS and bringing the Doctor to San Francisco in 1999, the Master escapes and puts his plans into motion. The Doctor must find a beryllium atomic clock and stop the Master, but after being shot down by members of a street gang, how will he succeed?');
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,

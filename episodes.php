@@ -48,7 +48,7 @@
 	
 	<p><?php echo $desc; ?></p>
 	
-	<img <?php echo "src='Images/" . $episodeID . ".jpg'"; ?>/>
+	<img <?php echo "src='Screencaps/" . $episodeID . ".jpg'"; ?>/>
 	
 	<br>
 	

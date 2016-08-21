@@ -1,5 +1,6 @@
 #everything {
 	text-align: center;
+	display: flex
 }
 
 .box {
@@ -9,7 +10,8 @@
 	margin: 1%;
 	vertical-align: top;
 	padding: 10px;
-	min-height: 500px;
+	/*min-height: 100%;*/
+	flex: 1;
 }
 
 h2 {
@@ -28,13 +30,14 @@ h2 {
 	font-size: calc(11px + .8vw);
 }
 
-#left {
+#leftText {
 	text-align: left;
 }
 
 iframe {
 	width: 303px;
 	height: 100px;
+	margin: auto;
 }
 
 a {
@@ -54,4 +57,8 @@ a:hover {
 
 span {
 	font-size: calc(8px + .6vw);
+}
+
+img {
+	width: 90%;
 }

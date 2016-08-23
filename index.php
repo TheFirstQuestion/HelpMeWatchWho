@@ -55,5 +55,13 @@
 	<!--<img src="Images/class.jpg" />-->
 	
 </div>
+<br><BR><BR>
+<?php
+
+	$rand = mt_rand(1, 6);
+?>
+
+	<!--<img class="companion" <?php echo "src='Images/Companions/" . $rand . ".jpg'"; ?>/>-->
+
 
 </div>

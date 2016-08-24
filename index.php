@@ -27,29 +27,54 @@
 	<h2>Next episode airs in:</h2>
 	<iframe src="http://free.timeanddate.com/countdown/i5alabcw/n136/cf12/cm0/cu4/ct4/cs1/ca0/co0/cr0/ss0/cac00f/cpc0f0/pct/tcfff/fs100/szw800/szh337/iso2016-12-25T12:00:00" allowTransparency="true" frameborder="0"></iframe>
 	<br>
-	<a href="#">(The Christmas Special)</a>
-	<br><br>
-	<img src="Images/christmas.jpg" />
-	<br><br>
-	<h2>Recent episodes:</h2>
-	<?php  								// *** This will need to be worked out -- only episodes that have a valid link? 
+	<?php
 		include_once("simple_html_dom.php");
 		$target_url = "list.php";
 		$html = new simple_html_dom();
 		$html->load_file($target_url);
-		$everything = $html->find('div[id=everything]');
-		//echo $everything[0];
-		$a = $everything[0]->last_child();
-		$b = $a->last_child(); //line break
-		$c = $b->prev_sibling();
-		$d = $c->prev_sibling(); //line break
-		$e = $d->prev_sibling();
-		$f = $e->prev_sibling(); //line break
-		$g = $f->prev_sibling();
-		$h = $g->prev_sibling(); //line break
-		$i = $h->prev_sibling();
-		echo $c . "<br>" . $e . "<br>" . $g . "<br>" . $i;
+		
+		$links = array();
+		foreach($html->find('a.NW') as $a) {
+			$links[] = $a;
+		}
+
+		$len = count($links);
+		$ref;
+		$i = 0;
+		$state = -42;
+
+		while ($state == -42) {
+			$ref = $links[$len - $i]->href;
+			if (strpos($ref, 'episodes.php') !== false) {
+				$state = $i - 1;
+			}
+			$i++;
+		}
+		
+		echo $links[$len - $state];
+		
+		$epID = $links[$len - $state]->href;
+		
+		
 	?>
+	<br><br>
+	<img <?php echo "src='Screencaps/" . $epID . ".jpg'"; ?>/>
+	<br><br>
+	<h2>Recent episodes:</h2>
+	<?php
+		$count = 0;
+		$i = 0;
+		
+		while ($count < 4 && $i < $len) {
+			$ref = $links[$len - $i]->href;
+			if (strpos($ref, 'episodes.php') !== false) {
+				echo $links[$len - $i] . "<br>";
+				$count++;
+			}
+			$i++;
+		}
+	?>
+	
 	<br><br>
 	
 	<!--<img src="Images/class.jpg" />-->
@@ -57,7 +82,6 @@
 </div>
 <br><BR><BR>
 <?php
-
 	$rand = mt_rand(1, 6);
 ?>
 

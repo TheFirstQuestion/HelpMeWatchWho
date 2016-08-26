@@ -6,7 +6,7 @@
 .box {
 	display: inline-block;
 	border: 5px solid black;
-	width: 28%;
+	width: 28% !important;
 	margin: 1%;
 	vertical-align: top;
 	padding: 10px;
@@ -16,7 +16,14 @@
 
 h2 {
 	text-align: center;
-	font-size: calc(12px + 1vw);
+	font-size: calc(14px + 1.1vw);
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+	font-size: calc(10px + .9vw);
 	margin-top: 5px;
 	font-weight: bold;
 }
@@ -30,14 +37,15 @@ h2 {
 	font-size: calc(11px + .8vw);
 }
 
-#leftText {
+.leftText {
 	text-align: left;
 }
 
 iframe {
-	width: 303px;
-	height: 100px;
+	/*width: 303px;
+	height: 100px;*/
 	margin: auto;
+	border: 2px solid black;
 }
 
 a {

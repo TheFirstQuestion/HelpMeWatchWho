@@ -1013,7 +1013,28 @@ CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
-('DailyMotion', 'http://www.dailymotion.com/video/x1246v0_season-1-episode-1-an-unearthly-child_shortfilms', 1);
+('Tugashow', 'http://tugashow.com/video/x1196qj', 1),
+('Tugashow', 'http://tugashow.com/video/x1dmked', 1),
+('Tugashow', 'http://tugashow.com/video/x21rwe8', 2),
+('Tugashow', 'http://tugashow.com/video/x23kq1t', 2),
+('Tugashow', 'http://tugashow.com/video/x29his7', 1),
+('Tugashow', 'http://tugashow.com/video/x29hj8d', 2),
+('Tugashow', 'http://tugashow.com/video/x2rbpmi', 2),
+('Tugashow', 'http://tugashow.com/video/x2rbpmj', 3),
+('Tugashow', 'http://tugashow.com/video/x2rbpmk', 4),
+('Tugashow', 'http://tugashow.com/video/x3hxuzp', 2),
+('Tugashow', 'http://tugashow.com/video/x3hxuzr', 4),
+('DailyMotion', 'http://www.dailymotion.com/video/x1246v0_season-1-episode-1-an-unearthly-child_shortfilms', 1),
+('DailyMotion', 'http://www.dailymotion.com/video/x23j8l3_an-unearthly-child-1-an-unearthly-child_shortfilms', 1),
+('DailyMotion', 'http://www.dailymotion.com/video/x23kq1t_an-unearthly-child-2-the-cave-of-skulls_shortfilms?GK_FACEBOOK_OG_HTML5=1', 2),
+('DailyMotion', 'http://www.dailymotion.com/video/x23kzi6_an-unearthly-child-3-the-forest-of-fear_shortfilms?GK_FACEBOOK_OG_HTML5=1', 3),
+('DailyMotion', 'http://www.dailymotion.com/video/x23l8h9_an-unearthly-child-4-the-firemaker_shortfilms', 4),
+('DailyMotion', 'http://www.dailymotion.com/video/x24pcl4_an-unearthly-child-part-4_tech?GK_FACEBOOK_OG_HTML5=1', 4),
+('DailyMotion', 'http://www.dailymotion.com/video/x26vf3y_doctor-who-an-unearthly-child_tech', 1),
+('DailyMotion', 'http://www.dailymotion.com/video/x29hj8d_an-unearthly-child-part-2-the-cave-of-skulls_shortfilms', 2),
+('DailyMotion', 'http://www.dailymotion.com/video/xv7u66_s1xe01-an-unearthly-child_shortfilms?GK_FACEBOOK_OG_HTML5=1', 1),
+('Vimeo', 'https://vimeo.com/117070227', 1),
+('Vimeo', 'https://vimeo.com/144731490', 1);
 
 CREATE TABLE IF NOT EXISTS `Episodes` (
   `EpisodeID` int(11) NOT NULL,

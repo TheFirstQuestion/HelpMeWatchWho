@@ -36,6 +36,10 @@ function startup() {
 	// Classic Who
 	checkCookie("CW");
 	setCW(false);
+	
+	// Class
+	checkCookie("CL");
+	setCL(false);
 };
 
 function checkCookie(s) {
@@ -226,6 +230,49 @@ function setCW(bool) {
 		document.getElementById("classicWhoBox").checked = true;
 	};
 }
+
+function setCL(bool) {
+	var CL =  parseInt(getCookie("CL"), 10);
+	
+	if (bool) {
+    	CL = CL + 1;
+    	setCookie('CL', CL, 365);
+    }
+    
+	var state = isOn("CL");
+	var c = !isOn("M");
+	var a = !isOn("AF");
+	var b = !isOn("other");
+	
+	var x = document.getElementsByClassName("CL");
+	var s = document.getElementsByClassName("CLselect");
+	if (state) {
+    	for (var i = 0; i < x.length; i++) {
+    			x[i].style.display = "none";
+    			x[i].nextSibling.style.display = "none";
+		};
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "none";
+		};
+		document.getElementById("ClassBox").checked = false;
+	} else {
+		setOneOn("CL");
+		if (c) {
+			setTwoOn("CL", "M");
+		} 
+		if (a) {
+			setTwoOn("CL", "AF");
+		} 
+		if(b) {
+			setTwoOn("CL", "other");
+		}
+		for (var i = 0; i < s.length; i++) {
+    			s[i].style.display = "inline-block";
+		};
+		document.getElementById("CLBox").checked = true;
+	};
+}
+
 
 // *** B -- secondary episode types *******************************************************************************
 function setM(bool) {

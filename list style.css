@@ -60,6 +60,10 @@ h4 {
 	font-size: calc(3px + 1vw);
 }
 
+#CLbox {
+	background-color: #404040;
+}
+
 #classicWhobox {
 	background-color: midnightblue;
 }
@@ -204,6 +208,14 @@ a.M:visited {
 	color: darkorange;
 }
 
+.CL {
+	color: #404040;
+}
+
+a.CL:visited {
+	color: #404040;
+}
+
 .orangeSpoilers {
 	background-color: darkorange;
 }
@@ -291,6 +303,10 @@ a.M:visited {
 
 .AFselect {
 	background-color: lime;
+}
+
+.CLselect {
+	background-color: #404040;
 }
 
 #btt {

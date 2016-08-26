@@ -70,6 +70,10 @@
 <a href="#SJA4" class="SJAselect">4</a>
 <a href="#SJA5" class="SJAselect">5</a>
 
+<br class="SJAselect"><br class="SJAselect">
+
+<a href="#CL1" class="CLselect">1</a>
+
 
 </div>
 
@@ -99,6 +103,11 @@
 		<div class="box" id="SJAbox">
 			<input type="checkbox" id="SJABox" onClick="setSJA(true)">
 			<label for="SJABox">Sarah Jane Adventures</label>
+		</div>
+		
+		<div class="box" id="CLbox">
+			<input type="checkbox" id="CLBox" onClick="setCL(true)">
+			<label for="CLBox">Class</label>
 		</div>
 				
 		
@@ -3055,17 +3064,41 @@
 </div>
 
 
+
+<div id ="60">
+<a name="CL1" class="jumper"></a>
+<h2 class="CL">Season One</h2><br>
+
+<a class="CL" href="501">1.1 The Prom</a><br>
+
+<a class="CL" href="502">1.2 ***second***</a><br>
+
+<a class="CL" href="503">1.3 ***third***</a><br>
+
+<a class="CL" href="504">1.4 ***fourth***</a><br>
+
+<a class="CL" href="505">1.5 ***fifth***</a><br>
+
+<a class="CL" href="506">1.6 ***sixth***</a><br>
+
+<a class="CL" href="507">1.7 ***seventh***</a><br>
+
+<a class="CL" href="508">1.8 ***eighth***</a><br>
+</div>
+
+
+
 <div id ="59">
 <a name="NW10" class="jumper"></a>
 <h2 class="NW">Series Ten</h2><br>
 
-<a class="NW" href="501">10.X ***The Christmas Special*** (262)</a><br>
+<a class="NW" href="509">10.X ***The Christmas Special*** (262)</a><br>
 
-<a class="NW" href="502">10.1 ***something*** (263)</a><br>
+<a class="NW" href="510">10.1 ***something*** (263)</a><br>
 
-<a class="NW" href="503">10.2 ***idk*** (264)</a><br>
+<a class="NW" href="511">10.2 ***idk*** (264)</a><br>
 
-<a class="NW" href="504">10.3 ***words*** (265)</a><br>
+<a class="NW" href="512">10.3 ***words*** (265)</a><br>
 
 </div>
 

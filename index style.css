@@ -63,6 +63,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+a.CL {
+	color: #404040;
+}
+
 span {
 	font-size: calc(8px + .6vw);
 }

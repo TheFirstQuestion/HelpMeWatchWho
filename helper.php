@@ -64,6 +64,8 @@ function right() {
 	foreach($html->find('div[id]') as $element) {
 		doStuff($element);
 	};
+	$html->clear();
+    unset($html);
 }
 
 function doStuff($x) {
@@ -81,6 +83,8 @@ function classicRight() {
 	foreach($html->find('div[id]') as $element) {
 		doThings($element);
 	};
+	$html->clear();
+    unset($html);
 }
 
 function doThings($x) {

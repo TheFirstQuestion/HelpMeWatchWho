@@ -1,0 +1,47 @@
+#head {
+	text-align: center;
+}
+
+#headingImg {
+	width: calc(600px + 12vw);
+}
+
+.note {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: calc(10px + .4vw);
+	font-style: italic;
+}
+
+#everything {
+	margin: 20px;
+}
+
+p {
+	font-size: calc(14px + .5vw);
+}
+
+.small {
+	font-size: calc(10px + .5vw);
+}
+
+img {
+	margin-left: 40px;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.imgWrapper {
+	text-align: center;
+}
+
+.imgWrapper img {
+	width: 30%;
+}
+
+.fullSize img {
+	width: auto;
+}

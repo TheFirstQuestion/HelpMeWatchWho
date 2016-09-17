@@ -17,6 +17,15 @@
 	margin: 20px;
 }
 
+.indent {
+	margin-left: 30px;
+}
+
+h2 {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
 p {
 	font-size: calc(14px + .5vw);
 }
@@ -26,7 +35,6 @@ p {
 }
 
 img {
-	margin-left: 40px;
 	display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -39,9 +47,34 @@ img {
 }
 
 .imgWrapper img {
-	width: 30%;
+	/*max-width: 30%;*/
+	max-height: calc(150px + 10vw);
+}
+
+.fullSize {
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .fullSize img {
-	width: auto;
+	max-width: 70%;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a h2:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: grey;
 }

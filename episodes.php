@@ -65,8 +65,12 @@
 					echo "<h2>Where To Watch <i>" . $t . "</i></h2>";
 				}
 				
+				
+				
 				$epID = $x[EpisodeID];
 				$m = $x[Missing];
+				
+				echo " " . $epID;
 				
 				if ($m) {
 					echo "<span id='missing'>(missing)</span>";

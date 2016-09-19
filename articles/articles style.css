@@ -59,6 +59,7 @@ img {
 
 .fullSize img {
 	max-width: 70%;
+	max-height: 500px;
 }
 
 a {

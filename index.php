@@ -10,15 +10,15 @@
 	<h2>Not sure where to start?</h2><img src="Images/map.jpg" /><br><br>
 		<span>New to Who? Check out the <a href="/articles/intro-to-doctor-who.php">Introduction to Doctor Who</a>.</span><br><br>
 		<img src="Images/doctor who.jpg" /><br>
-		<span>Think you've seen it all? Check out the <a href="/articles/intro-to-minisodes.php">Guide to Minisodes</a>.</span><br><br>
+		<span>Think you've seen it all? Check out the <a href="/articles/guide-to-minisodes.php">Guide to Minisodes</a>.</span><br><br>
 		<img src="Images/minisodes.jpg" /><br>
-		<span>Finished with the new series, and begging for more? Check out the <a href="#">Spin-offs</a> page.</span><br><br>
+		<span>Finished with the new series, and begging for more? Check out the <a href="/articles/intro-to-spin-offs.php">Spin-offs</a> page.</span><br><br>
 		<img src="Images/spin off.jpg" /><br>
-		<span>You know the show. But do you know how it's made? Check out the <a href="#">Doctor Who Confidential</a> page. Or try Torchwood's counterpart, <a href="#">Torchwood Declassified</a>.</span><br><br>
+		<span>You know the show. But do you know how it's made? Check out the <a href="/articles/intro-to-doctor-who-confidential.php">Doctor Who Confidential</a> page. Or try Torchwood's counterpart, <a href="/articles/intro-to-doctor-who-confidential.php#TWD">Torchwood Declassified</a>.</span><br><br>
 		<img src="Images/confidential.jpg" /><br>
-		<span>Ready to delve into the history of Who? Check out the <a href="#">Introduction to Classic Who</a>.</span><br><br>
+		<span>Ready to delve into the history of Who? Check out the <a href="/articles/intro-to-classic-who.php">Introduction to Classic Who</a>.</span><br><br>
 		<img src="Images/classic.jpg" /><br>
-		<span>So you're an expert now, huh? How about those Big Finish Audios? Or the Doctor Who Adventure Games? Check out the <a href="#">Other Media</a> page.</span><br><br>
+		<span>So you're an expert now, huh? How about those Big Finish Audios? Or the Doctor Who Adventure Games? Check out the <a href="/articles/intro-to-other-media.php">Other Media</a> page.</span><br><br>
 		<img src="Images/other media.jpg" />
 </div>
 

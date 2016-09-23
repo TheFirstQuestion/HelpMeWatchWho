@@ -1,13 +1,13 @@
 <?php require("../header.php"); ?>
 <link type="text/css" rel="stylesheet" href="articles style.css">
-<title>Introduction to Minisodes</title>
+<title>Guide to Minisodes</title>
 
 <div id="everything">
 
 
 
 <div id="head">
-	<h1>Introduction to Minisodes</h1>
+	<h1>Guide to Minisodes</h1>
 	<img src="images/minisodes.jpg" id="headingImg" />
 </div>
 

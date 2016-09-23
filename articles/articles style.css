@@ -47,7 +47,7 @@ img {
 }
 
 .imgWrapper img {
-	/*max-width: 30%;*/
+	max-width: 30%;
 	max-height: calc(150px + 10vw);
 }
 

@@ -92,7 +92,7 @@
 		<br><br>
 		Spoilers: you don't.
 		<br><br>
-		Throughout its history, <em>Doctor Who</em> has been adapted and created in forms other than television. There's been movies, fan films, book, and audio adventures, short stories, novelization, and so many other great things. <em>Doctor Who</em> has never minited itself to what's on screen, and you shouldn't either.
+		Throughout its history, <em>Doctor Who</em> has been adapted and created in forms other than television. There's been movies, fan films, book, and audio adventures, short stories, novelizations, and so many other great things. <em>Doctor Who</em> has never limited itself to what's on screen, and you shouldn't either.
 		</p>
 	</div>
 </div>

@@ -3069,9 +3069,9 @@
 <a name="CL1" class="jumper"></a>
 <h2 class="CL">Class Season One</h2><br>
 
-<a class="CL" href="501">1.1 The Prom</a><br>
+<a class="CL" href="501">1.1 For Tonight We Might Die</a><br>
 
-<a class="CL" href="502">1.2 ***second***</a><br>
+<a class="CL" href="502">1.2 The Coach With the Dragon Tattoo</a><br>
 
 <a class="CL" href="503">1.3 ***third***</a><br>
 

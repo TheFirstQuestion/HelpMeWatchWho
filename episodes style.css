@@ -81,9 +81,6 @@ img {
 	margin-left: 10px;
 }
 
-
-
-/*********************************************** Right side styles **************************************************/
 #right {
 	margin-left: 10px;
 	float: right;
@@ -95,129 +92,18 @@ img {
 	text-align: right;
 	height: 100%;
 	overflow: auto;
-	/*margin-top: -20px;*/
 	margin-right: 20px;
 }
 
 #right a {
 	text-decoration: none;
 	margin: 5px;
-	/*font-size: 20px;*/
 	font-size: calc(6px + 1vw);
 	cursor: pointer;
 	display: inline-block;
 	color: midnightblue;
 }
 
-#right .CW {
-	text-decoration: none;
-	font-weight: normal;
-	margin: 10px;
-	/*font-size: 20px;*/
-	font-size: calc(13px + 1vw);
-	margin-right: 0px;
-	display: inline-block;
-	margin-bottom: 0px;
-}
-
-#right .CW:visited {
-	color: grey !important;
-}
-
-#right h2 {
-	/*font-size: 30px;*/
-	font-size: calc(12px + 1.4vw) !important;
-	margin: 20px;
-	font-weight: bold !important;
-	color: midnightblue;
-	margin-right: 0px;
-}
-
 #right a:visited {
-	text-decoration: none;
 	color: grey !important;
-}
-
-#right h3:hover {
-	font-weight: bold !important;
-}
-
-#right a:hover {
-	font-weight: bold !important;
-}
-
-#right .missing {
-	color: red;
-}
-
-#right .NW {
-	color: navy;
-}
-
-#right a.NW:visited {
-	color: grey;
-}
-
-#right .allNW {
-	width: 100%;
-}
-
-#right .SJA {
-	color: purple;
-}
-
-#right a.SJA:visited {
-	color: grey;
-}
-
-#right .allSJA {
-	width: 100%;
-}
-
-#right .TW {
-	color: darkgreen;
-}
-
-#right a.TW:visited {
-	color: grey;
-}
-
-#right .allTW {
-	width: 100%;
-}
-
-#right .AF {
-	color: lime;
-}
-
-#right a.AF:visited {
-	color: grey;
-}
-
-#right .allAF {
-	width: 100%;
-}
-
-#right .other {
-	color: #DDB500;
-}
-
-#right a.other:visited {
-	color: grey;
-}
-
-#right .M {
-	color: darkorange;
-}
-
-#right a.M:visited {
-	color: grey;
-}
-
-#right .orangeSpoilers {
-	background-color: darkorange;
-}
-
-#right .orangeSpoilers:hover {
-	background-color: white;
 }

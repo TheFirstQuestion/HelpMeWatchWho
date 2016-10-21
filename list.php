@@ -6,6 +6,7 @@
 <head>
 	<title>Episodes | HelpMeWatchWho</title>
 	<link type="text/css" rel="stylesheet" href="list style.css">
+	<link type="text/css" rel="stylesheet" href="link-colors.css">
 	<script src="boxes sort.js"></script>
 </head>
 <body onLoad="startup(); actuallyScroll();">
@@ -3069,21 +3070,22 @@
 <a name="CL1" class="jumper"></a>
 <h2 class="CL">Class Season One</h2><br>
 
-<a class="CL" href="501">1.1 For Tonight We Might Die</a><br>
+<a class="CL" href="/unaired.php?episodeID=501&seasonID=60">1.1 For Tonight We Might Die</a><br>
 
-<a class="CL" href="502">1.2 The Coach With the Dragon Tattoo</a><br>
+<a class="CL" href="/unaired.php?episodeID=502&seasonID=60">1.2 The Coach With the Dragon Tattoo</a><br>
 
-<a class="CL" href="503">1.3 ***third***</a><br>
+<a class="CL" href="/unaired.php?episodeID=503&seasonID=60">1.3 Nightvisiting</a><br>
 
-<a class="CL" href="504">1.4 ***fourth***</a><br>
+<a class="CL" href="/unaired.php?episodeID=504&seasonID=60">1.4 Co-Owner of a Lonely Heart</a><br>
+<!--
+<a class="CL" href="/unaired.php?episodeID=505&seasonID=60">1.5 TBA</a><br>
 
-<a class="CL" href="505">1.5 ***fifth***</a><br>
+<a class="CL" href="/unaired.php?episodeID=506&seasonID=60">1.6 TBA</a><br>
 
-<a class="CL" href="506">1.6 ***sixth***</a><br>
+<a class="CL" href="/unaired.php?episodeID=507&seasonID=60">1.7 TBA</a><br>
 
-<a class="CL" href="507">1.7 ***seventh***</a><br>
-
-<a class="CL" href="508">1.8 ***eighth***</a><br>
+<a class="CL" href="/unaired.php?episodeID=508&seasonID=60">1.8 TBA</a><br>
+-->
 </div>
 
 
@@ -3092,13 +3094,7 @@
 <a name="NW10" class="jumper"></a>
 <h2 class="NW">Series Ten</h2><br>
 
-<a class="NW" href="509">10.X ***The Christmas Special*** (262)</a><br>
-
-<a class="NW" href="510">10.1 ***something*** (263)</a><br>
-
-<a class="NW" href="511">10.2 ***idk*** (264)</a><br>
-
-<a class="NW" href="512">10.3 ***words*** (265)</a><br>
+<a class="NW" href="/unaired.php?episodeID=509&seasonID=59">10.X The Return of Doctor Mysterio (262)</a><br>
 
 </div>
 

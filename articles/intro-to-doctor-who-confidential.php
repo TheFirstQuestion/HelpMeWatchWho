@@ -1,6 +1,6 @@
 <?php require("../header.php"); ?>
 <link type="text/css" rel="stylesheet" href="articles style.css">
-<title>Introduction to Doctor Who Confidential</title>
+<title>Introduction to Doctor Who Confidential | HelpMeWatchWho</title>
 
 <h1>Introduction to <em>Doctor Who Confidential</em></h1>
 

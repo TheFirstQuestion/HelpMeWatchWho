@@ -22,13 +22,14 @@
 	$season = $rows[0][Season];
 	$story = $rows[0][Story];
 	$type = $rows[0][Type];
-		// TW/NW/SJAminisodes/minisodes/TAG/TVM = 0, SJA = 1, WoL = 2, CW = 3
+		// TW/NW/SJAminisodes/minisodes/TAG/TVM\CL = 0, SJA = 1, WoL = 2, CW = 3
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="episodes style.css">
+	<link type="text/css" rel="stylesheet" href="link-colors.css">
 	<script language="JavaScript"; src="boxes sort.js"></script>
 	<title><?php echo strip_tags($title); ?> | HelpMeWatchWho</title>
 </head>

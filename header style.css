@@ -3,11 +3,12 @@ body {
 }
 
 #theWholeHeadingBlock {
-	margin: 0px;
+	margin: 5px;
 	position: relative;
 	background: rgba(0, 0, 255, 0.2); /* For browsers that do not support gradients */
   	background: linear-gradient(to right, mediumblue, rgb(80, 90, 255), mediumblue);
   	margin-bottom: 20px;
+  	margin-top: 10px;
   	height: 90px;
 }
 

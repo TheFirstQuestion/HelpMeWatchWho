@@ -45,26 +45,29 @@
 	<!-- Reminder: change width to 100%, change height to auto, border to FFFFFF-->
 	<h2>Next <i>Doctor Who</i> episode airs in:</h2>
 	<div class="tc_div_84856" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="http://www.tickcounter.com/widget/countdown/1482667200000/europe-london/wdhms/FFFFFF2C00FF2C00FF2C00FF/0/FFFFFF1/">Countdown</a><a title="Countdown" href="http://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="http://www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_84856', 'Countdown', 650, ["1482667200000","europe-london","dhms","FFFFFF2C00FF2C00FF2C00FF","0","FFFFFF1",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>
-
-
-
-	<br>
+	
+	
+	<br><br>
 	<?php
+		// Presets for scraper
 		include_once("simple_html_dom.php");
 		$target_url = "list.php";
 		$html = new simple_html_dom();
 		$html->load_file($target_url);
 		
+		// Put every link on list.php in array
 		$links = array();
 		foreach($html->find('a.NW') as $a) {
 			$links[] = $a;
 		}
 
+		// Initialize variables
 		$len = count($links);
 		$ref;
 		$i = 0;
 		$state = -42;
 
+		// Searches for most recently aired episode -- last to point to episodes.php
 		while ($state == -42) {
 			$ref = $links[$len - $i]->href;
 			if (strpos($ref, 'episodes.php') !== false) {
@@ -73,16 +76,13 @@
 			$i++;
 		}
 		
-		//If no episodes have aired yet
-		if ($state == -42) {
-			$state = $len;
-		}
-		
+		// Echoes the first episode thathasn't aired yet
 		echo $links[$len - $state];
 		
 		$epID = $links[$len - $state]->href;
 		
 		$pos = strpos($epID, "=");
+		// Gets episode ID to load the picture
 		$ID = substr($epID, $pos + 1, 3);
 		
 		
@@ -94,24 +94,31 @@
 	<?php
 		$count = 0;
 		$i = 0;
-		
-		while ($count < 4 && $i < $len) {
+		// Runs until goes through every episode or prints 4
+		while ($count < 4 && $i < $len + 1) {
 			$ref = $links[$len - $i]->href;
+			// If it has aired (points to episodes.php), echo it
 			if (strpos($ref, 'episodes.php') !== false) {
 				echo $links[$len - $i] . "<br>";
 				$count++;
 			}
 			$i++;
 		}
+		
+		// If no episodes have aired yet
+		if ($state == -42) {
+			$state = $len;
+		}
+		
 	?>
 	
 	<br><br>
 	<!-- Reminder: change width to 100%, change height to auto, border to FFFFFF-->
 	<h2>Next <i>Class</i> episode airs in:</h2>
-	<div class="tc_div_49145" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="//www.tickcounter.com/widget/countdown/1477047600000/europe-london/dhms/FFFFFF404040404040404040/650/C0C0C01/">Countdown</a><a title="Countdown" href="https://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="//www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_49145', 'Countdown', 650, ["1477072800000","europe-london","dhms","FFFFFF404040404040404040","650","C0C0C01",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>
+<div class="tc_div_89001" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="//www.tickcounter.com/widget/countdown/1477731600000/europe-london/dhms/FFFFFF404040404040404040/650/C0C0C01/">Countdown</a><a title="Countdown" href="https://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="//www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_89001', 'Countdown', 650, ["1477731600000","europe-london","dhms","FFFFFF404040404040404040","650","FFFFFF1",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>	
 	<br>
-	
 	<?php
+		// Puts all links on list.php in array
 		$linksCL = array();
 		foreach($html->find('a.CL') as $aCL) {
 			$linksCL[] = $aCL;
@@ -122,6 +129,7 @@
 		$iCL = 0;
 		$stateCL = -42;
 
+		// Goes through all episodes until it find that points to episodes.php
 		while ($stateCL == -42 && $iCL < $lenCL) {
 			$refCL = $linksCL[$lenCL - $iCL]->href;
 			if (strpos($refCL, 'episodes.php') !== false) {
@@ -135,11 +143,12 @@
 			$stateCL = $lenCL;
 		}
 		
+		// Echoes the next episode to air
 		echo $linksCL[$lenCL - $stateCL];
 		
 		$epIDCL = $linksCL[$lenCL - $stateCL]->href;
-		
 		$posCL = strpos($epIDCL, "=");
+		// Gets episode ID for picture
 		$IDCL = substr($epIDCL, $posCL + 1, 3);
 	?>
 	
@@ -150,31 +159,18 @@
 	<?php
 		$countCL = 0;
 		$iCL = 0;
-		
-		while ($countCL < 4 && $iCL < $lenCL) {
+
+		// Loops until all episodes are found or 4 have been printed
+		while ($countCL < 4 && $iCL < $lenCL + 1) {
 			$refCL = $linksCL[$lenCL - $iCL]->href;
+			// If it has aired (points to episodes.php), print it
 			if (strpos($refCL, 'episodes.php') !== false) {
 				echo $linksCL[$lenCL - $iCL] . "<br>";
 				$countCL++;
 			}
 			$iCL++;
 		}
-		
-		if ($countCL == 0) {
-			echo "No episodes have aired yet!";
-		}
-		
-		$html->clear();
-    	unset($html);
 	?>
 	
 </div>
-<br><BR><BR>
-<?php
-	$rand = mt_rand(1, 6);
-?>
-
-	<!--<img class="companion" <?php echo "src='Images/Companions/" . $rand . ".jpg'"; ?>/>-->
-
-
 </div>

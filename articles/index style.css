@@ -31,3 +31,15 @@ img {
 	width: 65%;
 	vertical-align: center;
 }
+
+p {
+	font-size: calc(8px + .6vw);
+}
+
+strong {
+	font-size: calc(8px + .9vw);
+}
+
+h1 {
+	margin-left: 20px;
+}

@@ -3070,9 +3070,9 @@
 <a name="CL1" class="jumper"></a>
 <h2 class="CL">Class Season One</h2><br>
 
-<a class="CL" href="/unaired.php?episodeID=501&seasonID=60">1.1 For Tonight We Might Die</a><br>
+<a class="CL" href="/episodes.php?episodeID=501&seasonID=60">1.1 For Tonight We Might Die</a><br>
 
-<a class="CL" href="/unaired.php?episodeID=502&seasonID=60">1.2 The Coach With the Dragon Tattoo</a><br>
+<a class="CL" href="/episodes.php?episodeID=502&seasonID=60">1.2 The Coach With the Dragon Tattoo</a><br>
 
 <a class="CL" href="/unaired.php?episodeID=503&seasonID=60">1.3 Nightvisiting</a><br>
 

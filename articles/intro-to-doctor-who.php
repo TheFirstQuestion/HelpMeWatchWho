@@ -216,7 +216,7 @@
 
 <div class="imgWrapper"><img src="images/queen.jpg" /><img src="images/face of boe.jpg" /><img src="images/bad wolf.jpg" /></div>
 
-<p>There's a joke on the Internet about how England has 7 acotrs and 2 sets. <em>Doctor Who</em> doesn't do much to dispell this; a lot of sets and actors are repeated in unrelated roles. Just try your best to ignore it; usually, it's not acknowledged.</p>
+<p>There's a joke on the Internet about how England has 7 actors and 2 sets. <em>Doctor Who</em> doesn't do much to dispell this; a lot of sets and actors are repeated in unrelated roles. Just try your best to ignore it; usually, it's not acknowledged.</p>
 
 <div class="imgWrapper"><img src="images/meet yourself.jpg" /><img src="images/chair.jpg" /><img src="images/sets.jpg" /></div>
 

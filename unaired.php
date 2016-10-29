@@ -7,22 +7,12 @@
 
 	if ($rows === false) {
     	$error = db_error();
-	} 
-	
-	$rows2 = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $ep2id");
-
-	if ($rows2 === false) {
-    	$error = db_error();
-	} 
-	
-	$season2 = $rows2[0][Season];
+	}
 
 	$title = $rows[0][Title];
 	$desc = $rows[0][Description];
 	$season = $rows[0][Season];
 	$story = $rows[0][Story];
-	$type = $rows[0][Type];
-		// TW/NW/SJAminisodes/minisodes/TAG/TVM = 0, SJA = 1, WoL = 2, CW = 3
 ?>
 
 <!DOCTYPE html>
@@ -53,7 +43,7 @@
 	
 	<br>
 	
-	<p>This episode has not aired yet.</p>
+	<p><strong>This episode has not aired yet.</strong></p>
 	
 
 	

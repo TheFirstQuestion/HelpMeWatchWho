@@ -3074,12 +3074,12 @@
 
 <a class="CL" href="/episodes.php?episodeID=502&seasonID=60">1.2 The Coach With the Dragon Tattoo</a><br>
 
-<a class="CL" href="/unaired.php?episodeID=503&seasonID=60">1.3 Nightvisiting</a><br>
+<a class="CL" href="/episodes.php?episodeID=503&seasonID=60">1.3 Nightvisiting</a><br>
 
 <a class="CL" href="/unaired.php?episodeID=504&seasonID=60">1.4 Co-Owner of a Lonely Heart</a><br>
-<!--
-<a class="CL" href="/unaired.php?episodeID=505&seasonID=60">1.5 TBA</a><br>
 
+<a class="CL" href="/unaired.php?episodeID=505&seasonID=60">1.5 Brave-ish Heart</a><br>
+<!--
 <a class="CL" href="/unaired.php?episodeID=506&seasonID=60">1.6 TBA</a><br>
 
 <a class="CL" href="/unaired.php?episodeID=507&seasonID=60">1.7 TBA</a><br>

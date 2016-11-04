@@ -3079,9 +3079,9 @@
 <a class="CL" href="/unaired.php?episodeID=504&seasonID=60">1.4 Co-Owner of a Lonely Heart</a><br>
 
 <a class="CL" href="/unaired.php?episodeID=505&seasonID=60">1.5 Brave-ish Heart</a><br>
-<!--
-<a class="CL" href="/unaired.php?episodeID=506&seasonID=60">1.6 TBA</a><br>
 
+<a class="CL" href="/unaired.php?episodeID=506&seasonID=60">1.6 Detained</a><br>
+<!--
 <a class="CL" href="/unaired.php?episodeID=507&seasonID=60">1.7 TBA</a><br>
 
 <a class="CL" href="/unaired.php?episodeID=508&seasonID=60">1.8 TBA</a><br>

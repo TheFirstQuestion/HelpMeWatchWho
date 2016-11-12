@@ -43,7 +43,7 @@
 <!--*********************right box*************************************-->
 <div id="right" class="box">
 	<!-- Reminder: change width to 100%, change height to auto, border to FFFFFF-->
-	<h2>Next <i>Doctor Who</i> episode airs in:</h2>
+	<h2>Next <em>Doctor Who</em> episode airs in:</h2>
 	<div class="tc_div_84856" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="http://www.tickcounter.com/widget/countdown/1482667200000/europe-london/wdhms/FFFFFF2C00FF2C00FF2C00FF/0/FFFFFF1/">Countdown</a><a title="Countdown" href="http://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="http://www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_84856', 'Countdown', 650, ["1482667200000","europe-london","dhms","FFFFFF2C00FF2C00FF2C00FF","0","FFFFFF1",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>
 	
 	
@@ -76,7 +76,7 @@
 			$i++;
 		}
 		
-		// Echoes the first episode thathasn't aired yet
+		// Echoes the first episode that hasn't aired yet
 		echo $links[$len - $state];
 		
 		$epID = $links[$len - $state]->href;
@@ -114,8 +114,8 @@
 	
 	<br><br>
 	<!-- Reminder: change width to 100%, change height to auto, border to FFFFFF-->
-	<h2>Next <i>Class</i> episode airs in:</h2>
-<div class="tc_div_14345" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="//www.tickcounter.com/widget/countdown/1478336400000/europe-london/dhms/FFFFFF404040404040404040/650/FFFF1/">Countdown</a><a title="Countdown" href="https://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="//www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_14345', 'Countdown', 650, ["1478336400000","europe-london","dhms","FFFFFF404040404040404040","650","FFFFFF1",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>	
+	<h2>Next <em>Class</em> episode airs in:</h2>
+<div class="tc_div_11672" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="//www.tickcounter.com/widget/countdown/1478941200000/europe-london/dhms/FFFFFF404040404040404040/650/C0C0C01/">Countdown</a><a title="Countdown" href="https://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="//www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_11672', 'Countdown', 650, ["1478941200000","europe-london","dhms","FFFFFF404040404040404040","650","FFFFFF1",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>
 	<br>
 	<?php
 		// Puts all links on list.php in array

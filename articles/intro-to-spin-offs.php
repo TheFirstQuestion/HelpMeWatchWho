@@ -17,7 +17,7 @@
 
 <div class="imgWrapper"><img src="images/harry potter.jpg" /><img src="images/james potter.jpg" /></div>
 
-<p>For example, a <em>Harry Potter</em> spin-off might have James Potter, Harry's father, as the main character. The story would explain things referenced in the books, and the same rules about magic would apply, but it's not about Harry himself. The two stories would be connected and take place in the same universe, but it's not necessarily a sequel or a prequel. Because the two stories exist in the same universe, however, their relative timeline of events must be consistent. For books, that's not too hard, but for TV shows, that's a little more complicated. Especially for <em>Doctor Who</em>, because it involves time travel, you can end up with diagrams like these:</p>
+<p>For example, a <em>Harry Potter</em> spin-off might feature James Potter, Harry's father, as the main character. The story would explain things referenced in the books, and the same rules about magic would apply, but it's not about Harry himself. The two stories would be connected and take place in the same universe, but it's not necessarily a sequel or a prequel. Because the two stories exist in the same universe, however, their relative timeline of events must be consistent. For books, that's not too hard, but for TV shows, that's a little more complicated. Especially for <em>Doctor Who</em>, because it involves time travel, you can end up with diagrams like these:</p>
 
 <div class="imgWrapper"><img src="images/timeline2.png" /><img src="images/timeline1.jpg" /><img src="images/timeline3.jpg" /></div>
 
@@ -31,7 +31,7 @@
 
 <div class="fullSize"><img src="images/class.jpg" /></div>
 
-<p><strong>What It's About: </strong><em>"The sixth formers of Coal Hill Academy all have their own secrets and desires. They have to deal with the stresses of everyday life, including friends, parents, school work, sex, and sorrow, but also the horrors that come from time travel. The Doctor and his time-travelling have made the walls of space and time stretch thin, and monsters beyond imagination are planning to break through and wreak havoc upon the Earth."</em> <em>Class</em> revolves around an alien prince, Charlie, a refugee hiding on Earth after the destruction of his own people. His protector and former enemy, Miss Quill, pretends to be a teacher at Coal Hill, where Charlie attends. When the hostile aliens who killed their people begin to attack Coal Hill, Miss Quill and Charlie, along with his friends April, Tanya, and Ram, are tasked with protecting the Earth.</p>
+<p><strong>What It's About: </strong><em>"The sixth formers of Coal Hill Academy all have their own secrets and desires. They have to deal with the stresses of everyday life, including friends, parents, school work, sex, and sorrow, but also the horrors that come from time travel. The Doctor and his time-travelling have made the walls of space and time stretch thin, and monsters beyond imagination are planning to break through and wreak havoc upon the Earth."</em> <em>Class</em> revolves around an alien prince, Charlie, a refugee hiding on Earth after the destruction of his own people. His protector and former enemy, Miss Quill, pretends to be a teacher at Coal Hill, where Charlie attends. When the hostile aliens begin to attack Coal Hill, Miss Quill and Charlie, along with his friends April, Tanya, and Ram, are tasked with protecting the Earth.</p>
 
 <p><strong>Why You Should Watch It: </strong><em>Class</em> is a good show, even seen by itself. It's connections with <em>Doctor Who</em> are, like all of its spin-offs, tenuous and subtle, except for the occasional visit from the Doctor. It's not necessarily going to add any information to the main show, but it's a good watch and an enjoyable show.</p>
 
@@ -45,9 +45,9 @@
 
 <div class="fullSize"><img src="images/torchwood.jpg" /></div>
 
-<p><strong>What It's About: </strong><em>"This series is set inside a branch of a covert agency called the Torchwood Institute, where dashing commander in chief Capt. Jack Harkness leads Torchwood Three, an ace team of experts, as it investigates unexplained extraterrestrial incidents on Earth. Other members of the team include newest member Gwen Cooper; medical officer Dr. Owen Harper; computer specialist Toshiko Sato; and technician Ianto Jones. Torchwood Three operates independently of the British government, law enforcement groups and even the United Nations."</em> After being standed by the Doctor, Captain Jack Harkness decides that the Earth needs protecting from aliens. He recruits an elite team to track down extra-terrestrial incursions and defend humanity.</p>
+<p><strong>What It's About: </strong><em>"This series is set inside a branch of a covert agency called the Torchwood Institute, where dashing commander in chief Capt. Jack Harkness leads Torchwood Three, an ace team of experts, as it investigates unexplained extraterrestrial incidents on Earth. Torchwood Three operates independently of the British government, law enforcement groups, and even the United Nations."</em> After being standed by the Doctor, Captain Jack Harkness decides that the Earth needs protecting from aliens. He recruits an elite team to track down extra-terrestrial incursions and defend humanity.</p>
 
-<p><strong>Why You Should Watch It:</strong> <em>Torchwood</em> provides important backstory for <em>Doctor Who</em>. It explains what happens to Captain Jack in between <a href="/episodes.php?episodeID=333&seasonID=31">The Parting of the Ways</a> and <a href="/episodes.php?episodeID=250&seasonID=26">Utopia</a>. Martha Jones, former companion of the Doctor, appears for several episodes that set up some of her scenes in <em>Doctor Who</em>. Most importantly, the whole Torchwood team appears in <em>Doctor Who</em> episodes <A href="/episodes.php?episodeID=202&seasonID=22">The Stolen Earth</a>/<a href="/episodes.php?episodeID=204&seasonID=22">Journey's End</a>. Plus, it's just a good show overall.</p>
+<p><strong>Why You Should Watch It:</strong> <em>Torchwood</em> provides important backstory for <em>Doctor Who</em>, even though the Doctor never appears. It explains what happens to Captain Jack in between <a href="/episodes.php?episodeID=333&seasonID=31">The Parting of the Ways</a> and <a href="/episodes.php?episodeID=250&seasonID=26">Utopia</a>. Martha Jones, former companion of the Doctor, appears for several episodes that set up some of her scenes in <em>Doctor Who</em>. Most importantly, the whole Torchwood team appears in <em>Doctor Who</em> episodes <a href="/episodes.php?episodeID=202&seasonID=22">The Stolen Earth</a>/<a href="/episodes.php?episodeID=204&seasonID=22">Journey's End</a>. Plus, it's just a good show overall.</p>
 
 <p><strong>Age Rating: 14+</strong> due to violence, gore, and explicit sex and nudity.</p>
 
@@ -60,9 +60,9 @@
 
 <div class="fullSize"><img src="images/sja.jpg" /></div>
 
-<p><strong>What It's About:</strong><em>"Investigative journalist Sarah Jane Smith, the Doctor's former traveling companion, uses her wits and some highly advanced technology to keep Earth safe from extraterrestrial intruders, assisted by her adopted (and genetically engineered) son, Luke, and her teenage neighbor, Maria Jackson."</em> <em>The Sarah Jane Adventures</em> is a kids show about Sarah Jane Smith defending the Earth and fighting aliens alongside her son Luke and his friends Maria, Clyde, and Rani.</p>
+<p><strong>What It's About:</strong><em>"Investigative journalist Sarah Jane Smith, the Doctor's former traveling companion, uses her wits and some highly advanced technology to keep Earth safe from extraterrestrial intruders, assisted by her adopted (and genetically engineered) son, Luke, and her teenage neighbor, Maria Jackson."</em> <em>The Sarah Jane Adventures</em> is a children's show about Sarah Jane Smith defending the Earth and fighting aliens alongside her son Luke and his friends Maria, Clyde, and Rani.</p>
 
-<p><strong>Why You Should Watch It:</strong> <em>The Sarah Jane Adventures</em> is just a watered-down <em>Doctor Who</em>. It's still a show about fighting aliens, love and loss, and finding youself, just less scary and with fewer deaths. Even if you're not a child, you will stil enjoy watching it.</p>
+<p><strong>Why You Should Watch It:</strong> <em>The Sarah Jane Adventures</em> is just a watered-down <em>Doctor Who</em>. It's a show about fighting aliens, love and loss, and finding youself, just less scary and with fewer deaths. Even if you're not a child, you'll still enjoy watching it. The Doctor appears several times, in <a href="/episodes.php?episodeID=171&seasonID=18">The Wedding of Sarah Jane Smith</a>, and <a href="/episodes.php?episodeID=129&seasonID=13">The Death of the Doctor</a>, and Sarah Jane's crew appears on <em>Doctor Who</em> in <a href="/episodes.php?episodeID=202&seasonID=22">The Stolen Earth</a>/<a href="/episodes.php?episodeID=204&seasonID=22">Journey's End</a>.</p>
 
 <p><strong>Age Rating: 8+</strong> for serious storylines, children's emotions, and fart jokes.</p>
 
@@ -111,9 +111,18 @@
 
 <p><strong>What It's About:</strong> <em>"P.R.O.B.E stars Caroline John as her Doctor Who character of Liz Shaw, who now works for the Preternatural Research Bureau.</em>" Liz Shaw works to investigate ghosts, mysterious murders, and sinister rituals.</p>
 
-<p><strong>Why You Should Watch It:</strong> <em>P.R.O.B.E</em> was the first ongoing <em>Doctor Who</em> spin-off. It provides more background to Liz Shaw. However, it was not allowed to make overt references to <em>Dcotro Who</em>, and some information in the show contradicts what is stated in <em>Doctor Who</em>. You may want to watch it just for completions' sake.</p>
+<p><strong>Why You Should Watch It:</strong> <em>P.R.O.B.E</em> was the first ongoing <em>Doctor Who</em> spin-off. It provides more background to Liz Shaw. However, it was not allowed to make overt references to <em>Doctor Who</em>, and some information in the show contradicts what is stated in <em>Doctor Who</em>. You may want to watch it just for completions' sake.</p>
 
-<p><strong>Age Rating: 12+</strong> for general scariness.</p>
+<p><strong>Age Rating: 14+</strong> for horror and gore.</p>
+
+
+
+<b><br>
+<h2>What to Watch</h2>
+
+<div class="fullSize"><img src="images/selections.png" /></div>
+
+<p>We recommend watching <em>Torchwood</em>, <em>The Sarah Jane Adventures</em>, and <em>Class</em> because they have direct connections to <em>Doctor Who</em>. They're arguably the three best shows. The other spin-offs are fun to watch and nice for completions' sake, but not necessary for watching <em>Doctor Who</em>.</p>
 
 
 

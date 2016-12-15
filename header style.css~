@@ -8,7 +8,7 @@ body {
 	background: rgba(0, 0, 255, 0.2); /* For browsers that do not support gradients */
   	background: linear-gradient(to right, mediumblue, rgb(80, 90, 255), mediumblue);
   	margin-bottom: 20px;
-  	margin-top: 15px;
+  	margin-top: 20px;
   	height: 90px;
 }
 

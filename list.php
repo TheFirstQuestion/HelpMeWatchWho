@@ -3094,7 +3094,31 @@
 <a name="NW10" class="jumper"></a>
 <h2 class="NW">Series Ten</h2><br>
 
-<a class="NW" href="/unaired.php?episodeID=509&seasonID=59">10.X The Return of Doctor Mysterio (262)</a><br>
+<a class="NW" href="/episodes.php?episodeID=509&seasonID=59">10.X The Return of Doctor Mysterio (262)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=510&seasonID=59">10.1 A Star in Her Eye (263)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=511&seasonID=59">10.2 TBA (264)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=512&seasonID=59">10.3 TBA (265)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=513&seasonID=59">10.4 The Haunted Hub (266)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=514&seasonID=59">10.5 TBA (267)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=515&seasonID=59">10.6 TBA (268)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=516&seasonID=59">10.7 TBA (269)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=517&seasonID=59">10.8 TBA (270)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=518&seasonID=59">10.9 The Eaters of Light (271)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=519&seasonID=59">10.10 TBA (272)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=520&seasonID=59">10.11 TBA (273)</a><br>
+
+<a class="NW" href="/unaired.php?episodeID=521&seasonID=59">10.12 TBA (274)</a><br>
 
 </div>
 

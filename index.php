@@ -81,6 +81,7 @@
 		$epID = $links[$len - $state]->href;
 		
 		$pos = strpos($epID, "=");
+		
 		// Gets episode ID to load the picture
 		$ID = substr($epID, $pos + 1, 3);
 		

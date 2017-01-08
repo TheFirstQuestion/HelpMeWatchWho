@@ -43,7 +43,7 @@
 	
 	<br>
 	
-	<p><strong>This episode has not aired yet.</strong></p>
+	<h2>This episode has not aired yet.</h2>
 	
 
 	

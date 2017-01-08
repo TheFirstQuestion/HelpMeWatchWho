@@ -101,7 +101,6 @@ img {
 	font-size: calc(6px + 1vw);
 	cursor: pointer;
 	display: inline-block;
-	color: midnightblue;
 }
 
 #right a:visited {

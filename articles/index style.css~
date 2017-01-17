@@ -1,6 +1,6 @@
 img {
 	width: 25%;
-	margin: 20px;
+	margin: 10px;
 	display: inline-block;
 	margin-right: 20px;
 	vertical-align: top;

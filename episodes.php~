@@ -22,6 +22,16 @@
 	$season = $rows[0][Season];
 	$story = $rows[0][Story];
 	$type = $rows[0][Type];
+	
+	$episodes = db_select("SELECT * FROM `BehindTheScenes` WHERE `Title` LIKE '%Confidential%' OR `Title` LIKE '%Extra%'");
+	
+	echo "Count" . count($episodes);
+	
+	foreach ($episodes as $i) {
+		foreach ($i as $j) {
+			echo $i[Title];
+		}
+	}
 		// TW/NW/SJAminisodes/minisodes/TAG/TVM/CL = 0, SJA = 1, WoL = 2, CW = 3
 ?>
 

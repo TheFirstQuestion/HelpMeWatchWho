@@ -1,0 +1,20 @@
+#everything {
+	margin: 20px;
+}
+
+p, li {
+	font-size: calc(12px + .5vw);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:visited {
+	color: grey;
+}

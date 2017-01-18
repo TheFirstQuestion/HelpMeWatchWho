@@ -32,14 +32,41 @@
 <?php
 
 	require("../helper.php");
-
-	$episodes = db_select("SELECT * FROM `BehindTheScenes` WHERE `Title` LIKE '%Confidential%' OR `Title` LIKE '%Extra%' ORDER BY `Title`");
+	include_once("../simple_html_dom.php");
+	$target_url = "../list.php";
+	$html = new simple_html_dom();
+	$html->load_file($target_url);
 	
-	foreach ($episodes as $i) {
-		$epID = $i[LinkID];
-		$ep = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $epID");
-		echo "<li><a href='" . $i[Link] . "'>" . $i[Title] . "</a> (" . $ep[0][Season] . " " . $ep[0][Title] . ")</li>";
-	}
+	
+	// Get all links with class NW only
+	foreach($html->find('a[class="NW"]') as $a) {
+		if (strpos($a->class, 'M') == false) {
+			if (strpos($a->class, 'AF') == false) {
+				if (strpos($a->class, 'other') == false) {
+					// Get the episode ID via the url
+					$equal = explode("=", $a->href, 2);
+					$first = $equal[1];
+					$ID = explode("&", $first, 2)[0];
+					
+					// Get extra/confidential episodes from database that match current episode
+					$episodes = db_select("SELECT * FROM `BehindTheScenes` WHERE `LinkID` = $ID AND (`Title` LIKE '%Confidential%' OR `Title` LIKE '%Extra%')");
+					
+					foreach ($episodes as $i) {
+						$epID = $i[LinkID];
+						$ep = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $epID");
+						echo "<li><a href='" . $i[Link] . "'>" . $i[Title] . "</a> (" . $ep[0][Season] . " " . $ep[0][Title] . ")</li>";
+					}
+				}
+			}	
+		}
+	};
+	$html->clear();
+    unset($html);
+
+
+	
+
+	
 
 
 

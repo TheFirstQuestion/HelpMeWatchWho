@@ -3,7 +3,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 CREATE DATABASE IF NOT EXISTS `Who_List` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `Who_List`;
@@ -11,7 +11,8 @@ USE `Who_List`;
 CREATE TABLE IF NOT EXISTS `BehindTheScenes` (
   `Title` varchar(100) NOT NULL,
   `Link` varchar(767) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
@@ -121,7 +122,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('2015 Comic Con Panel', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-9-episode-0-online.php', 2),
 ('An Adventure in Space and Time (Part 2)', 'http://www.dailymotion.com/video/x1wfln7_an-adventure-in-space-and-time-part-2_shortfilms', 32),
 ('An Adventure in Space and Time (Part 1)', 'http://www.dailymotion.com/video/x1wfmek_an-adventure-in-space-and-time-part-1_shortfilms', 32),
-('Doctor Who Confidential: <i>A Noble Return</i>', 'http://www.dailymotion.com/video/x2ds5ul_doctor-who-confidential-partners-in-crime-behind-the-scenes-on-sarah-lancashire-s-episode_fun', 225),
+('Confidential 4.1: <i>A Noble Return</i>', 'http://www.dailymotion.com/video/x2ds5ul_doctor-who-confidential-partners-in-crime-behind-the-scenes-on-sarah-lancashire-s-episode_fun', 225),
 ('John Barrowman & Bill Pullman on <i>Torchwood: Miracle Day</i>', 'http://www.dailymotion.com/video/xj8ktc_interview-john-barrowman-bill-pullman-on-torchwood-miracle-day_shortfilms', 92),
 ('Eve Myles & Mekhi Phifer on <i>Torchwood: Miracle Day</i>', 'http://www.dailymotion.com/video/xj97i5_eve-myles-mekhi-phifer-on-torchwood-miracle-day_shortfilms', 110),
 ('John Barrowman Access Hollywood', 'http://www.dailymotion.com/video/xjc7dp_john-barrowman-access-hollywood_shortfilms', 92),
@@ -305,14 +306,17 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Final Scene Film to Storyboard Comparison', 'https://www.youtube.com/watch?v=_O2Gr33DJ2U', 114),
 ('Exclusive Inside Look at Episode 1', 'https://www.youtube.com/watch?v=_QC8_Q4v3eo', 29),
 ('Special Effects and Stunts', 'https://www.youtube.com/watch?v=_xylT4TzIi4', 189),
-('BFI Screening Missing <i>Doctor Who</i> Episodes', 'https://youtu.be/U6dZci_hddo', 371);
+('BFI Screening Missing <i>Doctor Who</i> Episodes', 'https://youtu.be/U6dZci_hddo', 371),
+('Confidential 4.X: TEST ENTRY', 'xx', 224),
+('Extra: TEST ENTRY', 'xxx', 509);
 
 CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `Title` varchar(50) NOT NULL DEFAULT 'Part ',
-  `EpisodeID` int(11) NOT NULL,
+  `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,
   `LinkID` int(11) NOT NULL,
-  `Missing` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=707 DEFAULT CHARSET=latin1;
+  `Missing` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`EpisodeID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=707 ;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -1024,7 +1028,8 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -3000,7 +3005,8 @@ CREATE TABLE IF NOT EXISTS `Episodes` (
   `Title` varchar(100) NOT NULL,
   `Season` varchar(50) NOT NULL,
   `Story` varchar(50) NOT NULL,
-  `Description` text NOT NULL
+  `Description` text NOT NULL,
+  PRIMARY KEY (`EpisodeID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Description`) VALUES
@@ -3535,7 +3541,8 @@ CREATE TABLE IF NOT EXISTS `WhereToBuy` (
 CREATE TABLE IF NOT EXISTS `WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -4822,25 +4829,6 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('YouTube', 'https://youtu.be/kDPj7Kur48Q?t=20s', 46),
 ('YouTube', 'https://youtu.be/kzunYNd_Dus?t=3m27s', 205);
 
-
-ALTER TABLE `BehindTheScenes`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-ALTER TABLE `CW Episodes`
-  ADD PRIMARY KEY (`EpisodeID`);
-
-ALTER TABLE `CW WhereToWatch`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-ALTER TABLE `Episodes`
-  ADD PRIMARY KEY (`EpisodeID`);
-
-ALTER TABLE `WhereToWatch`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-
-ALTER TABLE `CW Episodes`
-  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=707;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

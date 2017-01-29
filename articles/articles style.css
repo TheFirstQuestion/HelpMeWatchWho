@@ -6,13 +6,6 @@
 	width: calc(600px + 12vw);
 }
 
-.note {
-	margin-left: 50px;
-	margin-right: 50px;
-	font-size: calc(10px + .4vw);
-	font-style: italic;
-}
-
 #everything {
 	margin: 20px;
 }
@@ -87,4 +80,14 @@ a h2:hover {
 
 a:visited {
 	color: grey;
+}
+
+.note {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: calc(10px + .4vw);
+	font-style: italic;
+}
+.note a {
+	font-size: calc(10px + .4vw);
 }

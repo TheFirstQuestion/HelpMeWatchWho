@@ -60,33 +60,64 @@
 			}	
 		}
 	};
-	$html->clear();
-    unset($html);
-
-
-	
-
-	
-
-
-
 
 ?>
 
 	</ul>
 
-<br><br><br>
+
 
 
 <a name="TWD"></a>
+<br><br><br>
 <div id="head">
 	<h1><em>Torchwood Declassified</em></h1>
 	<img src="images/tdc logo.jpg" id="headingImg" />
 </div>
 
+<p>In the same vein, the spin-off <em>Torchwood</em> was also accompanied by a behind-the-scenes show, called <em>Torchwood Declassified</em>. Each episode gave viewers an in-depth look at a <em>Torchwood</em> episode, providing more detail and information. Unlike <em>Confidential</em>, however, episodes of <em>Torchwood Declassified</em> were only about ten minutes long.</p>
 
+<div class="imgWrapper"><img src="images/twd 1.jpg" /><img src="images/twd 2.jpg" /></div>
 
+<p>The show aired alongside <em>Torchwood</em> for two seasons. A special 30-minute episode accompanied the whole of <em>Children of Earth</em>, the third season, and two episodes were released on DVD for the fourth season, <em>Miracle Day</em>.</p>
 
+<div class="imgWrapper"><img src="images/twd 3.jpg" /><img src="images/twd 4.png" /></div>
 
+<p>Like <em>Confidential</em>, <em>Torchwood Declassified</em> can be a worthwhile watch, especially if you've seen all the episodes.</p>
+
+<p><em>Torchwood Declassified</em> episodes are as follows (<em>Torchwood</em> episode in parentheses):</p>
+
+	<ul>
+
+<?php
+
+	// Get all links with class TW only
+	foreach($html->find('a[class="TW"]') as $a) {
+		if (strpos($a->class, 'M') == false) {
+			if (strpos($a->class, 'AF') == false) {
+				if (strpos($a->class, 'other') == false) {
+					// Get the episode ID via the url
+					$equal = explode("=", $a->href, 2);
+					$first = $equal[1];
+					$ID = explode("&", $first, 2)[0];
+					
+					// Get declassified episodes from database that match current episode
+					$episodes = db_select("SELECT * FROM `BehindTheScenes` WHERE `LinkID` = $ID AND (`Title` LIKE '%Declassified%')");
+					
+					foreach ($episodes as $i) {
+						$epID = $i[LinkID];
+						$ep = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $epID");
+						echo "<li><a href='" . $i[Link] . "'>" . $i[Title] . "</a> (" . $ep[0][Season] . " " . $ep[0][Title] . ")</li>";
+					}
+				}
+			}	
+		}
+	};
+	$html->clear();
+    	unset($html);
+?>
+
+	</ul>
+	
 
 </div>

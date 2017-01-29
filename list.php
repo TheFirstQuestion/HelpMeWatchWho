@@ -3106,7 +3106,7 @@
 
 <a class="NW" href="/unaired.php?episodeID=514&seasonID=59">10.5 TBA (267)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=515&seasonID=59">10.6 TBA (268)</a><br>
+<a class="NW" href="/unaired.php?episodeID=515&seasonID=59">10.6 Extremis (268)</a><br>
 
 <a class="NW" href="/unaired.php?episodeID=516&seasonID=59">10.7 TBA (269)</a><br>
 

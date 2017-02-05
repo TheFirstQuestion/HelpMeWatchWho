@@ -33,6 +33,7 @@
 <h2>Reference</h2>
 	<ul>
 		<li><a href="http://tardis.wikia.com/wiki/Doctor_Who_Wiki">TARDIS Data Core Wiki</a></li>
+		<li><a href="http://merchandise.thedoctorwhosite.co.uk/features/dvd/">DVD Reference Tool</a></li>
 		<li><a href="http://www.imdb.com/title/tt0436992/?ref_=nv_sr_1">New Who IMDB</a></li>
 		<li><a href="http://www.imdb.com/title/tt5079788/?ref_=fn_al_tt_1">Class IMDB</a></li>
 		<li><a href="http://www.imdb.com/title/tt0485301/?ref_=fn_al_tt_1">Torchwood IMDB</a></li>

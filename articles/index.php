@@ -82,7 +82,7 @@
 </div>
 
 
-
+<!--
 <div class="box">
 	<a href="intro-to-other-media.php"><img src="../Images/other media.jpg" /></a>
 	<div class="innerBox">
@@ -96,3 +96,5 @@
 		</p>
 	</div>
 </div>
+
+-->

@@ -17,6 +17,7 @@
 h2 {
 	display: inline-block;
 	margin-bottom: 0px;
+	font-size: calc(25px + .5vw);
 }
 
 h3 {

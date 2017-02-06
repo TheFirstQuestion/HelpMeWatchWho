@@ -56,7 +56,7 @@
 
 <h2>Missing Episodes</h2>
 
-<p>The first six season of CLassic Who are missing a lot of episodes. "Missing" refers to episodes that are lost to time; nobody has a copy of the episode, not even the BBC. Why? In the 60s, when <em>Doctor Who</em> was first created, the BBC had a policy of erasing tapes after episodes had aired so that they could be reused. Most stories in the first six season were erased like this.</p>
+<p>The first six season of Classic Who are missing a lot of episodes. "Missing" refers to episodes that are lost to time; nobody has a copy of the episode, not even the BBC. Why? In the 60s, when <em>Doctor Who</em> was first created, the BBC had a policy of erasing tapes after episodes had aired so that they could be reused. Most stories in the first six season were erased like this.</p>
 
 <div class="imgWrapper"><img src="images/missing episodes 2.jpg" /><img src="images/missing episodes 1.JPG" /></div>
 

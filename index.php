@@ -43,9 +43,9 @@
 
 
 
+
 <!--*********************right box*************************************-->
 <div id="right" class="box">
-	<!-- Reminder: change width to 100%, change height to auto, border to FFFFFF-->
 	<h2>Next <em>Doctor Who</em> episode airs in:</h2>
 	<div class="tcw" data-id="Countdown-28570" style="position: relative; display: inline-block; margin: 0 auto; width: 100%"><a href="//www.tickcounter.com/countdown/28570/x" title="x">x</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><style>.tcw:after { content: ""; display: block; margin-top: 25%; }</style><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
 	
@@ -91,7 +91,7 @@
 		
 	?>
 	<br><br>
-	<img <?php echo "src='Screencaps/" . $ID . ".jpg'"; ?>/>
+	<img id="nextPic" <?php echo "src='Screencaps/" . $ID . ".jpg'"; ?>/>
 	<br><br>
 	<h3>Recent episodes:</h3>
 	<?php
@@ -103,6 +103,12 @@
 			// If it has aired (points to episodes.php), echo it
 			if (strpos($ref, 'episodes.php') !== false) {
 				echo $links[$len - $i] . "<br>";
+				$epID = $links[$len - $i]->href;
+				// Gets episode ID to load the picture
+				$equal = explode("=", $epID, 2);
+				$first = $equal[1];
+				$ID = explode("&", $first, 2)[0];
+				echo "<img src='Screencaps/" . $ID . ".jpg' />";
 				$count++;
 			}
 			$i++;
@@ -116,7 +122,6 @@
 	?>
 	
 	<br><br>
-	<!-- Reminder: change width to 100%, change height to auto, border to FFFFFF-->
 	<!--<h2>Next <em>Class</em> episode airs in:</h2>
 <div class="tc_div_61724" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="//www.tickcounter.com/widget/countdown/1480154400000/us-eastern/dhms/FFFFFF404040404040404040/650/C0C0C01/">Countdown</a><a title="Countdown" href="https://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="//www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_61724', 'Countdown', 650, ["1480154400000","us-eastern","dhms","FFFFFF404040404040404040","650","FFFFFF1",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>
 	<br>
@@ -178,3 +183,4 @@
 	
 </div>
 </div>
+

@@ -10,8 +10,8 @@
 	margin: 1%;
 	vertical-align: top;
 	padding: 10px;
-	/*min-height: 100%;*/
 	flex: 1;
+	max-height: 2000px;
 }
 
 h2 {
@@ -30,22 +30,25 @@ h3 {
 
 #right {
 	text-align: center;
-	font-size: calc(8px + .6vw);
+	font-size: calc(10px + .6vw);
 }
 
 #right a {
-	font-size: calc(11px + .8vw);
+	font-size: calc(12px + .8vw);
+}
+
+#right img {
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#center {
+	overflow: scroll;
 }
 
 .leftText {
 	text-align: left;
-}
-
-iframe {
-	/*width: 303px;
-	height: 100px;*/
-	margin: auto;
-	border: 2px solid black;
 }
 
 a {
@@ -74,11 +77,10 @@ span {
 img {
 	width: 90%;
 	display: block;
-    	margin-left: auto;
+    margin-left: auto;
    	margin-right: auto;
 }
 
-.companion {
-	width: 100px;
-	height: 100px;
+.twitter-timeline {
+    height: 100% !important;
 }

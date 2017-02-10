@@ -11,7 +11,11 @@
 	vertical-align: top;
 	padding: 10px;
 	flex: 1;
-	max-height: 2000px;
+}
+
+.twitter-timeline {
+	height: 80% !important;
+	margin: auto !important;
 }
 
 h2 {
@@ -38,13 +42,14 @@ h3 {
 }
 
 #right img {
-	width: 70%;
+	width: 55%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-#center {
-	overflow: scroll;
+#nextPic {
+	width: 95% !important;
+	
 }
 
 .leftText {
@@ -77,10 +82,6 @@ span {
 img {
 	width: 90%;
 	display: block;
-    margin-left: auto;
+	margin-left: auto;
    	margin-right: auto;
-}
-
-.twitter-timeline {
-    height: 100% !important;
 }

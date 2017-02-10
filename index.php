@@ -34,7 +34,29 @@
 	
 	<br><br>
 	
-	<a class="twitter-timeline" href="https://twitter.com/HelpMeWatchWho">Tweets by HelpMeWatchWho</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	
+	<!-- Twitter Script -->
+	<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+	
+	<a class="twitter-timeline" href="https://twitter.com/HelpMeWatchWho" data-chrome="nofooter" data-height="300">Loading...</a>
+
 </div>
 
 

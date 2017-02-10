@@ -122,7 +122,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('2015 Comic Con Panel', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-9-episode-0-online.php', 2),
 ('An Adventure in Space and Time (Part 2)', 'http://www.dailymotion.com/video/x1wfln7_an-adventure-in-space-and-time-part-2_shortfilms', 32),
 ('An Adventure in Space and Time (Part 1)', 'http://www.dailymotion.com/video/x1wfmek_an-adventure-in-space-and-time-part-1_shortfilms', 32),
-('Confidential 4.1: <i>A Noble Return</i>', 'http://www.dailymotion.com/video/x2ds5ul_doctor-who-confidential-partners-in-crime-behind-the-scenes-on-sarah-lancashire-s-episode_fun', 225),
+('Confidential: A Noble Return', 'http://www.dailymotion.com/video/x2ds5ul_doctor-who-confidential-partners-in-crime-behind-the-scenes-on-sarah-lancashire-s-episode_fun', 225),
 ('John Barrowman & Bill Pullman on <i>Torchwood: Miracle Day</i>', 'http://www.dailymotion.com/video/xj8ktc_interview-john-barrowman-bill-pullman-on-torchwood-miracle-day_shortfilms', 92),
 ('Eve Myles & Mekhi Phifer on <i>Torchwood: Miracle Day</i>', 'http://www.dailymotion.com/video/xj97i5_eve-myles-mekhi-phifer-on-torchwood-miracle-day_shortfilms', 110),
 ('John Barrowman Access Hollywood', 'http://www.dailymotion.com/video/xjc7dp_john-barrowman-access-hollywood_shortfilms', 92),
@@ -139,6 +139,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Introduction to Mummy on the Orient Express', 'https://www.youtube.com/watch?v=0P-_o8CIL9w', 24),
 ('Intro to <i>Closing Time</i>', 'https://www.youtube.com/watch?v=0pCJJcYQdUk', 78),
 ('The Making of The Day of the Doctor', 'https://www.youtube.com/watch?v=15YZjf2fvGw', 32),
+('Declassified: Welcome to Torchwood', 'https://www.youtube.com/watch?v=1CShNsWiLbE&t=1s', 254),
 ('The Kraal Costume', 'https://www.youtube.com/watch?v=1QsgarnJISs', 422),
 ('The Return of Sarah Jane', 'https://www.youtube.com/watch?v=2OATFrv2_D0', 300),
 ('Outtakes', 'https://www.youtube.com/watch?v=2pFvNbqpus8', 434),
@@ -259,6 +260,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Inside the Dolls'' House', 'https://www.youtube.com/watch?v=rhfdJYdlLcw', 87),
 ('Film to Storyboard Comparison', 'https://www.youtube.com/watch?v=RjQeg-Hv5n8', 120),
 ('Justin & Charity Interview', 'https://www.youtube.com/watch?v=s-O7DhaD254', 509),
+('Declassified: Jack''s Back', 'https://www.youtube.com/watch?v=s55OcbIJpVQ', 254),
 ('<i>Colony In Space</i> Models', 'https://www.youtube.com/watch?v=SiMXRygi-Co', 397),
 ('Slipknot on Set', 'https://www.youtube.com/watch?v=sWabVQYQQfg', 6),
 ('<i>Remembrance of the Daleks</i> Event and Q&A', 'https://www.youtube.com/watch?v=sZ9Q4Y37RoY', 492),
@@ -306,9 +308,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Final Scene Film to Storyboard Comparison', 'https://www.youtube.com/watch?v=_O2Gr33DJ2U', 114),
 ('Exclusive Inside Look at Episode 1', 'https://www.youtube.com/watch?v=_QC8_Q4v3eo', 29),
 ('Special Effects and Stunts', 'https://www.youtube.com/watch?v=_xylT4TzIi4', 189),
-('BFI Screening Missing <i>Doctor Who</i> Episodes', 'https://youtu.be/U6dZci_hddo', 371),
-('Confidential 4.X: TEST ENTRY', 'xx', 224),
-('Extra: TEST ENTRY', 'xxx', 509);
+('BFI Screening Missing <i>Doctor Who</i> Episodes', 'https://youtu.be/U6dZci_hddo', 371);
 
 CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `Title` varchar(50) NOT NULL DEFAULT 'Part ',
@@ -3524,7 +3524,7 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (512, 0, 'TBA', '10.3', '265', ''),
 (513, 0, 'The Haunted Hub', '10.4', '266', ''),
 (514, 0, 'TBA', '10.5', '267', ''),
-(515, 0, 'TBA', '10.6', '268', ''),
+(515, 0, 'Extremis', '10.6', '268', ''),
 (516, 0, 'TBA', '10.7', '269', ''),
 (517, 0, 'TBA', '10.8', '270', ''),
 (518, 0, 'The Eaters of Light', '10.9', '271', ''),

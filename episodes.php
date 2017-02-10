@@ -71,7 +71,9 @@
 				$epID = $x[EpisodeID];
 				$m = $x[Missing];
 				
-				echo " " . $epID;
+				
+				// For testing/data entry purposes only
+				//echo " " . $epID;
 				
 				if ($m) {
 					echo "<span id='missing'>(missing)</span>";

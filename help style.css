@@ -1,0 +1,23 @@
+.imgWrapper {
+	text-align: center;
+}
+
+.imgWrapper img {
+	max-width: 30%;
+	max-height: calc(150px + 10vw);
+}
+
+.fullSize {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.fullSize img {
+	max-width: 70%;
+	max-height: 500px;
+}
+
+.border {
+	border: 1px solid black;
+}

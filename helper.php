@@ -9,7 +9,7 @@ function db_connect() {
          // Load configuration as an array. Use the actual location of your configuration file
          // On Linux: /var/www//config.ini
          // On Mac: /Applications/MAMP/config.ini
-        $config = parse_ini_file('/var/www/config.ini'); 
+        $config = parse_ini_file('/Applications/MAMP/config.ini'); 
         $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
     }
 

@@ -1,7 +1,7 @@
 <?php
 function db_connect() {
 
-    // Define connection as a static variable, to avoid connecting more than once 
+    // Define connection as a static variable, to avoid connecting more than once
     static $connection;
 
     // Try and connect to the database, if a connection has not been established yet
@@ -9,7 +9,7 @@ function db_connect() {
          // Load configuration as an array. Use the actual location of your configuration file
          // On Linux: /var/www//config.ini
          // On Mac: /Applications/MAMP/config.ini
-        $config = parse_ini_file('/Applications/MAMP/config.ini'); 
+        $config = parse_ini_file('/Applications/MAMP/config.ini');
         $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
     }
 
@@ -17,7 +17,7 @@ function db_connect() {
     if($connection === false) {
         // Handle error - notify administrator, log to a file, show an error screen, etc.
         echo "ERROR";
-        return mysqli_connect_error(); 
+        return mysqli_connect_error();
     }
     return $connection;
 }
@@ -35,7 +35,7 @@ function db_query($query) {
 function db_error() {
     $connection = db_connect();
     echo "ERROR";
-    return mysqli_error($connection); 
+    return mysqli_error($connection);
 }
 
 function db_select($query) {
@@ -65,18 +65,18 @@ function right() {
 	$html = new simple_html_dom();
 	$html->load_file($target_url);
 	foreach($html->find('div[id]') as $element) {
-		doStuff($element);
+		compareSeason($element);
 	};
 	$html->clear();
     unset($html);
 }
 
-function doStuff($x) {
+function compareSeason($x) {
 	$seasonID = $_GET['seasonID'];
 	if ($x->id==$seasonID) {
         echo $x;
     }
-} 
+}
 
 function classicRight() {
 	include_once("simple_html_dom.php");
@@ -84,13 +84,13 @@ function classicRight() {
 	$html = new simple_html_dom();
 	$html->load_file($target_url);
 	foreach($html->find('div[id]') as $element) {
-		doThings($element);
+		compareSerial($element);
 	};
 	$html->clear();
     unset($html);
 }
 
-function doThings($x) {
+function compareSerial($x) {
 	$serialID = $_GET['serialID'];
 	if ($x->id==$serialID) {
 		echo $x->find('h2')[0];
@@ -100,7 +100,7 @@ function doThings($x) {
 			echo "<br>";
 		};
     }
-} 
+}
 
 
 ?>

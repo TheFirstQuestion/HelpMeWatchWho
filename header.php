@@ -3,7 +3,7 @@
 <head>
 	<link type="text/css" rel="stylesheet" href="/header style.css">
 	<link type="text/css" rel="stylesheet" href="/link-colors.css">
-	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600|Maven+Pro" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:600|Maven+Pro" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 

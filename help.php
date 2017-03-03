@@ -45,6 +45,8 @@
 	<li><strong>Alien File</strong>&#8212;an in-character description of an alien</li>
 	<li><strong>Other</strong>&#8212;this episode category includes video games and short stories; canonical stories but in a different media format</li>
 	<li><strong>Missing Episode</strong>&#8212;an episode missing from records due to BBC tape-wiping policies; can still be wtched via reconstructions</li>
+	<li><strong>TBA</strong>&#8212;"To Be Announced;" used as a placeholder for information yet to be announced by the BBC (such as upcoming episode titles)</li>
+	<li><strong>TBC</strong>&#8212;"To Be Confirmed;" denotes information that is rumored but not confirmed</li>
 </ul>
 
 

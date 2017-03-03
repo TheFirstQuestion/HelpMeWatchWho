@@ -3520,17 +3520,17 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (508, 0, 'The Lost', '1.8', '', 'Facing an impossible choice, our heroes must use all they''ve learnt to save Earth. But how far are they prepared to go? And will they have to pay a price? Unable to recover from the truths they have faced, the gang has splintered. Liberated from enslavement, Quill prepares to take her revenge. But they must reunite when the Shadow Kin return, raging a ruthless, unrelenting war. Resolute to claim April''s heart and Charlie''s weapon, Corakinus threatens to kill their families until he has what he desires - and the friends must fight to prevent him. This time, not everyone will make it out alive.'),
 (509, 0, 'The Return of Doctor Mysterio', '10.X', '262', 'The Doctor joins forces with an investigative journalist and a superhero to save New York from a deadly alien threat.'),
 (510, 0, 'A Star in Her Eye', '10.1', '263', ''),
-(511, 0, 'TBA', '10.2', '264', ''),
-(512, 0, 'TBA', '10.3', '265', ''),
-(513, 0, 'The Haunted Hub', '10.4', '266', ''),
-(514, 0, 'TBA', '10.5', '267', ''),
+(511, 0, 'Smile  <em>[TBC]</em>', '10.2', '264', ''),
+(512, 0, 'Thin Ice <em>[TBC]</em>', '10.3', '265', ''),
+(513, 0, 'The Haunted Hub / Knock Knock  <em>[TBC]</em>', '10.4', '266', ''),
+(514, 0, 'Oxygen', '10.5', '267', ''),
 (515, 0, 'Extremis', '10.6', '268', ''),
 (516, 0, 'TBA', '10.7', '269', ''),
 (517, 0, 'TBA', '10.8', '270', ''),
 (518, 0, 'The Eaters of Light', '10.9', '271', ''),
 (519, 0, 'TBA', '10.10', '272', ''),
-(520, 0, 'TBA', '10.11', '273', ''),
-(521, 0, 'TBA', '10.12', '274', '');
+(520, 0, 'TBA', '10.11', '273a', ''),
+(521, 0, 'TBA', '10.12', '273b', '');
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,

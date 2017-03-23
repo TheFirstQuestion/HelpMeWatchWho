@@ -3519,18 +3519,18 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (507, 0, 'The Metaphysical Engine, Or What Quill Did', '1.7', '', 'With the gang trapped in detention and out of the way, Miss Quill accepts Dorothea''s astonishing offer: to help remove the Arn from her head, and to reclaim her freedom.\r\n\r\nAlongside Ballon, an imprisoned shape-shifter, Miss Quill travels in a metaphysical engine and is taken to impossible, extraordinary and dangerous worlds, collecting materials in preparation for her life-changing procedure.\r\n\r\nAfter an emotional encounter with her surgeon and a nearly-fatal operation, Miss Quill must find a way to return to Earth: transformed and ready for war.'),
 (508, 0, 'The Lost', '1.8', '', 'Facing an impossible choice, our heroes must use all they''ve learnt to save Earth. But how far are they prepared to go? And will they have to pay a price? Unable to recover from the truths they have faced, the gang has splintered. Liberated from enslavement, Quill prepares to take her revenge. But they must reunite when the Shadow Kin return, raging a ruthless, unrelenting war. Resolute to claim April''s heart and Charlie''s weapon, Corakinus threatens to kill their families until he has what he desires - and the friends must fight to prevent him. This time, not everyone will make it out alive.'),
 (509, 0, 'The Return of Doctor Mysterio', '10.X', '262', 'The Doctor joins forces with an investigative journalist and a superhero to save New York from a deadly alien threat.'),
-(510, 0, 'A Star in Her Eye', '10.1', '263', ''),
+(510, 0, 'A Star in Her Eye / The Pilot <em>[TBC]</em>', '10.1', '263', ''),
 (511, 0, 'Smile  <em>[TBC]</em>', '10.2', '264', ''),
 (512, 0, 'Thin Ice <em>[TBC]</em>', '10.3', '265', ''),
 (513, 0, 'The Haunted Hub / Knock Knock  <em>[TBC]</em>', '10.4', '266', ''),
-(514, 0, 'Oxygen', '10.5', '267', ''),
-(515, 0, 'Extremis', '10.6', '268', ''),
-(516, 0, 'TBA', '10.7', '269', ''),
-(517, 0, 'TBA', '10.8', '270', ''),
-(518, 0, 'The Eaters of Light', '10.9', '271', ''),
-(519, 0, 'TBA', '10.10', '272', ''),
-(520, 0, 'TBA', '10.11', '273a', ''),
-(521, 0, 'TBA', '10.12', '273b', '');
+(514, 0, 'Oxygen <em>[TBC]</em>', '10.5', '267', ''),
+(515, 0, 'Extremis <em>[TBC]</em>', '10.6', '268a', ''),
+(516, 0, 'TBA', '10.7', '268b', ''),
+(517, 0, 'TBA', '10.8', '268c', ''),
+(518, 0, 'TBA', '10.9', '269', ''),
+(519, 0, 'The Eaters of Light', '10.10', '270', ''),
+(520, 0, 'TBA', '10.11', '271a', ''),
+(521, 0, 'TBA', '10.12', '272b', '');
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,

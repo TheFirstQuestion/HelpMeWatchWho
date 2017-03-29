@@ -8,7 +8,7 @@
 
 <h1>Help</h1>
 
-<p>If you're new to <em>Doctor Who</em>, check out our <a href="/articles/intro-to-docto-who.php">Introduction to Doctor Who</a> to clear up any comfusion about the show. If you're confused about the site, read on!</p>
+<p>If you're new to <em>Doctor Who</em>, check out our <a href="/articles/intro-to-docto-who.php">Introduction to Doctor Who</a> to clear up any confusion about the show. If you're confused about the site, read on!</p>
 
 
 
@@ -68,7 +68,7 @@
       ltr = coded.charAt(i)
       link += (ltr)
     }
-    else {     
+    else {
       ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
       link += (key.charAt(ltr))
     }

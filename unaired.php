@@ -1,8 +1,8 @@
 <?php
 	require("helper.php");
 
-	$episodeID = $_GET['episodeID'];
-	$ep2id = $episodeID + 1;
+	// Use db_quote to escape string and prevent SQL injection
+	$episodeID = db_quote($_GET['episodeID']);
 	$rows = db_select("SELECT * FROM `Episodes` WHERE `EpisodeID` = $episodeID");
 
 	if ($rows === false) {
@@ -30,23 +30,29 @@
 <div id="everything">
 <div id="left">
 	<h1><?php echo $season; ?>: <?php echo $title; ?></h1>
-	
+
 	<?php
 		if ($story != '') {
 			echo "<h3>Story&nbsp;No.&nbsp; $story</h3>";
 		};
 	?>
-	
-	<p><?php echo $desc; ?></p>
-	
-	<img <?php echo "src='Screencaps/" . $episodeID . ".jpg'"; ?>/>
-	
-	<br>
-	
-	<h2>This episode has not aired yet.</h2>
-	
 
-	
+
+	<?php
+		//Remove quotes from the episodeID used in the picture link
+		$epIDnoQuotes = str_replace("'", "", $episodeID);
+	?>
+
+	<p><?php echo $desc; ?></p>
+
+	<img <?php echo "src='Screencaps/" . $epIDnoQuotes . ".jpg'"; ?>/>
+
+	<br>
+
+	<h2>This episode has not aired yet.</h2>
+
+
+
 	</div>
 
 <div id ="right">

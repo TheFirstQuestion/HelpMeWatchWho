@@ -82,39 +82,39 @@
 	<a name="top"></a>
 	<h1>The Complete Doctor Who List</h1>
 	<h4>Use the checkboxes below to sort the list.</h4>
-	
+
 	<br><br>
-	
+
 	<div id="boxes" style="color: white">
 		<div class="box" id="classicWhobox">
 			<input type="checkbox" id="classicWhoBox" onClick="setCW(true)">
 			<label for="classicWhoBox">Classic Who</label>
 		</div>
-		
+
 		<div class="box" id="newWhobox">
 			<input type="checkbox" id="newWhoBox" onClick="setNW(true)">
-			<label for="newWhoBox">New Who</label> 
+			<label for="newWhoBox">New Who</label>
 		</div>
-		
+
 		<div class="box" id="torchwoodbox">
 			<input type="checkbox" id="torchwoodBox" onClick="setTW(true)">
 			<label for="torchwoodBox">Torchwood</label>
 		</div>
-		
+
 		<div class="box" id="SJAbox">
 			<input type="checkbox" id="SJABox" onClick="setSJA(true)">
 			<label for="SJABox">Sarah Jane Adventures</label>
 		</div>
-		
+
 		<div class="box" id="CLbox">
 			<input type="checkbox" id="CLBox" onClick="setCL(true)">
 			<label for="CLBox">Class</label>
 		</div>
-				
-		
+
+
 		<br> <br>
-		
-		
+
+
 		<div class="box" id="alienFilebox">
 			<input type="checkbox" id="alienFileBox" onClick="setAF(true)">
 			<label for="alienFileBox">Alien Files</label>
@@ -124,20 +124,20 @@
 			<input type="checkbox" id="minisodeBox" onClick="setM(true)">
 			<label for="minisodeBox">Minisodes</label>
 		</div>
-		
+
 		<div class="box" id="otherbox">
 			<input type="checkbox" id="otherBox" onClick="setOther(true)">
 			<label for="otherBox">Other</label>
 		</div>
-		
-		
+
+
 		<div class="box" id="mebox">
 			<input type="checkbox" id="meBox" onClick="setMissing(true)">
 			<label for="meBox">Include Missing Episodes</label>
 		</div>
-		
+
 	</div>
-	
+
 </div>
 </div>
 <div id="everything">
@@ -3096,7 +3096,7 @@
 
 <a class="NW" href="/episodes.php?episodeID=509&seasonID=59">10.X The Return of Doctor Mysterio (262)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=510&seasonID=59">10.1 A Star in Her Eye / The Pilot <em>[TBC]</em> (263)</a><br>
+<a class="NW" href="/unaired.php?episodeID=510&seasonID=59">10.1 The Pilot (263)</a><br>
 
 <a class="NW" href="/unaired.php?episodeID=511&seasonID=59">10.2 Smile <em>[TBC]</em> (264)</a><br>
 

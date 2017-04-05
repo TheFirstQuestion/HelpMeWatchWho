@@ -69,7 +69,7 @@
 <!--*********************right box*************************************-->
 <div id="right" class="box">
 	<h2>Next <em>Doctor Who</em> episode airs in:</h2>
-	<div class="tcw" data-id="Countdown-28570" style="position: relative; display: inline-block; margin: 0 auto; width: 100%"><a href="//www.tickcounter.com/countdown/28570/x" title="x">x</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><style>.tcw:after { content: ""; display: block; margin-top: 25%; }</style><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+	<div data-type="countdown" data-id="105717" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/105717/x" title="x">x</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
 	
 	<br><br><br><br>
 	<?php

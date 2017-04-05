@@ -3098,21 +3098,21 @@
 
 <a class="NW" href="/unaired.php?episodeID=510&seasonID=59">10.1 The Pilot (263)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=511&seasonID=59">10.2 Smile <em>[TBC]</em> (264)</a><br>
+<a class="NW" href="/unaired.php?episodeID=511&seasonID=59">10.2 Smile (264)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=512&seasonID=59">10.3 Thin Ice <em>[TBC]</em> (265)</a><br>
+<a class="NW" href="/unaired.php?episodeID=512&seasonID=59">10.3 Thin Ice (265)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=513&seasonID=59">10.4 The Haunted Hub / Knock Knock <em>[TBC]</em> (266)</a><br>
+<a class="NW" href="/unaired.php?episodeID=513&seasonID=59">10.4 Knock Knock (266)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=514&seasonID=59">10.5 Oxygen <em>[TBC]</em> (267)</a><br>
+<a class="NW" href="/unaired.php?episodeID=514&seasonID=59">10.5 Oxygen (267)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=515&seasonID=59">10.6 Extremis <em>[TBC]</em> (268a)</a><br>
+<a class="NW" href="/unaired.php?episodeID=515&seasonID=59">10.6 Extremis (268a)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=516&seasonID=59">10.7 TBA (268b)</a><br>
+<a class="NW" href="/unaired.php?episodeID=516&seasonID=59">10.7 The Pyramid at the End of the World (268b)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=517&seasonID=59">10.8 TBA (268c)</a><br>
+<a class="NW" href="/unaired.php?episodeID=517&seasonID=59">10.8 The Lie of the Land (268c)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=518&seasonID=59">10.9 TBA (269)</a><br>
+<a class="NW" href="/unaired.php?episodeID=518&seasonID=59">10.9 The Empress of Mars (269)</a><br>
 
 <a class="NW" href="/unaired.php?episodeID=519&seasonID=59">10.10 The Eaters of Light (270)</a><br>
 

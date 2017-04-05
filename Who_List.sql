@@ -3,7 +3,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 CREATE DATABASE IF NOT EXISTS `Who_List` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `Who_List`;
@@ -11,7 +11,8 @@ USE `Who_List`;
 CREATE TABLE IF NOT EXISTS `BehindTheScenes` (
   `Title` varchar(100) NOT NULL,
   `Link` varchar(767) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
@@ -311,10 +312,11 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 
 CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `Title` varchar(50) NOT NULL DEFAULT 'Part ',
-  `EpisodeID` int(11) NOT NULL,
+  `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,
   `LinkID` int(11) NOT NULL,
-  `Missing` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=707 DEFAULT CHARSET=latin1;
+  `Missing` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`EpisodeID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=707 ;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -1026,7 +1028,8 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -3002,7 +3005,8 @@ CREATE TABLE IF NOT EXISTS `Episodes` (
   `Title` varchar(100) NOT NULL,
   `Season` varchar(50) NOT NULL,
   `Story` varchar(50) NOT NULL,
-  `Description` text NOT NULL
+  `Description` text NOT NULL,
+  PRIMARY KEY (`EpisodeID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Description`) VALUES
@@ -3516,14 +3520,14 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (508, 0, 'The Lost', '1.8', '', 'Facing an impossible choice, our heroes must use all they''ve learnt to save Earth. But how far are they prepared to go? And will they have to pay a price? Unable to recover from the truths they have faced, the gang has splintered. Liberated from enslavement, Quill prepares to take her revenge. But they must reunite when the Shadow Kin return, raging a ruthless, unrelenting war. Resolute to claim April''s heart and Charlie''s weapon, Corakinus threatens to kill their families until he has what he desires - and the friends must fight to prevent him. This time, not everyone will make it out alive.'),
 (509, 0, 'The Return of Doctor Mysterio', '10.X', '262', 'The Doctor joins forces with an investigative journalist and a superhero to save New York from a deadly alien threat.'),
 (510, 0, 'The Pilot', '10.1', '263', 'Two worlds collide when the Doctor meets Bill. A chance encounter with a girl with a star in her eye leads to a terrifying chase across time and space. Bill''s mind is opened to a Universe that is bigger and more exciting than she could possibly have imagined&#8212;but who is the Doctor, and what is his secret mission with Nardole on Earth?'),
-(511, 0, 'Smile  <em>[TBC]</em>', '10.2', '264', ''),
-(512, 0, 'Thin Ice <em>[TBC]</em>', '10.3', '265', ''),
-(513, 0, 'The Haunted Hub / Knock Knock  <em>[TBC]</em>', '10.4', '266', ''),
-(514, 0, 'Oxygen <em>[TBC]</em>', '10.5', '267', ''),
-(515, 0, 'Extremis <em>[TBC]</em>', '10.6', '268a', ''),
-(516, 0, 'TBA', '10.7', '268b', ''),
-(517, 0, 'TBA', '10.8', '268c', ''),
-(518, 0, 'TBA', '10.9', '269', ''),
+(511, 0, 'Smile', '10.2', '264', ''),
+(512, 0, 'Thin Ice', '10.3', '265', ''),
+(513, 0, 'Knock Knock', '10.4', '266', ''),
+(514, 0, 'Oxygen', '10.5', '267', ''),
+(515, 0, 'Extremis', '10.6', '268a', ''),
+(516, 0, 'The Pyramid at the End of the World', '10.7', '268b', ''),
+(517, 0, 'The Lie of the Land', '10.8', '268c', ''),
+(518, 0, 'The Empress of Mars', '10.9', '269', ''),
 (519, 0, 'The Eaters of Light', '10.10', '270', ''),
 (520, 0, 'TBA', '10.11', '271a', ''),
 (521, 0, 'TBA', '10.12', '272b', '');
@@ -3537,7 +3541,8 @@ CREATE TABLE IF NOT EXISTS `WhereToBuy` (
 CREATE TABLE IF NOT EXISTS `WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -4824,25 +4829,6 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('YouTube', 'https://youtu.be/kDPj7Kur48Q?t=20s', 46),
 ('YouTube', 'https://youtu.be/kzunYNd_Dus?t=3m27s', 205);
 
-
-ALTER TABLE `BehindTheScenes`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-ALTER TABLE `CW Episodes`
-  ADD PRIMARY KEY (`EpisodeID`);
-
-ALTER TABLE `CW WhereToWatch`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-ALTER TABLE `Episodes`
-  ADD PRIMARY KEY (`EpisodeID`);
-
-ALTER TABLE `WhereToWatch`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-
-ALTER TABLE `CW Episodes`
-  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=707;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -3,7 +3,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
 CREATE DATABASE IF NOT EXISTS `Who_List` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `Who_List`;
@@ -11,8 +11,7 @@ USE `Who_List`;
 CREATE TABLE IF NOT EXISTS `BehindTheScenes` (
   `Title` varchar(100) NOT NULL,
   `Link` varchar(767) NOT NULL,
-  `LinkID` int(11) NOT NULL,
-  UNIQUE KEY `Link` (`Link`)
+  `LinkID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
@@ -291,6 +290,7 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('<span class="spoilers">Mel''s Leaving Scene</span>', 'https://www.youtube.com/watch?v=x5b1b22Sp7A', 491),
 ('Creating the Ghosts', 'https://www.youtube.com/watch?v=XcRtJPb5w8k', 6),
 ('Double Down', 'https://www.youtube.com/watch?v=XHnVN5AYMyc', 121),
+('Who Is New Companion Bill?', 'https://www.youtube.com/watch?v=xnutiAVwhWk', 510),
 ('Destroy All Monsters! (Part Two)', 'https://www.youtube.com/watch?v=xZP7R_xrm2s', 405),
 ('Recreating the Great War', 'https://www.youtube.com/watch?v=Y5UWlg78k8Q', 289),
 ('The Doctor Gets Cross', 'https://www.youtube.com/watch?v=YFK4yZhqgnk', 123),
@@ -312,11 +312,10 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 
 CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `Title` varchar(50) NOT NULL DEFAULT 'Part ',
-  `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,
+  `EpisodeID` int(11) NOT NULL,
   `LinkID` int(11) NOT NULL,
-  `Missing` tinyint(1) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`EpisodeID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=707 ;
+  `Missing` tinyint(1) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB AUTO_INCREMENT=707 DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -1028,8 +1027,7 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL,
-  UNIQUE KEY `Link` (`Link`)
+  `LinkID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -3005,8 +3003,7 @@ CREATE TABLE IF NOT EXISTS `Episodes` (
   `Title` varchar(100) NOT NULL,
   `Season` varchar(50) NOT NULL,
   `Story` varchar(50) NOT NULL,
-  `Description` text NOT NULL,
-  PRIMARY KEY (`EpisodeID`)
+  `Description` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Description`) VALUES
@@ -3520,8 +3517,8 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (508, 0, 'The Lost', '1.8', '', 'Facing an impossible choice, our heroes must use all they''ve learnt to save Earth. But how far are they prepared to go? And will they have to pay a price? Unable to recover from the truths they have faced, the gang has splintered. Liberated from enslavement, Quill prepares to take her revenge. But they must reunite when the Shadow Kin return, raging a ruthless, unrelenting war. Resolute to claim April''s heart and Charlie''s weapon, Corakinus threatens to kill their families until he has what he desires - and the friends must fight to prevent him. This time, not everyone will make it out alive.'),
 (509, 0, 'The Return of Doctor Mysterio', '10.X', '262', 'The Doctor joins forces with an investigative journalist and a superhero to save New York from a deadly alien threat.'),
 (510, 0, 'The Pilot', '10.1', '263', 'Two worlds collide when the Doctor meets Bill. A chance encounter with a girl with a star in her eye leads to a terrifying chase across time and space. Bill''s mind is opened to a Universe that is bigger and more exciting than she could possibly have imagined&#8212;but who is the Doctor, and what is his secret mission with Nardole on Earth?'),
-(511, 0, 'Smile', '10.2', '264', ''),
-(512, 0, 'Thin Ice', '10.3', '265', ''),
+(511, 0, 'Smile', '10.2', '264', 'The Doctor takes Bill to the colony world Gliese 581 D. It''s a bright, sunny world, tended to by the tiny bird-like Vardies and their user interface&#8212;the Emojibots. There''s just one thing missing: the colonists. As the Doctor and Bill investigate, they discover that to keep smiling is their only hope of staying alive.'),
+(512, 0, 'Thin Ice', '10.3', '265', '4 February 1814. London. The Doctor and Bill chill out at the last great frost fair on the frozen Thames, enjoying the carnival atmosphere and eating pies. But sinister lights are swarming beneath the ice, luring people to their doom in the black depths of the river&#8212;and as the Doctor gets on the case, a desperate band of local urchins could provide the clues he needs. Someone powerful and ruthless is plotting to attract as many people to the fair as possible...but why? And what lurks at the bottom of the Thames, waiting implacably for the first ominous cracks in the ice?'),
 (513, 0, 'Knock Knock', '10.4', '266', ''),
 (514, 0, 'Oxygen', '10.5', '267', ''),
 (515, 0, 'Extremis', '10.6', '268a', ''),
@@ -3541,8 +3538,7 @@ CREATE TABLE IF NOT EXISTS `WhereToBuy` (
 CREATE TABLE IF NOT EXISTS `WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL,
-  UNIQUE KEY `Link` (`Link`)
+  `LinkID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -4829,6 +4825,25 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('YouTube', 'https://youtu.be/kDPj7Kur48Q?t=20s', 46),
 ('YouTube', 'https://youtu.be/kzunYNd_Dus?t=3m27s', 205);
 
+
+ALTER TABLE `BehindTheScenes`
+  ADD UNIQUE KEY `Link` (`Link`);
+
+ALTER TABLE `CW Episodes`
+  ADD PRIMARY KEY (`EpisodeID`);
+
+ALTER TABLE `CW WhereToWatch`
+  ADD UNIQUE KEY `Link` (`Link`);
+
+ALTER TABLE `Episodes`
+  ADD PRIMARY KEY (`EpisodeID`);
+
+ALTER TABLE `WhereToWatch`
+  ADD UNIQUE KEY `Link` (`Link`);
+
+
+ALTER TABLE `CW Episodes`
+  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=707;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -3096,7 +3096,7 @@
 
 <a class="NW" href="/episodes.php?episodeID=509&seasonID=59">10.X The Return of Doctor Mysterio (262)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=510&seasonID=59">10.1 The Pilot (263)</a><br>
+<a class="NW" href="/episodes.php?episodeID=510&seasonID=59">10.1 The Pilot (263)</a><br>
 
 <a class="NW" href="/unaired.php?episodeID=511&seasonID=59">10.2 Smile (264)</a><br>
 

@@ -200,9 +200,9 @@
 
 <div class="fullSize"><a href="/episodes.php?episodeID=510&seasonID=59"><img src="images/series 10.jpg" /></a></div>
 
-<a href="/episodes.php?episodeID=510&seasonID=59"><h2>#3: A Star in Her Eye</h2></a>
+<a href="/episodes.php?episodeID=510&seasonID=59"><h2>#3: The Pilot</h2></a>
 
-<p><em>Doctor Who</em> will return in 2017 after a yearlong hiatus with a new companion. This offers a chance for new viewers to jump on and get introduced to the show at the same time as a character. This is a good place to start if you're not too picky about knowing every detail about the show, or if you just want to start watching what's current. If you start here, you may be confused about references or inside jokes to previous events, and you'll miss out on some amazing things in the first nine seasons.</p>
+<p><em>Doctor Who</em> returned in 2017 after a yearlong hiatus with a new companion. This offers a chance for new viewers to jump on and get introduced to the show at the same time as a character. It's a good place to start if you're not too picky about knowing every detail about the show, or if you just want to start watching what's current. If you start here, you may be confused about references or inside jokes to previous events, and you'll miss out on some amazing things in the first nine seasons.</p>
 
 
 

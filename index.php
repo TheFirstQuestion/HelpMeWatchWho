@@ -31,10 +31,10 @@
 <div id="center" class="box">
 	<h2>What's new in the Whoniverse?</h2>
 	<img src="Images/banner.jpg" />
-	
+
 	<br><br>
-	
-	
+
+
 	<!-- Twitter Script -->
 	<script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
@@ -54,7 +54,7 @@
 }(document, "script", "twitter-wjs"));</script>
 
 
-	
+
 	<a class="twitter-timeline" href="https://twitter.com/HelpMeWatchWho" data-chrome="nofooter" data-height="300">Loading...</a>
 
 </div>
@@ -69,8 +69,8 @@
 <!--*********************right box*************************************-->
 <div id="right" class="box">
 	<h2>Next <em>Doctor Who</em> episode airs in:</h2>
-	<div data-type="countdown" data-id="105717" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/105717/x" title="x">x</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
-	
+	<div data-type="countdown" data-id="115999" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/115999/x" title="x">x</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+
 	<br><br><br><br>
 	<?php
 		// Presets for scraper
@@ -78,7 +78,7 @@
 		$target_url = "list.php";
 		$html = new simple_html_dom();
 		$html->load_file($target_url);
-		
+
 		// Put every link on list.php in array
 		$links = array();
 		foreach($html->find('a.NW') as $a) {
@@ -99,18 +99,18 @@
 			}
 			$i++;
 		}
-		
+
 		// Echoes the first episode that hasn't aired yet
 		echo $links[$len - $state];
-		
+
 		$epID = $links[$len - $state]->href;
-		
+
 		// Gets episode ID to load the picture
 		$equal = explode("=", $epID, 2);
 		$first = $equal[1];
 		$ID = explode("&", $first, 2)[0];
-		
-		
+
+
 	?>
 	<br><br>
 	<img id="nextPic" <?php echo "src='Screencaps/" . $ID . ".jpg'"; ?>/>
@@ -135,14 +135,14 @@
 			}
 			$i++;
 		}
-		
+
 		// If no episodes have aired yet
 		if ($state == -42) {
 			$state = $len;
 		}
-		
+
 	?>
-	
+
 	<br><br>
 	<!--<h2>Next <em>Class</em> episode airs in:</h2>
 <div class="tc_div_61724" style="width:100%;height:auto;border:1px solid #FFFFFF"><a title="Countdown" href="//www.tickcounter.com/widget/countdown/1480154400000/us-eastern/dhms/FFFFFF404040404040404040/650/C0C0C01/">Countdown</a><a title="Countdown" href="https://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="//www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_61724', 'Countdown', 650, ["1480154400000","us-eastern","dhms","FFFFFF404040404040404040","650","FFFFFF1",""]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>
@@ -167,21 +167,21 @@
 			}
 			$iCL++;
 		}
-		
+
 		//If no episodes have aired yet
 		if ($stateCL == -42) {
 			$stateCL = $lenCL;
 		}
-		
+
 		// Echoes the next episode to air
 		echo $linksCL[$lenCL - $stateCL];
-		
+
 		$epIDCL = $linksCL[$lenCL - $stateCL]->href;
 		$posCL = strpos($epIDCL, "=");
 		// Gets episode ID for picture
 		$IDCL = substr($epIDCL, $posCL + 1, 3);
 	?>
-	
+
 	<br><br>
 	<img <?php echo "src='Screencaps/" . $IDCL . ".jpg'"; ?>/>
 	<br><br>
@@ -202,7 +202,6 @@
 		}
 	?>
 -->
-	
-</div>
-</div>
 
+</div>
+</div>

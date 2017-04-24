@@ -69,7 +69,7 @@
 <!--*********************right box*************************************-->
 <div id="right" class="box">
 	<h2>Next <em>Doctor Who</em> episode airs in:</h2>
-	<div data-type="countdown" data-id="115999" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/115999/x" title="x">x</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+	<div data-type="countdown" data-id="123649" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/123649/x" title="x">x</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
 
 	<br><br><br><br>
 	<?php
@@ -113,7 +113,7 @@
 
 	?>
 	<br><br>
-	<img id="nextPic" <?php echo "src='Screencaps/" . $ID . ".jpg'"; ?>/>
+	<a href="<?php echo $epID ?>"><img id="nextPic" <?php echo "src='Screencaps/" . $ID . ".jpg'"; ?>/></a>
 	<br><br>
 	<h3>Recent episodes:</h3>
 	<?php
@@ -130,7 +130,7 @@
 				$equal = explode("=", $epID, 2);
 				$first = $equal[1];
 				$ID = explode("&", $first, 2)[0];
-				echo "<img src='Screencaps/" . $ID . ".jpg' />";
+				echo "<a href='" . $epID . "'><img src='Screencaps/" . $ID . ".jpg' /></a>";
 				$count++;
 			}
 			$i++;

@@ -3,7 +3,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 CREATE DATABASE IF NOT EXISTS `Who_List` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `Who_List`;
@@ -11,7 +11,8 @@ USE `Who_List`;
 CREATE TABLE IF NOT EXISTS `BehindTheScenes` (
   `Title` varchar(100) NOT NULL,
   `Link` varchar(767) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
@@ -116,6 +117,12 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Why you should never sneak around a Doctor Who set', 'http://www.bbc.co.uk/programmes/p03cs3kt', 15),
 ('What''s in the Doctor''s Browser History?', 'http://www.bbc.co.uk/programmes/p03cs623', 10),
 ('Get the Look - River Song', 'http://www.bbc.co.uk/programmes/p03csgbx', 15),
+('Steven introduces <em>Smile</em>', 'http://www.bbc.co.uk/programmes/p050hgzv', 511),
+('Peter and Pearl introduce <em>Smile</em>', 'http://www.bbc.co.uk/programmes/p050hpk0', 511),
+('Pearl introduces Valencia\r\n', 'http://www.bbc.co.uk/programmes/p050ld0c', 511),
+('Praiseworthy sings Peter and Pearl''s praises', 'http://www.bbc.co.uk/programmes/p050lfd4', 511),
+('Pearl jellies out', 'http://www.bbc.co.uk/programmes/p050lgxd', 511),
+('Peter and Pearl meet fans in Spain', 'http://www.bbc.co.uk/programmes/p050lk2r', 511),
 ('Live Preshow', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-8-episode-101-online.php', 29),
 ('After Who Live', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-8-episode-102-online.php', 29),
 ('2015 Comic Con Panel', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-9-episode-0-online.php', 2),
@@ -320,10 +327,11 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 
 CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `Title` varchar(50) NOT NULL DEFAULT 'Part ',
-  `EpisodeID` int(11) NOT NULL,
+  `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,
   `LinkID` int(11) NOT NULL,
-  `Missing` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=707 DEFAULT CHARSET=latin1;
+  `Missing` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`EpisodeID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=707 ;
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -1035,7 +1043,8 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `CW WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -3011,7 +3020,8 @@ CREATE TABLE IF NOT EXISTS `Episodes` (
   `Title` varchar(100) NOT NULL,
   `Season` varchar(50) NOT NULL,
   `Story` varchar(50) NOT NULL,
-  `Description` text NOT NULL
+  `Description` text NOT NULL,
+  PRIMARY KEY (`EpisodeID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Description`) VALUES
@@ -3526,16 +3536,16 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (509, 0, 'The Return of Doctor Mysterio', '10.X', '262', 'The Doctor joins forces with an investigative journalist and a superhero to save New York from a deadly alien threat.'),
 (510, 0, 'The Pilot', '10.1', '263', 'Two worlds collide when the Doctor meets Bill. A chance encounter with a girl with a star in her eye leads to a terrifying chase across time and space. Bill''s mind is opened to a Universe that is bigger and more exciting than she could possibly have imagined&#8212;but who is the Doctor, and what is his secret mission with Nardole on Earth?'),
 (511, 0, 'Smile', '10.2', '264', 'In the far future, at the edge of the galaxy, there is a gleaming, perfect city. This brand new human settlement is said to hold the secret of human happiness&#8212;but the only smiles the Doctor and Bill can find are on a pile of grinning skulls.\n\nSomething is alive in the walls, and the emojibots are watching from the shadows, as the Doctor and Bill trying to unravel a terrifying mystery...'),
-(512, 0, 'Thin Ice', '10.3', '265', '4 February 1814. London. The Doctor and Bill chill out at the last great frost fair on the frozen Thames, enjoying the carnival atmosphere and eating pies. But sinister lights are swarming beneath the ice, luring people to their doom in the black depths of the river&#8212;and as the Doctor gets on the case, a desperate band of local urchins could provide the clues he needs. Someone powerful and ruthless is plotting to attract as many people to the fair as possible...but why? And what lurks at the bottom of the Thames, waiting implacably for the first ominous cracks in the ice?'),
-(513, 0, 'Knock Knock', '10.4', '266', ''),
+(512, 0, 'Thin Ice', '10.3', '265', 'In Regency England, beneath the frozen Thames, something is stirring.\n\nThe Doctor and Bill arrive at the last of the great frost fairs, and find themselves investigating a string of impossible disappearances&#8212;people have been vanishing on the ice! Bill is about to discover that the past is more like her world than she expected, and that not all monsters come from outer space...'),
+(513, 0, 'Knock Knock', '10.4', '266', 'Bill is moving in with some friends and they’ve found the perfect house&#8212;so what if it’s strangely cheap to rent, and the landlord is a little creepy?\n\nThe wind blows, the floorboards creak, and the Doctor thinks something is very wrong. What lurks in the strange tower at the heart of the building&#8212;and why can’t they find any way to enter it?'),
 (514, 0, 'Oxygen', '10.5', '267', ''),
 (515, 0, 'Extremis', '10.6', '268a', ''),
 (516, 0, 'The Pyramid at the End of the World', '10.7', '268b', ''),
 (517, 0, 'The Lie of the Land', '10.8', '268c', ''),
 (518, 0, 'The Empress of Mars', '10.9', '269', ''),
 (519, 0, 'The Eaters of Light', '10.10', '270', ''),
-(520, 0, 'TBA', '10.11', '271a', ''),
-(521, 0, 'TBA', '10.12', '272b', '');
+(520, 0, 'World Enough and Time', '10.11', '271a', ''),
+(521, 0, 'The Doctor Falls', '10.12', '272b', '');
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,
@@ -3546,7 +3556,8 @@ CREATE TABLE IF NOT EXISTS `WhereToBuy` (
 CREATE TABLE IF NOT EXISTS `WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL
+  `LinkID` int(11) NOT NULL,
+  UNIQUE KEY `Link` (`Link`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
@@ -3930,6 +3941,7 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('Coke & Popcorn', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-9-episode-8-online.php', 10),
 ('Coke & Popcorn', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-9-episode-9-online.php', 11),
 ('Coke & Popcorn', 'http://www.cokeandpopcorn.ch/53526-download-or-watch-doctor-who-season-10-episode-1-online.php', 510),
+('Coke & Popcorn', 'http://www.cokeandpopcorn.ch/53526-download-or-watch-doctor-who-season-10-episode-2-online.php', 511),
 ('Coke & Popcorn', 'http://www.cokeandpopcorn.ch/53536-download-or-watch-doctor-who-season-10-episode-0-online.php', 509),
 ('DailyMotion', 'http://www.dailymotion.com/playlist/xydxp_Khapitan_monster-files/1#video=x987ul', 226),
 ('DailyMotion', 'http://www.dailymotion.com/video/x100e05_doctor-who-2005-7x13-the-name-of-the-doctor-hdtv-x264-fov_fun', 55),
@@ -4103,9 +4115,9 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('DailyMotion', 'http://www.dailymotion.com/video/x248szq_the-last-day-a-mini-episode-the-day-of-the-doctor-prequel-doctor-who-bbc_shortfilms', 40),
 ('DailyMotion', 'http://www.dailymotion.com/video/x24ey9d_watchdw-com-s08e01-part-1_fun', 29),
 ('DailyMotion', 'http://www.dailymotion.com/video/x25es8m_s08e03-roboter-in-sherwood_travel', 19),
-('DailyMotion', 'http://www.dailymotion.com/video/x25ws8e_doctor-who-2005-s08e04_shortfilms', 20),
-('DailyMotion', 'http://www.dailymotion.com/video/x25wvug_8x04-listen-720p_tv', 20);
+('DailyMotion', 'http://www.dailymotion.com/video/x25ws8e_doctor-who-2005-s08e04_shortfilms', 20);
 INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
+('DailyMotion', 'http://www.dailymotion.com/video/x25wvug_8x04-listen-720p_tv', 20),
 ('DailyMotion', 'http://www.dailymotion.com/video/x25yifz_s08e04-hor-zu_travel', 20),
 ('DailyMotion', 'http://www.dailymotion.com/video/x25yvkr_dotd-1_travel', 32),
 ('DailyMotion', 'http://www.dailymotion.com/video/x262fno_doctor-who-season-8-episode-3-the-robots-of-sherwood_tv', 19),
@@ -4725,9 +4737,9 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('YouTube', 'https://www.youtube.com/watch?v=HRqG64hDs4s', 85),
 ('YouTube', 'https://www.youtube.com/watch?v=HSmQUCimfB8', 319),
 ('YouTube', 'https://www.youtube.com/watch?v=hTXfNkQ0ucw', 305),
-('YouTube', 'https://www.youtube.com/watch?v=I5m8LDMaAJY&index=2&list=PLZ_ZVNqyHmQg9qWGm99RmLt8zfYCdlUdR&spfreload=10', 230),
-('YouTube', 'https://www.youtube.com/watch?v=IGmzMfkXOKg', 315);
+('YouTube', 'https://www.youtube.com/watch?v=I5m8LDMaAJY&index=2&list=PLZ_ZVNqyHmQg9qWGm99RmLt8zfYCdlUdR&spfreload=10', 230);
 INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
+('YouTube', 'https://www.youtube.com/watch?v=IGmzMfkXOKg', 315),
 ('YouTube', 'https://www.youtube.com/watch?v=iOFe9UvZ0Xw', 59),
 ('YouTube', 'https://www.youtube.com/watch?v=IXKbqtWnvFI', 1),
 ('YouTube', 'https://www.youtube.com/watch?v=iYbAgMrMeZE', 63),
@@ -4835,25 +4847,6 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('YouTube', 'https://youtu.be/kDPj7Kur48Q?t=20s', 46),
 ('YouTube', 'https://youtu.be/kzunYNd_Dus?t=3m27s', 205);
 
-
-ALTER TABLE `BehindTheScenes`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-ALTER TABLE `CW Episodes`
-  ADD PRIMARY KEY (`EpisodeID`);
-
-ALTER TABLE `CW WhereToWatch`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-ALTER TABLE `Episodes`
-  ADD PRIMARY KEY (`EpisodeID`);
-
-ALTER TABLE `WhereToWatch`
-  ADD UNIQUE KEY `Link` (`Link`);
-
-
-ALTER TABLE `CW Episodes`
-  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=707;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -3098,7 +3098,7 @@
 
 <a class="NW" href="/episodes.php?episodeID=510&seasonID=59">10.1 The Pilot (263)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=511&seasonID=59">10.2 Smile (264)</a><br>
+<a class="NW" href="/episodes.php?episodeID=511&seasonID=59">10.2 Smile (264)</a><br>
 
 <a class="NW" href="/unaired.php?episodeID=512&seasonID=59">10.3 Thin Ice (265)</a><br>
 
@@ -3116,9 +3116,9 @@
 
 <a class="NW" href="/unaired.php?episodeID=519&seasonID=59">10.10 The Eaters of Light (270)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=520&seasonID=59">10.11 TBA (271a)</a><br>
+<a class="NW" href="/unaired.php?episodeID=520&seasonID=59">10.11 World Enough and Time (271a)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=521&seasonID=59">10.12 TBA (271b)</a><br>
+<a class="NW" href="/unaired.php?episodeID=521&seasonID=59">10.12 The Doctor Falls (271b)</a><br>
 
 </div>
 

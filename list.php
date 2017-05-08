@@ -3100,9 +3100,9 @@
 
 <a class="NW" href="/episodes.php?episodeID=511&seasonID=59">10.2 Smile (264)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=512&seasonID=59">10.3 Thin Ice (265)</a><br>
+<a class="NW" href="/episodes.php?episodeID=512&seasonID=59">10.3 Thin Ice (265)</a><br>
 
-<a class="NW" href="/unaired.php?episodeID=513&seasonID=59">10.4 Knock Knock (266)</a><br>
+<a class="NW" href="/episodes.php?episodeID=513&seasonID=59">10.4 Knock Knock (266)</a><br>
 
 <a class="NW" href="/unaired.php?episodeID=514&seasonID=59">10.5 Oxygen (267)</a><br>
 

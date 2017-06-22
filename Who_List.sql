@@ -1,19 +1,41 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.10
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost:8889
+-- Generation Time: Jun 22, 2017 at 04:53 PM
+-- Server version: 5.5.42
+-- PHP Version: 7.0.0
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
+--
+-- Database: `Who_List`
+--
 CREATE DATABASE IF NOT EXISTS `Who_List` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `Who_List`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `BehindTheScenes`
+--
 
 CREATE TABLE IF NOT EXISTS `BehindTheScenes` (
   `Title` varchar(100) NOT NULL,
   `Link` varchar(767) NOT NULL,
-  `LinkID` int(11) NOT NULL,
-  UNIQUE KEY `Link` (`Link`)
+  `LinkID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `BehindTheScenes`
+--
 
 INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('An Evening With Steven Moffat', 'http://www.bbc.co.uk/programmes/p01lg91q', 32),
@@ -136,6 +158,39 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('David Suchet in happy company', 'http://www.bbc.co.uk/programmes/p051xyf2', 513),
 ('You have to hear it to believe it!', 'http://www.bbc.co.uk/programmes/p0521c5g', 513),
 ('Pearl''s housemates have all got talent!', 'http://www.bbc.co.uk/programmes/p0521wrz', 513),
+('Steven introduces Oxygen', 'http://www.bbc.co.uk/programmes/p052hpcy', 514),
+('Peter and Pearl preview a brutal adventure in space', 'http://www.bbc.co.uk/programmes/p052hssx', 514),
+('Blue Peter!', 'http://www.bbc.co.uk/programmes/p052lnlk', 514),
+('Who wants to be a spaceman?', 'http://www.bbc.co.uk/programmes/p052lpwb', 514),
+('Steven introduces Extremis', 'http://www.bbc.co.uk/programmes/p0532j0b', 515),
+('Will Peter and Pearl be In Extremis?', 'http://www.bbc.co.uk/programmes/p0532j9b', 515),
+('The Doctor has to pay a huge price', 'http://www.bbc.co.uk/programmes/p0532z39', 514),
+('What has Missy been up to?', 'http://www.bbc.co.uk/programmes/p05394ld', 515),
+('Michelle on Missy', 'http://www.bbc.co.uk/programmes/p053cx98', 515),
+('What''s the worst that can happen on a first date?', 'http://www.bbc.co.uk/programmes/p053d120', 515),
+('Menacing Monks', 'http://www.bbc.co.uk/programmes/p053d87j', 515),
+('Steven Introduces The Pyramid at the End of the World', 'http://www.bbc.co.uk/programmes/p053v34r', 516),
+('Peter and Pearl introduce The Pyramid at the End of the World', 'http://www.bbc.co.uk/programmes/p053vj2c', 516),
+('Giving away the planet', 'http://www.bbc.co.uk/programmes/p053xmgt', 516),
+('Why you should always be late for lectures!', 'http://www.bbc.co.uk/programmes/p053xnbh', 516),
+('Pearl takes us to Tenerife', 'http://www.bbc.co.uk/programmes/p053xp06', 516),
+('Steven Introduces The Lie of the Land', 'http://www.bbc.co.uk/programmes/p054fd28', 517),
+('Get The Lie of the Land from Peter and Pearl', 'http://www.bbc.co.uk/programmes/p054hv05', 517),
+('Rebel Rebel', 'http://www.bbc.co.uk/programmes/p054qfyx', 517),
+('Space Heaters', 'http://www.bbc.co.uk/programmes/p054qhyg', 517),
+('Pearl and Michelle talk Bill and Missy', 'http://www.bbc.co.uk/programmes/p054qkxw', 517),
+('Catch up with Catchlove', 'http://www.bbc.co.uk/programmes/p0554l1q', 518),
+('Missy''s Crib', 'http://www.bbc.co.uk/programmes/p0554l8h', 518),
+('The Return of Alpha Centauri', 'http://www.bbc.co.uk/programmes/p0554lb8', 518),
+('Mark Gatiss introduces The Empress of Mars', 'http://www.bbc.co.uk/programmes/p05563d7', 518),
+('A Parting Gift', 'http://www.bbc.co.uk/programmes/p0556t6q', 518),
+('What did the Romans ever do for Doctor Who?', 'http://www.bbc.co.uk/programmes/p055rz5f', 519),
+('Peter, Pearl and the Picts', 'http://www.bbc.co.uk/programmes/p055vqnb', 519),
+('Not everyone has to be modern', 'http://www.bbc.co.uk/programmes/p0562dpw', 519),
+('Grappling with green screen', 'http://www.bbc.co.uk/programmes/p0562fr7', 519),
+('Peter and the horsebox hotel', 'http://www.bbc.co.uk/programmes/p0562g9v', 519),
+('Give us a kiss', 'http://www.bbc.co.uk/programmes/p056gmp3', 520),
+('Time Is Against Them', 'http://www.bbc.co.uk/programmes/p056jkdr', 520),
 ('Live Preshow', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-8-episode-101-online.php', 29),
 ('After Who Live', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-8-episode-102-online.php', 29),
 ('2015 Comic Con Panel', 'http://www.cokeandpopcorn.ch/53516-download-or-watch-doctor-who-season-9-episode-0-online.php', 2),
@@ -338,13 +393,22 @@ INSERT INTO `BehindTheScenes` (`Title`, `Link`, `LinkID`) VALUES
 ('Special Effects and Stunts', 'https://www.youtube.com/watch?v=_xylT4TzIi4', 189),
 ('BFI Screening Missing <i>Doctor Who</i> Episodes', 'https://youtu.be/U6dZci_hddo', 371);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `CW Episodes`
+--
+
 CREATE TABLE IF NOT EXISTS `CW Episodes` (
   `Title` varchar(50) NOT NULL DEFAULT 'Part ',
-  `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,
+  `EpisodeID` int(11) NOT NULL,
   `LinkID` int(11) NOT NULL,
-  `Missing` tinyint(1) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`EpisodeID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=707 ;
+  `Missing` tinyint(1) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB AUTO_INCREMENT=707 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `CW Episodes`
+--
 
 INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('An Unearthly Child', 1, 340, 0),
@@ -1053,12 +1117,21 @@ INSERT INTO `CW Episodes` (`Title`, `EpisodeID`, `LinkID`, `Missing`) VALUES
 ('Part Three', 705, 474, 0),
 ('Part Four', 706, 474, 0);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `CW WhereToWatch`
+--
+
 CREATE TABLE IF NOT EXISTS `CW WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL,
-  UNIQUE KEY `Link` (`Link`)
+  `LinkID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `CW WhereToWatch`
+--
 
 INSERT INTO `CW WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('DailyMotion', 'csv_doctor-who-classic-arc-072-death-to-the-daleks-4-sur-4-dvdrip-vostfr-emodoe-navicule_tv', 370),
@@ -3027,15 +3100,24 @@ INSERT INTO `CW WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('DailyMotion', 'https://www.dailymotion.com/video/xrczqs_attack-of-the-cybermen-2-of-2_shortfilms', 625),
 ('DailyMotion', 'https://www.dailymotion.com/video/xuuetp_the-ultimate-foe-2-of-2_shortfilms', 650);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Episodes`
+--
+
 CREATE TABLE IF NOT EXISTS `Episodes` (
   `EpisodeID` int(11) NOT NULL,
   `Type` int(11) NOT NULL,
   `Title` varchar(100) NOT NULL,
   `Season` varchar(50) NOT NULL,
   `Story` varchar(50) NOT NULL,
-  `Description` text NOT NULL,
-  PRIMARY KEY (`EpisodeID`)
+  `Description` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Episodes`
+--
 
 INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Description`) VALUES
 (1, 0, 'The Magician''s Apprentice', '9.1', '253a', 'The Doctor is gone. The skies of Earth have been frozen by a mysterious force. But where is the Doctor, and why is he hiding?\r\n\r\nAs his past comes back to haunt him, old enemies must meet again. Can the seemingly impossible occur? Will the Doctor and Clara escape with their lives?'),
@@ -3550,15 +3632,21 @@ INSERT INTO `Episodes` (`EpisodeID`, `Type`, `Title`, `Season`, `Story`, `Descri
 (510, 0, 'The Pilot', '10.1', '263', 'Two worlds collide when the Doctor meets Bill. A chance encounter with a girl with a star in her eye leads to a terrifying chase across time and space. Bill''s mind is opened to a Universe that is bigger and more exciting than she could possibly have imagined&#8212;but who is the Doctor, and what is his secret mission with Nardole on Earth?'),
 (511, 0, 'Smile', '10.2', '264', 'In the far future, at the edge of the galaxy, there is a gleaming, perfect city. This brand new human settlement is said to hold the secret of human happiness&#8212;but the only smiles the Doctor and Bill can find are on a pile of grinning skulls.\n\nSomething is alive in the walls, and the emojibots are watching from the shadows, as the Doctor and Bill trying to unravel a terrifying mystery...'),
 (512, 0, 'Thin Ice', '10.3', '265', 'In Regency England, beneath the frozen Thames, something is stirring.\n\nThe Doctor and Bill arrive at the last of the great frost fairs, and find themselves investigating a string of impossible disappearances&#8212;people have been vanishing on the ice! Bill is about to discover that the past is more like her world than she expected, and that not all monsters come from outer space...'),
-(513, 0, 'Knock Knock', '10.4', '266', 'Bill is moving in with some friends and they’ve found the perfect house&#8212;so what if it’s strangely cheap to rent, and the landlord is a little creepy?\n\nThe wind blows, the floorboards creak, and the Doctor thinks something is very wrong. What lurks in the strange tower at the heart of the building&#8212;and why can’t they find any way to enter it?'),
-(514, 0, 'Oxygen', '10.5', '267', 'The Doctor, Bill and Nardole answer a distress call in deep space, and find themselves trapped on board space station Chasm Forge. All but four of the crew have been murdered – and the dead are still walking!\n\nIn a future where oxygen is sold by the breath, and space suits are valued more highly than their occupants, the TARDIS crew battle for survival against the darkest evil of all…'),
-(515, 0, 'Extremis', '10.6', '268a', 'In the Haereticum – the Vatican’s secret library of blasphemy – there is an ancient book known only as The Veritas. Throughout history, anyone who has ever read it has immediately taken their own life. Now a new translation is online, and the danger is spreading. The Vatican appeals to the Doctor. Will he read The Veritas? But can even the Doctor survive the ultimate truth?'),
-(516, 0, 'The Pyramid at the End of the World', '10.7', '268b', ''),
-(517, 0, 'The Lie of the Land', '10.8', '268c', ''),
-(518, 0, 'The Empress of Mars', '10.9', '269', ''),
-(519, 0, 'The Eaters of Light', '10.10', '270', ''),
-(520, 0, 'World Enough and Time', '10.11', '271a', ''),
-(521, 0, 'The Doctor Falls', '10.12', '272b', '');
+(513, 0, 'Knock Knock', '10.4', '266', 'Bill is moving in with some friends and they''ve found the perfect house&#8212;so what if it''s strangely cheap to rent, and the landlord is a little creepy?\n\nThe wind blows, the floorboards creak, and the Doctor thinks something is very wrong. What lurks in the strange tower at the heart of the building&#8212;and why can''t they find any way to enter it?'),
+(514, 0, 'Oxygen', '10.5', '267', 'The Doctor, Bill and Nardole answer a distress call in deep space, and find themselves trapped on board space station Chasm Forge. All but four of the crew have been murdered&#8212;and the dead are still walking!\n\nIn a future where oxygen is sold by the breath, and space suits are valued more highly than their occupants, the TARDIS crew battle for survival against the darkest evil of all.'),
+(515, 0, 'Extremis', '10.6', '268a', 'In the Haereticum&#8212;the Vatican''s secret library of blasphemy&#8212;there is an ancient book known only as The Veritas. Throughout history, anyone who has ever read it has immediately taken their own life. Now a new translation is online, and the danger is spreading. The Vatican appeals to the Doctor. Will he read The Veritas? But can even the Doctor survive the ultimate truth?'),
+(516, 0, 'The Pyramid at the End of the World', '10.7', '268b', 'A 5,000 year-old Pyramid stands at the centre of a war zone, where the Chinese, Russian and American armies are about to clash. There are many problems with that, but the one that intrigues the Doctor is this: there wasn''t a pyramid there yesterday.  The Doctor, Bill and Nardole face an alien invasion unlike any other, and before conquest can begin, these aliens need the consent of the human race.'),
+(517, 0, 'The Lie of the Land', '10.8', '268c', 'The world is gripped by a mass delusion and only Bill Potts can see the truth. When even the Doctor is fighting on the wrong side, it''s up to Bill to convince the Time Lord that humanity is in deadly danger. And if she can''t do that, she may just have to kill her best friend.'),
+(518, 0, 'The Empress of Mars', '10.9', '269', 'The Doctor, Bill and Nardole arrive on Mars, and find themselves in an impossible conflict between Ice Warriors and Victorian soldiers. As the Martian hive awakens around them, the Doctor faces a unique dilemma&#8212;this time the humans, not the Ice Warriors are the invaders. When Earth is invading Mars, whose side is he on?'),
+(519, 0, 'The Eaters of Light', '10.10', '270', 'A long time ago, the ninth legion of the Roman army vanished into the mists of Scotland. Bill has a theory about what happened, and the Doctor has a time machine. But when they arrive in ancient Aberdeenshire, what they find is a far greater threat than any army. In a cairn, on a hillside, is a doorway leading to the end of the world.'),
+(520, 0, 'World Enough and Time', '10.11', '271a', 'Friendship drives the Doctor into the rashest decision of his life. Trapped on a giant spaceship, caught in the event horizon of a black hole, he witnesses the death of someone he is pledged to protect. Is there any way he can redeem his mistake? Are events already out of control? For once, time is the Time Lord''s enemy.'),
+(521, 0, 'The Doctor Falls', '10.12', '272b', 'The Mondasian Cybermen are on the rise. It''s time for the Doctor''s final battle...');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `WhereToBuy`
+--
 
 CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `Source` varchar(50) NOT NULL,
@@ -3566,12 +3654,21 @@ CREATE TABLE IF NOT EXISTS `WhereToBuy` (
   `LinkID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `WhereToWatch`
+--
+
 CREATE TABLE IF NOT EXISTS `WhereToWatch` (
   `Source` varchar(50) NOT NULL,
   `Link` varchar(500) NOT NULL,
-  `LinkID` int(11) NOT NULL,
-  UNIQUE KEY `Link` (`Link`)
+  `LinkID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `WhereToWatch`
+--
 
 INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('', '', 0),
@@ -4747,6 +4844,49 @@ INSERT INTO `WhereToWatch` (`Source`, `Link`, `LinkID`) VALUES
 ('YouTube', 'https://youtu.be/kDPj7Kur48Q?t=20s', 46),
 ('YouTube', 'https://youtu.be/kzunYNd_Dus?t=3m27s', 205);
 
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `BehindTheScenes`
+--
+ALTER TABLE `BehindTheScenes`
+  ADD UNIQUE KEY `Link` (`Link`);
+
+--
+-- Indexes for table `CW Episodes`
+--
+ALTER TABLE `CW Episodes`
+  ADD PRIMARY KEY (`EpisodeID`);
+
+--
+-- Indexes for table `CW WhereToWatch`
+--
+ALTER TABLE `CW WhereToWatch`
+  ADD UNIQUE KEY `Link` (`Link`);
+
+--
+-- Indexes for table `Episodes`
+--
+ALTER TABLE `Episodes`
+  ADD PRIMARY KEY (`EpisodeID`);
+
+--
+-- Indexes for table `WhereToWatch`
+--
+ALTER TABLE `WhereToWatch`
+  ADD UNIQUE KEY `Link` (`Link`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `CW Episodes`
+--
+ALTER TABLE `CW Episodes`
+  MODIFY `EpisodeID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=707;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

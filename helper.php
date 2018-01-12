@@ -10,7 +10,7 @@ function db_connect() {
          // On Linux: /var/www/config.ini
          // On Mac: /Applications/MAMP/config.ini
         $config = parse_ini_file('/var/www/config.ini');
-        $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
+        $connection = mysqli_connect('localhost', $config['username'], $config['password'], 'Who_List');
     }
 
     // If connection was not successful, handle the error
